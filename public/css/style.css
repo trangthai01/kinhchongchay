@@ -1,0 +1,58 @@
+/*
+Theme Name: Tecfire
+Theme URI: http://underscores.me/
+Author: Raveendra Panta
+Author URI: http://rabindrapantha.com.np/
+Description: Tecfire - A WordPress theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: tecfire
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Tecfire is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+.home .section.section-map.codeilo-solution{display:none;}
+.home .rev_slider .rev-btn a {color: #fff;}
+.home .rev_slider .rev-btn a:hover {color: #000;}
+
+#current-lang a{color:#384a9f;}
+
+@media only screen and (max-width: 768px){
+#current-lang a{color:white;}
+}
+
+@media only screen and (min-width: 768px){
+  .login-section .language-holder li:before{margin: 6px 0 0 -9px !important;}
+}
+.row-m-0{
+	margin: 0 !important;
+}
+.news-title-custom{
+	    margin-top: 8px;
+	    margin-bottom: 8px;
+}
+.flex-alg-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title-hp-news{
+  text-align: center;
+  font-size: 1.875rem;
+  font-family: "HelveticaLTStd-Bold";
+  margin: 0 0 30px;
+}
+.btn-corp-cat{
+  margin: 5px;
+}
+.pl-3{
+  padding-left: 3px;
+}
+.my-text-glass{
+  color:#3351a2
+}

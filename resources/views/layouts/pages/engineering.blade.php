@@ -93,9 +93,9 @@
 							</a>
 							<div class="mask-image">
 								<ul>
-									<li><a href="https://tecfires.com/engineering/applications/sliding-door-system/"><i class="fa fa-angle-right" aria-hidden="true"></i> <strong>SLIDING DOOR</strong> SYSTEM</a></li>
-									<li><a href="https://tecfires.com/engineering/applications/pivot-door-system/"><i class="fa fa-angle-right" aria-hidden="true"></i> <strong>PIVOT DOOR</strong> SYSTEM</a></li>
-									<li><a href="https://tecfires.com/engineering/applications/curtain-wall-system/"><i class="fa fa-angle-right" aria-hidden="true"></i> <strong>CURTAIN WALL</strong>  SYSTEM</a></li>								
+									<li><a href="{{ url('engineering/applications/sliding-door-system/') }} "><i class="fa fa-angle-right" aria-hidden="true"></i> <strong>SLIDING DOOR</strong> SYSTEM</a></li>
+									<li><a href="{{ url('engineering/applications/pivot-door-system/') }} "><i class="fa fa-angle-right" aria-hidden="true"></i> <strong>PIVOT DOOR</strong> SYSTEM</a></li>
+									<li><a href="{{ url('engineering/applications/curtain-wall-system/') }} "><i class="fa fa-angle-right" aria-hidden="true"></i> <strong>CURTAIN WALL</strong>  SYSTEM</a></li>								
 								</ul>
 							</div>
 							<div class="text-holder">

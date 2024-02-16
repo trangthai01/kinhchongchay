@@ -33,7 +33,7 @@
 
 <li><a href="https://tecfires.com/systems/glass-burglar-protection/"><i class="fa fa-chevron-right" aria-hidden="true"></i> Glass Burglar Protection</a></li>
 </ul><div class="iso">
-	<img class="img-responsive" src="https://tecfires.com/wp-content/uploads/2017/07/LR1-300x300.png" alt=""></div>
+	<img class="img-responsive" src="{{asset('images/pages/LR1-300x300.png')}}" alt=""></div>
 </div>
 <div class="col-sm-3 footer-list foo-location"><h3>EUROPE: HEADQUARTERS &amp; FACTORY</h3>	<ul>
 		<li><address><p><span style="color: #334fa1;"><strong>Spain Office</strong></span></p>

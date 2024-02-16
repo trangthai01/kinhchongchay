@@ -68,5 +68,16 @@ class HomeController extends Controller
     public function engineeringVideos(){
         return view('layouts.pages.engineering.engineering-videos');
     }
-    
+
+    public function slidingDoorSystem(){
+        return view('layouts.pages.engineering.applications.sliding-door-system');
+    }
+
+    public function pivotDoorSystem(){
+        return view('layouts.pages.engineering.applications.pivot-door-system');
+    }
+
+    public function curtainWallSystem(){
+        return view('layouts.pages.engineering.applications.curtain-wall-system');
+    }
 }

@@ -1,5 +1,5 @@
 
-@extends("layouts.default", ['title' => $post->genSeoTitle()])
+@extends("layouts.default", ['title' => $post->genSeoTitle(), 'header_class'=> 'header-white'])
 
 @section('kwMeta')
     <meta name="title" content="{{$post->genSeoTitle()}}">
@@ -13,89 +13,85 @@
     <meta property="og:image:alt" content="{{$post -> title}}">
 @endsection
 @section("content")
-    <div class="content-part">
-        <div id="vnt-navation" class="breadcrumb vhponsition-re">
-            <div class="wrapper">
-                <div class="list-breadcrumb">
-                    <ul>
-                        <li><a class="home" href="{{url('')}}"><span>Trang chủ</span></a></li>
-                        @if(is_null($post->categories))
-                        <li><a href="{{url('blog-da-quy')}}"><span>Blog Đá Phong Thủy</span></a></li>
-                        @else
-                            @php
-                            $isBlog = 'Y';
-                            @endphp
-                            @foreach ($post->categories as $category)
-                                @if($category->id == '1')
-                                    <li><a href="{{url('phong-thuy')}}"><span>Tâm Linh - Phong Thủy</span></a></li>
-                                    @php $isBlog = 'N'; @endphp
-                                    @break
-                                @endif
-                            @endforeach
-                            @if($isBlog == 'Y')
-                            <li><a href="{{url('blog-da-quy')}}"><span>Blog Đá Phong Thủy</span></a></li>
-                            @endif
-                        @endif
-                        <li><a href="javascript:;"><span>{{$post->title}}</span></a></li>
+    <main id="main" class="bottom-gap top-gap">
+        <div class="section breadcrumb-holder">
+            <div class="container">
+                <div role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb">
+                    <ul class="trail-items" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+                        <meta name="numberOfItems" content="3">
+                        <meta name="itemListOrder" content="Ascending">
+                        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-begin">
+                            <a href="{{url('')}}" rel="home" itemprop="item"><span itemprop="name">Home</span></a>
+                            <meta itemprop="position" content="1">
+                        </li>
+                        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item">
+                            <a href="{{url('news')}}" itemprop="item"><span itemprop="name">News</span></a>
+                            <meta itemprop="position" content="2">
+                        </li>
+                        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-end">
+                            <span itemprop="item"><span itemprop="name">{{$post -> title}}</span></span>
+                            <meta itemprop="position" content="3">
+                        </li>
                     </ul>
-                    <div class="clear"></div>
-                </div>
+                </div>	
             </div>
         </div>
-        <div class="blog_detail_sec">
-            <div class="centering">
-                @include("blogetc::partials.show_errors")
-                @include("blogetc::partials.full_post_details")
-
-                @if(config("blogetc.comments.type_of_comments_to_show","built_in") !== 'disabled')
-                    <div id="maincommentscontainer">
-                        <h2 class="text-center" id="blogetccomments">Comments</h2>
-                        @include("blogetc::partials.show_comments")
+        <section class="section section-news-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="info-title color-primary">
+                            <h2>{{$post -> title}}</h2>
+                        </div>
                     </div>
-                @endif
-            </div>
-        </div>
-        @if(!empty($otherPosts))
-        <div class="" style="width:100%;float:left">
-            <div class="centering">
-                <hr>
-                <p style="font-size: 14px;line-height: 35px;">Có thể bạn sẽ thích:</p>
-                <div class="blog_listing_sec">
-                    <div class="row">
-                        <div class="appendText">
-                        @foreach ($otherPosts as $otherPost)
-                            <div class="blog_box ">
-                                <a href="{{$otherPost->url()}}" class="pic"></a>
-                                <a class="" href="{{$otherPost->url()}}">{!! $otherPost->imageTag('thumbnail', true, '') !!}</a>
-                                <div class="text">
-                                    <span class="top">
-                                        @foreach($otherPost->categories as $category)
-                                            @if($category->id != '1')
-                                            <a href="{{ $category->url() }}" rel="category tag">
-                                                {{ $category->category_name }}
-                                            </a>
-                                            @endif
-                                            @if (!$loop->last)
-                                            ,
-                                            @endif
-                                        @endforeach
-                                    </span>
-                                    <h4><a href="{{$otherPost->url()}}">{{$otherPost->title}}</a></h4>
-                                    <div class="conText">
-                                        <p></p>
-                                        <p>{!! $otherPost->generateIntroduction(400) !!}</p>
-                                        <p></p><a href="{{$otherPost->url()}}" class="read_more">Chi tiết <i>&gt;</i></a>
-                                    </div>
-                                </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-9">
+                        <div class="news-post">
+                            @include("blogetc::partials.show_errors")
+                            @include("blogetc::partials.full_post_details")
+                            <div class="btn-holder">
+                                <a href="{{url('news')}}" class="btn btn-primary">Back to News</a>
                             </div>
-                        @endforeach
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="news-right">
+                                <h3>Latest projects</h3>
+                                <ul class="news-list news-list-image">
+                                @if(!empty($latestProjects))
+                                    @foreach ($latestProjects as $latestProject)
+                                    <li>
+                                        <a href="{{url('projects')}}" title="{{$latestProject -> project_name}}">
+                                            <img src="{{ asset('images/projects/' .  $latestProject -> image_thumbnail) }}" class="img-responsive" alt="{{$latestProject -> project_name}}">					
+                                        </a>
+                                    </li>
+                                    @endforeach
+                                @endif
+                                </ul>
+                                <h3>Latest updates</h3>
+                                <ul class="news-list">
+                                @if(!empty($latestPosts))
+                                    @foreach ($latestPosts as $latestPost)
+                                    <li>
+                                        <div class="image-holder">
+                                            {!! $latestPost->imageTag('thumbnail', true, 'otherpostthumbnail') !!}
+                                        </div>
+                                        <div class="text-holder">
+                                            <h4><a href="{{$latestPost->url()}}" title="">{{$latestPost->title}}</a></h4>
+                                        <em class="date">{{date("M j, Y", strtotime($latestPost->posted_at))}}</em>
+                                        </div>
+                                    </li>
+                                    @endforeach
+                                @endif
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        @endif
-        
-    </div>
+        </section>
+    </main>
 @endsection
 

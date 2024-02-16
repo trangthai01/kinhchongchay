@@ -104,6 +104,6 @@ class Project extends Model
      */
     public function editUrl(): string
     {
-        return route('blogetc.admin.products.edit', $this->product_id);
+        return route('blogetc.admin.products.edit', $this->project_id);
     }
 }

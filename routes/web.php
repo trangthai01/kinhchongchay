@@ -12,8 +12,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Auth::routes();
 Route::get('/', 'HomeController@index');
+Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/company', 'HomeController@company');
 
 
@@ -34,6 +35,23 @@ Route::group(['prefix' => 'engineering'], static function () {
 	Route::get('/testing', 'HomeController@testing');
 	Route::get('/certifications-approvals', 'HomeController@certificationsApprovals');
 	Route::get('/engineering-videos', 'HomeController@engineeringVideos');
+
+	Route::get('/applications/sliding-door-system', 'HomeController@slidingDoorSystem');
+	Route::get('/applications/pivot-door-system', 'HomeController@pivotDoorSystem');
+	Route::get('/applications/curtain-wall-system', 'HomeController@curtainWallSystem');
 	
-	
+});
+
+/*
+|--------------------------------------------------------------------------
+| Admin Routes
+|--------------------------------------------------------------------------
+*/
+Route::get('admin/login','Auth\AdminAuthController@getLogin')->name('adminLogin');
+Route::post('admin/login', 'Auth\AdminAuthController@postLogin')->name('adminLoginPost');
+Route::get('admin/logout', 'Auth\AdminAuthController@logout')->name('adminLogout');
+
+Route::group(['prefix' => 'admin','middleware' => 'adminauth'], function () {
+	// Admin Dashboard
+	Route::get('dashboard','AdminController@dashboard')->name('dashboard');	
 });

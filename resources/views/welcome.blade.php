@@ -1,5 +1,5 @@
 
-@extends('layouts.default',['title' => ' - Đá Phong Thủy Hoa Cương - Bình An, Tài Lộc', 'header_class' => '' ])
+@extends('layouts.default',['title' => ' - Kính Chống Cháy Việt', 'header_class' => '' ])
 @section('header-content')
     @include('layouts.layer.slide')
 @endsection

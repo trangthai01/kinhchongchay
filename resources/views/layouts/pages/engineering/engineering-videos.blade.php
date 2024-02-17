@@ -12,6 +12,9 @@
             </div>
         </div>
     </div>
+    <script>
+		fn_setCurrentMenu('engineering');
+    </script>
 @endsection
 
 @section('content')

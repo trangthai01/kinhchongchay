@@ -1,7 +1,7 @@
 <!-- START REVOLUTION SLIDER 3.1 rev5 fullwidth mode -->
 
 <div class="tp-banner-container" style="visibility: visible;background: rgb(51, 79, 161);padding: 0px;margin: 0px auto;display: block;width: auto;max-height: none;overflow: visible;z-index: 1;position: relative;">
-		<div class="tp-banner" >
+		<div id="slideBanner" class="tp-banner" >
 			<ul>
 				<!-- SLIDE  -->
 				<li data-transition="fade" data-slotamount="5" data-masterspeed="700" >
@@ -279,7 +279,7 @@
 
 		jQuery(document).ready(function() {
 
-			   revapi = jQuery('.tp-banner').revolution(
+			   revapi = jQuery('#slideBanner').revolution(
 				{
 					delay:9000,
 					startwidth:1170,

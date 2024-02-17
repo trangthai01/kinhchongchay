@@ -54,32 +54,32 @@
 		        <div class="row client-icon-block">
 					<div class="col-xs-6 col-sm-3 col-md-2">
                         <a href="#" title="">
-                            <img src="https://tecfires.com/wp-content/uploads/2017/05/1-1-250x250.png" class="img-responsive" alt="">
+                            <img src="{{ asset('images/pages/1-1-250x250.png') }}" class="img-responsive" alt="">
                         </a>
                     </div>
 					<div class="col-xs-6 col-sm-3 col-md-2">
                         <a href="#" title="">
-                            <img src="https://tecfires.com/wp-content/uploads/2017/05/2-1-250x250.png" class="img-responsive" alt="">
+                            <img src="{{ asset('images/pages/2-1-250x250.png') }}" class="img-responsive" alt="">
                         </a>
                     </div>
 					<div class="col-xs-6 col-sm-3 col-md-2">
                         <a href="#" title="">
-                            <img src="https://tecfires.com/wp-content/uploads/2017/05/3-1-250x250.png" class="img-responsive" alt="">
+                            <img src="{{ asset('images/pages/3-1-250x250.png') }}" class="img-responsive" alt="">
                         </a>
                     </div>
 					<div class="col-xs-6 col-sm-3 col-md-2">
                         <a href="#" title="">
-                            <img src="https://tecfires.com/wp-content/uploads/2017/05/4-1-250x250.png" class="img-responsive" alt="">
+                            <img src="{{ asset('images/pages/4-1-250x250.png') }}" class="img-responsive" alt="">
                         </a>
                     </div>
 					<div class="col-xs-6 col-sm-3 col-md-2">
                         <a href="#" title="">
-                            <img src="https://tecfires.com/wp-content/uploads/2017/05/5-1-250x250.png" class="img-responsive" alt="">
+                            <img src="{{ asset('images/pages/5-1-250x250.png') }}" class="img-responsive" alt="">
                         </a>
                     </div>
 					<div class="col-xs-6 col-sm-3 col-md-2">
                         <a href="#" title="">
-                            <img src="https://tecfires.com/wp-content/uploads/2017/05/6-1-250x250.png" class="img-responsive" alt="">
+                            <img src="{{ asset('images/pages/6-1-250x250.png') }}" class="img-responsive" alt="">
                         </a>
                     </div>
 				</div>

@@ -3,17 +3,20 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use WebDevEtc\BlogEtc\Services\PostsService;
 class HomeController extends Controller
 {
+    /** @var PostsService */
+    private $postsService;
     /**
      * Create a new controller instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct(PostsService $postsService)
     {
         //$this->middleware('auth');
+        $this->postsService = $postsService;
     }
 
     /**
@@ -23,7 +26,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('welcome');
+        $latest_news = $this->postsService->indexPaginated(9);
+        return view('welcome', compact('latest_news'));
     }
 
     public function company()
@@ -34,6 +38,11 @@ class HomeController extends Controller
     public function engineering()
     {
         return view('layouts.pages.engineering');
+    }
+
+    public function contact()
+    {
+        return view('layouts.pages.contact');
     }
 
     /** Company */

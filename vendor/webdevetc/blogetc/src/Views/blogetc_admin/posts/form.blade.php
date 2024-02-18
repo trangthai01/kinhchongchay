@@ -113,14 +113,6 @@
         you use in your template views)</small>
 </div>
 
-<div class="form-group">
-    <label for="post_tags">Post Tags (optional)</label>
-    <input type="text" class="form-control" id="post_tags" aria-describedby="post_tags_help"
-                   name="post_tags" data-role="tagsinput"
-                   value="{{old("post_tags",$post->post_tags())}}">
-    <small id="post_tags_help" class="form-text text-muted">Post Tags (optional)</small>
-</div>
-
 @if(config("blogetc.image_upload_enabled",true))
 
     <div class="bg-white pt-4 px-4 pb-0 my-2 mb-4 rounded border">

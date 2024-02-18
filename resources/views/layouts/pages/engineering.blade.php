@@ -4,6 +4,8 @@
 @endsection
 @section('javascript')
     <script src="{{ asset('js/theme/plyr.js') }}" ></script>
+	<script src="{{ asset('js/theme/retina.min.js') }}" ></script>
+	<script src="{{ asset('js/scripts.js') }}" ></script>
 @endsection
 
 @section('header-content')
@@ -123,6 +125,6 @@
 			</div>
 		</div>
 	</main>
-    <script src="{{ asset('js/scripts.js') }}" ></script>
+    
 @endsection
 

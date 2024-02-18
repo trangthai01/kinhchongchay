@@ -1,50 +1,56 @@
-<!-- START REVOLUTION SLIDER 3.1 rev5 fullwidth mode -->
 
-<div class="tp-banner-container" style="visibility: visible;background: rgb(51, 79, 161);padding: 0px;margin: 0px auto;display: block;width: auto;max-height: none;overflow: visible;z-index: 1;position: relative;">
-    <div id="newsBanner" class="tp-banner" >
-        <ul>
-        @if(!empty($latest_news))
-            @foreach ($latest_news as $post)
-
-            <!-- SLIDE  -->
-            <li data-transition="fade" data-slotamount="5" data-masterspeed="700" >
-                <!-- MAIN IMAGE -->
-                <img src="{{ asset('images/slider/HB-Louvre-Installation.jpg') }}"   alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-                {!! $post->imageTag('thumbnail', true) !!}
-
-                <!-- LAYER NR. 1 -->
-                <div class="tp-caption maincaption"
-                    data-x="left" data-hoffset="20"
-                    data-y="top" data-voffset="300"
-                    style="z-index: 15; font-family: &quot;Work Sans&quot;; color: rgb(255, 255, 255); text-decoration: none; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: left; line-height: 79px; letter-spacing: 0px; font-weight: 800; font-size: 79px; padding-bottom: 10px; backdrop-filter: none; filter: blur(0px); transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">{{$post->title}}
-                </div>
-            </li>
-
-            @endforeach
-        @endif
-            
-        </ul>
-        <div class="tp-bannertimer"></div>
+<div class="boxhome">
+    <div class="wrapper">
+        <div class="new_arrival_sec ">
+            <h1>NEWS</h1>
+            <ul class="new_arrival_slider">
+                @if(empty($latest_news))
+                @else
+                    @foreach($latest_news as $post)
+                        <li class="product type-product">
+                            <span class="category"></span>
+                            <div class="image-wishlist" style="">
+                            {!! $post->imageTag('thumbnail', true) !!}
+                            </div>
+                            <h2 class="woocommerce-loop-product__title" style="z-index: 10; font-family: Roboto; cursor: pointer; touch-action: pan-y; height: auto; color: rgb(51, 79, 161); text-decoration: none; white-space: normal; width: 100%; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: center; line-height: 30px; letter-spacing: 0px; font-weight: 700; font-size: 20px; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;"><a href="{{$post->url()}}">{{$post -> title}}</a></h2>
+                            <a class="rs-layer rev-btn" href="{{$post->url()}}" target="_self" data-type="button" style="z-index: 6; background-color: rgb(51, 79, 161); font-family: Roboto; touch-action: pan-y; height: auto; width: auto; color: rgb(255, 255, 255); text-decoration: none; white-space: normal; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: center; line-height: 40px; letter-spacing: 0px; font-weight: 300; font-size: 16px; border-color: transparent; border-style: solid; border-width: 1px; padding-left: 10px; padding-right: 10px; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible; border-radius: 0px;">Read More </a>
+                        </li>
+                    @endforeach
+                @endif
+            </ul>
+        </div>
     </div>
 </div>
-
-<!-- THE SCRIPT INITIALISATION -->
-<!-- LOOK THE DOCUMENTATION FOR MORE INFORMATIONS -->
-<script type="text/javascript">
+<?php
+$latestNews = '{{ $latest_news }}';
+?>
+<script>
 
     var newsApi;
-
-    jQuery(document).ready(function() {
-
-        newsApi = jQuery('#newsBanner').revolution(
-            {
-                delay:9000,
-                startwidth:1170,
-                startheight:965,
-                hideThumbs:10
-            });
-
-    });	//ready
+    var latestNews = "{{$latestNews}}";
+    $(document).ready(function(){
+        $(".new_arrival_slider").slick({
+            infinite: true,
+            slidesToShow:2,
+            slidesToScroll:1,
+            arrows: true,
+            dots: true,
+            focusOnSelect: true,
+            responsive: [{
+                    breakpoint: 1280,
+                    settings: {
+                        slidesToShow: 5
+                    }
+                }, 
+                {
+                    breakpoint: 900,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                }
+            ]
+        });
+    })
 
 </script>
 

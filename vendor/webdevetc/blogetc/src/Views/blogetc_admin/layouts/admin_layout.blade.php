@@ -22,16 +22,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito" crossorigin="anonymous">
 
     <!-- Styles -->
-    @if(file_exists(public_path('backend/css/blogetc_admin_css.css')))
-        <link href="{{ asset('backend/css/blogetc_admin_css.css') }}" rel="stylesheet">
+    @if(file_exists(public_path('blogetc_admin_css.css')))
+        <link href="{{ asset('blogetc_admin_css.css') }}" rel="stylesheet">
     @else
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         {{--Edited your css/app.css file? Uncomment these lines to use plain bootstrap:--}}
         {{--<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">--}}
         {{--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">--}}
     @endif
-    <link href="{{ asset('backend/css/bootstrap-tagsinput.css') }}" rel="stylesheet">
-    <script src="{{ asset('backend/js/bootstrap-tagsinput.js') }}" ></script>
 </head>
 <body>
 <div id="app">
@@ -127,7 +125,7 @@
         CKEDITOR.config.colorButton_colors = 'CF5D4E,454545,FFF,DDD,CCEAEE,66AB16';
         CKEDITOR.config.extraPlugins = "toc";
         CKEDITOR.replace('post_body');
-        CKEDITOR.replace('description');
+//        CKEDITOR.replace('description');
       }
     </script>
 @endif

@@ -3,7 +3,6 @@
 namespace WebDevEtc\BlogEtc\Models;
 
 use App\Models\User;
-use App\Models\Tag;
 use Carbon\Carbon;
 use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Model;
@@ -427,23 +426,5 @@ class Post extends Model implements SearchResultInterface
     protected function check_valid_image_size(string $size = 'medium'): bool
     {
         return $this->checkValidImageSize($size);
-    }
-
-    public function tags() : BelongsToMany
-    {
-        return $this->belongsToMany(
-            Tag::class,
-            'post_tags',
-            'blog_etc_post_id',
-            'tag_id'
-        );
-    }
-
-    public function post_tags() : string{
-        $tags = "";
-        foreach($this->tags as $tag){
-            $tags .= $tag->name . ",";
-        }
-        return $tags;
     }
 }

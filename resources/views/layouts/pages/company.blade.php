@@ -31,7 +31,7 @@
                 <div class="row padding-bottom">
                                 <div class="col-sm-4">
                         <div class="info-title color-primary">
-                            <h2>Welcome to TECFIRE. <br>The new generation of<br> fire-rated glass systems.</h2>				</div>
+                            <h2>Kính chống cháy Việt. <br>Hệ thống kính chống cháy<br> thế hệ mới.</h2>				</div>
                     </div>
                                     <div class="col-sm-8 text-holder">
                             <p><strong>Tecfire is a leading company in fire-rated glass systems. </strong> Innovative research, expert advice and great product know-how empower us to provide any solution in the field of fire-resistive glass solutions. Tecfire’s key competence is based on generating the highest level of safety. Ensuring the protection of people is our business.</p>

@@ -55,19 +55,27 @@
         @yield('css')
         
         <!-- JS -->
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        
         <script src="{{ asset('js/theme/bootstrap.min.js') }}" ></script>
+        
         <script src="{{ asset('js/theme/jquery.fancybox.min.js') }}" ></script>
         <script src="{{ asset('js/theme/jquery.imagemapster.min.js') }}" ></script>
         <script src="{{ asset('js/theme/jquery.matchHeight.js') }}" ></script>
         <script src="{{ asset('js/theme/jquery.sumoselect.min.js') }}" ></script>
         <script src="{{ asset('js/theme/owl.carousel.min.js') }}" ></script>
-        <script src="{{ asset('js/theme/retina.min.js') }}" ></script>
+        
+        
         <script src="{{ asset('js/theme/flickity.pkgd.min.js') }}" ></script>
+
+        
 
         <script src="{{ asset('rs-slider/js/jquery.themepunch.plugins.min.js') }}" ></script>
         <script src="{{ asset('rs-slider/js/jquery.themepunch.revolution.min.js') }}" ></script>
+        
+
         <script>
             var ROOT = "{{URL::to('/')}}";
             var ROOT_PROD = "{{URL::to('/')}}";

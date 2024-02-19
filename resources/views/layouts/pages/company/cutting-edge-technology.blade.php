@@ -1,4 +1,4 @@
-@extends('layouts.default',['title' => 'Công nghệ cắt lớp - '.config('app.name'), 'header_class' => 'header-white' ])
+@extends('layouts.default',['title' => 'Công nghệ cắt lớp - '.config('app.fullname'), 'header_class' => 'header-white' ])
 @section('header-content')
     <div class="banner-block parallex-700 parallex-white-700">
         <img src="{{ asset('images/pages/cutting-edge-low.jpg') }}" class="img-responsive" alt="">	<div class="banner-text">

@@ -1,4 +1,4 @@
-@extends('layouts.default',['title' => 'Contact '.config('app.name'), 'header_class' => '' ])
+@extends('layouts.default',['title' => 'Liên hệ '.config('app.fullname'), 'header_class' => '' ])
 @section('css')
     
 @endsection
@@ -12,7 +12,7 @@
                 <img src="{{asset('images/pages/contact_low.jpg')}}" class="img-responsive" alt="">			
                 <div class="system-main__mask valign-bottom">
                     <div class="text-holder">
-                        <h1>Contact</h1>
+                        <h1>Liên hệ</h1>
                         <p>Do not hesitate to contact us for any additional information you may require.<br>We will be delighted to assist you.</p>
                     </div>
                 </div>

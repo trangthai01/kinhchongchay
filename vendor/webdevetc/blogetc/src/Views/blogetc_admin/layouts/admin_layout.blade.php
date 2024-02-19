@@ -7,7 +7,7 @@
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>BlogEtcPost Blog Admin - {{ config('app.name') }}</title>
+    <title>BlogEtcPost Blog Admin - {{ config('app.fullname') }}</title>
 
     <script
             src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -36,7 +36,7 @@
     <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
         <div class="container">
             <a class="navbar-brand" href="{{ url('/') }}">
-                {{ config('app.name', 'Laravel') }} WebDevEtc Blog Admin
+                {{ config('app.fullname', 'Laravel') }} WebDevEtc Blog Admin
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false"

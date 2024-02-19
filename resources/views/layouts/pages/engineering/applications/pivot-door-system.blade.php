@@ -1,4 +1,4 @@
-@extends('layouts.default',['title' => 'Hệ Cửa Đẩy - '.config('app.name'), 'header_class' => 'header-white' ])
+@extends('layouts.default',['title' => 'Hệ Cửa Đẩy - '.config('app.fullname'), 'header_class' => 'header-white' ])
 @section('css')
     
 @endsection
@@ -204,7 +204,7 @@
 										<span style="display: none;">Burglar Proof System: Laboratory Installation <br>Bellaria (Italy)</span>									</li>
 															</ul>
 													<div class="border-title">
-								<h3>Kiêm thử</h3>
+								<h3>Kiểm thử</h3>
 							</div>
 							<ul class="system-project-list list-testing">
 																	<li>

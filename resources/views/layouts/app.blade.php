@@ -8,7 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>
-        {{config('app.name')}}
+        {{config('app.fullname')}}
     </title>
     <link rel="icon" href="{!! asset('images/logo_sm.png') !!}"/>
 
@@ -29,8 +29,8 @@
                     <div class="bcol">
                         <div class="hhlogo">
                             <div class="logo">
-                                <a onmousedown="return rwt(this,'advertise',1)" href="{{ url('/') }}" target="_self"><img src="{{ asset('images/logo.png') }}" alt="{{config('app.name')}}"></a>
-                                <h1 style="display:none">config('app.name')</h1>
+                                <a onmousedown="return rwt(this,'advertise',1)" href="{{ url('/') }}" target="_self"><img src="{{ asset('images/logo.png') }}" alt="{{config('app.fullname')}}"></a>
+                                <h1 style="display:none">config('app.fullname')</h1>
                             </div>
                         </div>
                     </div>

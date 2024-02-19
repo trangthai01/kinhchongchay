@@ -1,4 +1,4 @@
-@extends("layouts.default",['title'=>'Tin Tức ', 'header_class'=> 'header-white'])
+@extends("layouts.default",['title'=>'Tin Tức '.config('app.fullname'), 'header_class'=> 'header-white'])
 @section('header-content')
     <script>
         fn_setCurrentMenu('news');

@@ -1,4 +1,4 @@
-@extends('layouts.default',['title' => 'Projects '.config('app.name'), 'header_class' => '' ])
+@extends('layouts.default',['title' => 'Dự án '.config('app.fullname'), 'header_class' => '' ])
 @section('header-content')
     <div class="system-main">
         <div class="container-fluid no-ltr-padding">

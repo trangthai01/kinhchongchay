@@ -1,4 +1,4 @@
-@extends('layouts.default',['title' => 'Company '.config('app.name'), 'header_class' => '' ])
+@extends('layouts.default',['title' => 'Về chúng tôi '.config('app.fullname'), 'header_class' => '' ])
 @section('css')
     <link href="{{ asset('css/theme/plyr.css') }}" rel="stylesheet">   
 @endsection

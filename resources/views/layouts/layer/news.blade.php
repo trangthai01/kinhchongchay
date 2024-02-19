@@ -2,7 +2,7 @@
 <div class="boxhome">
     <div class="wrapper">
         <div class="new_arrival_sec ">
-            <h1>NEWS</h1>
+            <h1>TIN TỨC</h1>
             <ul class="new_arrival_slider">
                 @if(empty($latest_news))
                 @else
@@ -12,8 +12,9 @@
                             <div class="image-wishlist" style="">
                             {!! $post->imageTag('thumbnail', true) !!}
                             </div>
-                            <h2 class="woocommerce-loop-product__title" style="z-index: 10; font-family: Roboto; cursor: pointer; touch-action: pan-y; height: auto; color: rgb(51, 79, 161); text-decoration: none; white-space: normal; width: 100%; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: center; line-height: 30px; letter-spacing: 0px; font-weight: 700; font-size: 20px; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;"><a href="{{$post->url()}}">{{$post -> title}}</a></h2>
-                            <a class="rs-layer rev-btn" href="{{$post->url()}}" target="_self" data-type="button" style="z-index: 6; background-color: rgb(51, 79, 161); font-family: Roboto; touch-action: pan-y; height: auto; width: auto; color: rgb(255, 255, 255); text-decoration: none; white-space: normal; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: center; line-height: 40px; letter-spacing: 0px; font-weight: 300; font-size: 16px; border-color: transparent; border-style: solid; border-width: 1px; padding-left: 10px; padding-right: 10px; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible; border-radius: 0px;">Read More </a>
+                            <h2 style="font-family: Roboto; cursor: pointer; color: rgb(51, 79, 161); width: 100%; text-align: center; line-height: 30px; font-weight: 700; font-size: 20px;"><a href="{{$post->url()}}">{{$post -> title}}</a></h2>
+                            <span style="font-family: Roboto; color: rgb(0, 0, 0); text-align: center; line-height: 20px; font-weight: 400; font-size: 14px;">{{date("M j, Y", strtotime($post->posted_at))}}</span><br/>
+                            <a class="rs-layer rev-btn" href="{{$post->url()}}" target="_self" data-type="button" style="background-color: rgb(51, 79, 161); font-family: Roboto; color: rgb(255, 255, 255); text-align: center; line-height: 40px; font-weight: 300; font-size: 16px; border-color: transparent; border-style: solid; border-width: 1px; padding: 10px">Xem thêm </a>
                         </li>
                     @endforeach
                 @endif
@@ -31,7 +32,7 @@ $latestNews = '{{ $latest_news }}';
     $(document).ready(function(){
         $(".new_arrival_slider").slick({
             infinite: true,
-            slidesToShow:2,
+            slidesToShow:3,
             slidesToScroll:1,
             arrows: true,
             dots: true,

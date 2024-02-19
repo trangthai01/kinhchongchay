@@ -13,14 +13,14 @@
 					<div class="tp-caption maincaption"
 						data-x="left" data-hoffset="20"
 						data-y="top" data-voffset="300"
-						style="z-index: 15; font-family: &quot;Work Sans&quot;; color: rgb(255, 255, 255); text-decoration: none; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: left; line-height: 79px; letter-spacing: 0px; font-weight: 800; font-size: 79px; padding-bottom: 10px; backdrop-filter: none; filter: blur(0px); transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">Most Innovative
+						style="z-index: 15; font-family: &quot;Work Sans&quot;; color: rgb(255, 255, 255); line-height: 79px; letter-spacing: 0px; font-weight: 800; font-size: 79px; padding-bottom: 10px; backdrop-filter: none; filter: blur(0px); transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">Sáng tạo mới
 					</div>
 
 					<!-- LAYER NR. 2 -->
 					<div class="tp-caption"
 						data-x="left" data-hoffset="20"
 						data-y="top" data-voffset="400"
-						style="z-index: 14; font-family: &quot;Work Sans&quot;; height: auto; width: auto; color: rgb(250, 237, 38); text-decoration: none; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: left; line-height: 69px; letter-spacing: 0px; font-weight: 800; font-size: 79px; padding-bottom: 10px; backdrop-filter: none; filter: blur(0px); transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">Fire-rated Glass<br>Systems Ever 
+						style="z-index: 14; font-family: &quot;Work Sans&quot;;  color: rgb(250, 237, 38); line-height: 69px; letter-spacing: 0px; font-weight: 800; font-size: 79px; padding-bottom: 10px; backdrop-filter: none; filter: blur(0px); transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">Hệ thống kính chống cháy<br>tiên tiến nhất
 					</div>
 
 					<!-- LAYER NR. 3 -->
@@ -28,7 +28,7 @@
 						data-x="left" data-hoffset="20"
 						data-y="top" data-voffset="600"
 						
-						style="z-index: 13; font-family: Montserrat; height: auto; width: auto; color: rgb(255, 255, 255); text-decoration: none; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: left; line-height: 35px; letter-spacing: 0px; font-weight: 500; font-size: 35px; backdrop-filter: none; filter: blur(0px); transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">Largest ( 12 ft./3.5 m)<br>fire-rated glazed<br>90 minute Pivot Door<br>in the industry 
+						style="z-index: 13; font-family: Montserrat;  color: rgb(255, 255, 255); line-height: 35px; letter-spacing: 0px; font-weight: 500; font-size: 35px; backdrop-filter: none; filter: blur(0px); transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">Largest ( 12 ft./3.5 m)<br>fire-rated glazed<br>90 minute Pivot Door<br>in the industry 
 					</div>
 
                     <!-- LAYER NR. 4 -->

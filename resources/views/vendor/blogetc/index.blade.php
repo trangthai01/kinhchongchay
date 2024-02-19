@@ -1,4 +1,9 @@
 @extends("layouts.default",['title'=>'News', 'header_class'=> 'header-white'])
+@section('header-content')
+    <script>
+        fn_setCurrentMenu('news');
+    </script>
+@endsection
 @section("content")
     <main id="main" class="bottom-gap top-gap">
 	    <div class="section breadcrumb-holder">

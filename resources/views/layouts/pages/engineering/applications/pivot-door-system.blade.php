@@ -1,4 +1,4 @@
-@extends('layouts.default',['title' => 'Pivot Door System - '.config('app.name'), 'header_class' => 'header-white' ])
+@extends('layouts.default',['title' => 'Hệ Cửa Đẩy - '.config('app.name'), 'header_class' => 'header-white' ])
 @section('css')
     
 @endsection
@@ -11,9 +11,9 @@
             <div class="system-main__list parallex-800 col-sm-12 no-ltr-padding">
                 <img src="{{ asset('images/pages/MAIN-PIC-PIVOT-LOW.jpg')}}" class="img-responsive" alt="">			<div class="system-main__mask valign-bottom" style="display: none;">
                     <div class="text-holder">
-                        <h1><strong>PIVOT DOOR</strong> SYSTEM</h1>
-                        <p>A new concept which eliminates any visual impact of components such as hinges or springs, tested and certified in accordance with the different international regulations.</p>
-    					<p>The design of this system fulfils the most stringent performance and technical requirements with regard to glass protection, providing the largest tested and certified dimensions for doors of these characteristics.</p>
+                        <h1>HỆ <strong>CỬA ĐẨY</strong></h1>
+                        <p>Một hệ cửa chống cháy mới không bản lề và lò xo, đã được kiểm tra và chứng nhận bởi nhiều quy định quốc tế khác nhau.</p>
+    					<p>Thiết kế của hệ thống này đáp ứng các yêu cầu kỹ thuật và hiệu suất nghiêm ngặt nhất liên quan đến bảo vệ kính, cung cấp kích thước được kiểm tra và chứng nhận cho cửa có kích thước lớn.</p>
                     </div>
                 </div>
             </div>
@@ -39,11 +39,11 @@
                             <meta itemprop="position" content="1">
                         </li>
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item">
-                            <a href="{{ url('engineering') }}" itemprop="item"><span itemprop="name">Engineering</span></a>
+                            <a href="{{ url('engineering') }}" itemprop="item"><span itemprop="name">Kỹ thuật</span></a>
                             <meta itemprop="position" content="2">
                         </li>
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-end">
-                            <span itemprop="item"><span itemprop="name">Pivot Door System</span></span>
+                            <span itemprop="item"><span itemprop="name">Hệ Cửa Đẩy</span></span>
                             <meta itemprop="position" content="3">
                         </li>
                     </ul>
@@ -55,12 +55,12 @@
 				<div class="row company-top padding-bottom">
 					<div class="col-sm-4 col-md-3">
 						<div class="info-title color-primary">
-							<h2>Pivot Door System</h2>
+							<h2>Hệ Cửa Đẩy</h2>
 						</div>
 					</div>
 					<div class="col-sm-8 col-md-9 text-holder">
-						<p>A new concept which eliminates any visual impact of components such as hinges or springs, tested and certified in accordance with the different international regulations.</p>
-						<p>The design of this system fulfils the most stringent performance and technical requirements with regard to glass protection, providing the largest tested and certified dimensions for doors of these characteristics.</p>
+					<p>Một hệ cửa chống cháy mới không bản lề và lò xo, đã được kiểm tra và chứng nhận bởi nhiều quy định quốc tế khác nhau.</p>
+    					<p>Thiết kế của hệ thống này đáp ứng các yêu cầu kỹ thuật và hiệu suất nghiêm ngặt nhất liên quan đến bảo vệ kính, cung cấp kích thước được kiểm tra và chứng nhận cho cửa có kích thước lớn.</p>
 					</div>
 				</div>
 			</div>
@@ -73,24 +73,24 @@
 							<div class="slidingDoor-carousel all-gallery">
 								<div class="carousel-cell">
 									<img src="{{ asset('images/pages/SP-PD-1-Copy.jpg')}}" class="img-responsive" alt="">					
-									<div class="text-holder" style="display: none;">Fire Rated Steel &amp; Stainless Steel<br>Pivot Door System</div>				
+									<div class="text-holder" style="display: none;">Thép chống cháy &amp; Thép không gỉ<br>Hệ thống cửa xoay</div>				
 								</div>
 								<div class="carousel-cell">
 									<img src="{{ asset('images/pages/pivot2.png')}}" class="img-responsive" alt="">					
-									<div class="text-holder" style="display: none;">Burglar Proof Steel &amp; Stainless Steel<br>Pivot Door System</div>				
+									<div class="text-holder" style="display: none;">Thép chống trộm &amp; Thép không gỉ<br>Hệ thống cửa xoay</div>				
 								</div>
 								<div class="carousel-cell">
 									<img src="{{ asset('images/pages/PIVOT-RENDER-3-LOW.jpg')}}" class="img-responsive" alt="">					
-									<div class="text-holder" style="display: none;">Full Size<br>Pivot Door System<br></div>				
+									<div class="text-holder" style="display: none;">Hệ thống cửa xoay<br> đa dạng kích thước</div>				
 								</div>
 								<div class="carousel-cell">
 									<img src="{{ asset('images/pages/pivot4.jpg')}}" class="img-responsive" alt="">					
-									<div class="text-holder" style="display: none;">Pivot Door System<br>Detail<br>
+									<div class="text-holder" style="display: none;">Chi tiết <br>hệ cửa đẩy<br>
 									</div>				
 								</div>
 								<div class="carousel-cell">
 									<img src="{{ asset('images/pages/pivot5.jpg')}}" class="img-responsive" alt="">					
-									<div class="text-holder" style="display: none;">Pivot Door System<br>Detail<br></div>				
+									<div class="text-holder" style="display: none;">Chi tiết <br>hệ cửa đẩy<br></div>				
 								</div>
 							</div>
 							<div id="cell-cap"></div>
@@ -100,44 +100,44 @@
 						<div role="tabpanel">
 							<ul class="nav nav-tabs" role="tablist">
 								<li role="presentation" class="active">
-									<a href="#description" aria-controls="description" role="tab" data-toggle="tab">Description</a>
+									<a href="#description" aria-controls="description" role="tab" data-toggle="tab">Mô tả</a>
 								</li>
 								<li role="presentation">
-									<a href="#technical" aria-controls="technical" role="tab" data-toggle="tab">Technical data</a>
+									<a href="#technical" aria-controls="technical" role="tab" data-toggle="tab">Thông tin kỹ thuật</a>
 								</li>
 								<li role="presentation">
-									<a href="#brochures" aria-controls="brochures" role="tab" data-toggle="tab">Brochures</a>
+									<a href="#brochures" aria-controls="brochures" role="tab" data-toggle="tab">Tài liệu</a>
 								</li>
 							</ul>
 							<div class="tab-content">
 								<div role="tabpanel" class="tab-pane active" id="description">
 									<div class="tabs-text">
-										<p>PIVOT DOOR SYSTEM is a Special-CMS (Custom-Made-Solution) available as fire rated or burglar proof glass solution, based on profiles made of steel or stainless steel with thermal breakage, and different options of automatic opening and closing mechanisms.</p>
-										<p>The PIVOT DOOR SYSTEM solution guarantees a high level of performance in any climatic condition.</p>
+										<p>HỆ CỬA ĐẨY là giải pháp tùy chỉnh có sẵn dưới dạng kính chống cháy hoặc chống trộm, dựa trên các cấu hình được làm bằng thép hoặc thép không gỉ có khả năng chống vỡ nhiệt và các tùy chọn khác nhau của cơ chế đóng mở tự động.</p>
+										<p>Giải pháp HỆ CỬA ĐẨY đảm bảo hiệu suất cao trong mọi điều kiện khí hậu.</p>
 										<div class="col-md-12 desc-list-holder">
 											<ul class="desc-list">
-												<li>Range of solutions: Galvanized steel (S235JRG2 EN10025) and stainless steel (304 &amp; 316) profiles.</li>
-												<li>High thermal and acoustic insulation.</li>
-												<li>Internal &amp; external applications.</li>
-												<li>Great aesthetic finish.</li>
-												<li>Tested in accordance with European (EN) and American (NFPA) standards.</li>
-												<li>Great structural stability, which makes it possible to maximize the dimensions of the glazed area.</li>
-												<li>Different options of automatic opening and closing mechanisms.</li>
+												<li>Phạm vi giải pháp: Thép mạ kẽm (S235JRG2 EN10025) và thép không gỉ (304 & amp; 316).</li>
+												<li>Cách nhiệt và cách âm cao.</li>
+												<li>Ứng dụng nội bộ và ngoài trời</li>
+												<li>Độ hoàn thiện thẩm mỹ cao</li>
+												<li>Đã được kiểm nghiệm theo tiêu chuẩn Châu Âu (EN) và Mỹ (NFPA).</li>
+												<li>Cấu trúc có độ ổn định cao, giúp tối đa hóa kích thước của khu vực tráng men</li>
+												<li>Nhiều tùy chọn cho cơ chế đóng mở tự động</li>
 											</ul>
 										</div>
 										<div class="col-sm-12 no-ltr-padding">
     										<ul class="desc-icon-list has-4">
-												<li><div class="image-holder"><img src="{{ asset('images/pages/1-Fire-Rated-3-150x150.jpg')}}" alt=""></div><div class="text-holder">Fire Rated</div>            </li>
-												<li><div class="image-holder"><img src="{{ asset('images/pages/4-EI60-90-EI-Integrity-Insulation-1-150x150.jpg')}}" alt=""></div><div class="text-holder">EI (Integrity &amp; Insulation)</div>            </li>
-												<li><div class="image-holder"><img src="{{ asset('images/pages/2-Steel-Stainless-Steel-Framing-3-150x150.jpg')}}" alt=""></div><div class="text-holder">Steel &amp; Stainless Steel Framing</div>            </li>
-												<li><div class="image-holder"><img src="{{ asset('images/pages/6-European-Standard-3-150x150.jpg')}}" alt=""></div><div class="text-holder">European Standard</div>            </li>
-												<li><div class="image-holder"><img src="{{ asset('images/pages/1-Burglar-Proof-Rated-150x150.jpg')}}" alt=""></div><div class="text-holder">Burglar Proof Rated</div>            </li>
-												<li><div class="image-holder"><img src="{{ asset('images/pages/4-RC2-RC3-Tecguard-RC-Classification-1-150x150.jpg')}}" alt=""></div><div class="text-holder">Tecguard RC Classification</div>            </li>
-												<li><div class="image-holder"><img src="{{ asset('images/pages/3-Internal-External-Application-3-150x150.jpg')}}" alt=""></div><div class="text-holder">Internal &amp; External Application</div>            </li>
-												<li><div class="image-holder"><img src="{{ asset('images/pages/7-American-Standard-1-150x150.jpg')}}" alt=""></div><div class="text-holder">American Standard</div>            </li>
-												<li><div class="image-holder"><img src="{{ asset('images/pages/5-Automatic-Systems-1-150x150.jpg')}}" alt=""></div><div class="text-holder">Automatic Systems</div>            </li>
-												<li><div class="image-holder"><img src="{{ asset('images/pages/10-Emergency-Exit-3-150x150.jpg')}}" alt=""></div><div class="text-holder">Emergency Exit</div>            </li>
-												<li><div class="image-holder"><img src="{{ asset('images/pages/9-Acoustic-Reduction-3-150x150.jpg')}}" alt=""></div><div class="text-holder">Acoustic Reduction</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/1-Fire-Rated-3-150x150.jpg')}}" alt=""></div><div class="text-holder">Chống cháy</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/4-EI60-90-EI-Integrity-Insulation-1-150x150.jpg')}}" alt=""></div><div class="text-holder">EI (Tính toàn vẹn và cách nhiệt)</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/2-Steel-Stainless-Steel-Framing-3-150x150.jpg')}}" alt=""></div><div class="text-holder">Thép &amp; Khung thép không gỉ</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/6-European-Standard-3-150x150.jpg')}}" alt=""></div><div class="text-holder">Tiêu chuẩn Châu Âu</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/1-Burglar-Proof-Rated-150x150.jpg')}}" alt=""></div><div class="text-holder">Khả năng chống trộm</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/4-RC2-RC3-Tecguard-RC-Classification-1-150x150.jpg')}}" alt=""></div><div class="text-holder">Phân loại Tecguard RC</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/3-Internal-External-Application-3-150x150.jpg')}}" alt=""></div><div class="text-holder">Ứng dụng nội bộ hoặc ngoài trời</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/7-American-Standard-1-150x150.jpg')}}" alt=""></div><div class="text-holder">Tiêu chuẩn Hoa Kỳ</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/5-Automatic-Systems-1-150x150.jpg')}}" alt=""></div><div class="text-holder">Hệ thống tự động</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/10-Emergency-Exit-3-150x150.jpg')}}" alt=""></div><div class="text-holder">Cửa thoát hiểm</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/9-Acoustic-Reduction-3-150x150.jpg')}}" alt=""></div><div class="text-holder">Cách âm</div>            </li>
 												<li><div class="image-holder"><img src="{{ asset('images/pages/8-Hose-Stream-Testing-2-150x150.jpg')}}" alt=""></div><div class="text-holder">Hose Stream Testing</div>            </li>
             								</ul>
 										</div>
@@ -154,7 +154,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="bg-title">
-							<h3>Image gallery</h3>
+							<h3>Thư viện ảnh</h3>
 						</div>
 							<div class="system-gallery">
 								<div class="col-sm-7">
@@ -183,7 +183,7 @@
 					</div>
 					<div class="col-sm-5">
 													<div class="border-title">
-								<h3>Projects</h3>
+								<h3>Dự án</h3>
 							</div>
 							<ul class="system-project-list list-projects">
 																	<li>
@@ -204,33 +204,33 @@
 										<span style="display: none;">Burglar Proof System: Laboratory Installation <br>Bellaria (Italy)</span>									</li>
 															</ul>
 													<div class="border-title">
-								<h3>Testing</h3>
+								<h3>Kiêm thử</h3>
 							</div>
 							<ul class="system-project-list list-testing">
 																	<li>
 										<a href="#" onclick="return false;" data-number="4">
 											<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-01-320x320.jpg" class="img-responsive">										</a>
-										<span style="display: none;">Steelfire STB80 EI - Pivot Door System <br>Fire Rated Testing</span>									</li>
+										<span style="display: none;">Steelfire STB80 EI - Hệ thống cửa xoay <br>Thử nghiệm khả năng chống cháy</span>									</li>
 																	<li>
 										<a href="#" onclick="return false;" data-number="5">
 											<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-02-320x320.jpg" class="img-responsive">										</a>
-										<span style="display: none;">Steelfire STB80 EI - Pivot Door System <br>Fire Rated Testing</span>									</li>
+										<span style="display: none;">Steelfire STB80 EI - Hệ thống cửa xoay <br>Thử nghiệm khả năng chống cháy</span>									</li>
 																	<li>
 										<a href="#" onclick="return false;" data-number="6">
 											<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-03-320x320.jpg" class="img-responsive">										</a>
-										<span style="display: none;">Tecguard RC2 - Dinamic Force - Pivot Door System (STB80) <br>Burglar Proof Testing</span>									</li>
+										<span style="display: none;">Tecguard RC2 - Dinamic Force - Hệ thống cửa xoay (STB80) <br>Kiểm tra chống trộm</span>									</li>
 																	<li>
 										<a href="#" onclick="return false;" data-number="7">
 											<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-04-320x320.jpg" class="img-responsive">										</a>
-										<span style="display: none;">Tecguard RC2 - Manual Attack - Pivot Door System (STB80) <br>Burglar Proof Testing</span>									</li>
+										<span style="display: none;">Tecguard RC2 - Dinamic Force - Hệ thống cửa xoay (STB80) <br>Kiểm tra chống trộm</span>									</li>
 																	<li>
 										<a href="#" onclick="return false;" data-number="8">
 											<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-05-320x320.jpg" class="img-responsive">										</a>
-										<span style="display: none;">Tecguard RC2 - Manual Attack - Pivot Door System (STB80) <br>Burglar Proof Testing</span>									</li>
+										<span style="display: none;">Tecguard RC2 - Dinamic Force - Hệ thống cửa xoay (STB80) <br>Kiểm tra chống trộm</span>									</li>
 																	<li>
 										<a href="#" onclick="return false;" data-number="9">
 											<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-06-320x320.jpg" class="img-responsive">										</a>
-										<span style="display: none;">Tecguard RC2 - Static Force - Pivot Door System (STB80) <br>Burglar Proof Testing</span>									</li>
+										<span style="display: none;">Tecguard RC2 - Dinamic Force - Hệ thống cửa xoay (STB80) <br>Kiểm tra chống trộm</span>									</li>
 															</ul>
 											</div>
 				</div>

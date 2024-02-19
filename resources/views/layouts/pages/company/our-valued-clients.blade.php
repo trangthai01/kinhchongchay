@@ -1,4 +1,4 @@
-@extends('layouts.default',['title' => 'Our Valued Clients - '.config('app.name'), 'header_class' => 'header-white' ])
+@extends('layouts.default',['title' => 'Khách hàng thân thiết - '.config('app.name'), 'header_class' => 'header-white' ])
 @section('header-content')
     <div class="banner-block parallex-700 parallex-white-700">
         <img src="{{ asset('images/pages/our-valued-clients-low.jpg') }}" class="img-responsive" alt="">	<div class="banner-text">
@@ -22,11 +22,11 @@
                             <meta itemprop="position" content="1">
                         </li>
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item">
-                            <a href="{{url('/company')}}" itemprop="item"><span itemprop="name">Company</span></a>
+                            <a href="{{url('/company')}}" itemprop="item"><span itemprop="name">Về chúng tôi</span></a>
                             <meta itemprop="position" content="2">
                         </li>
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-end">
-                            <span itemprop="item"><span itemprop="name">Out Valued Clients</span></span>
+                            <span itemprop="item"><span itemprop="name">Khách hàng thân thiết</span></span>
                             <meta itemprop="position" content="3">
                         </li>
                     </ul>
@@ -38,13 +38,12 @@
 		        <div class="row company-top padding-bottom">
 					<div class="col-sm-4">
 				        <div class="info-title color-primary">
-					        <h2>Tecfire's strategy is<br>based on a clear focus<br>on the client, offering<br>Custom-Made Solutions<br>for each construction project.</h2>				
+					        <h2>Chiến lược của Vietfires<br>dựa trên sự tập trung rõ ràng vào khách hàng, cung cấp Giải pháp tùy chỉnh cho từng dự án xây dựng.</h2>				
                         </div>
 			        </div>
 					<div class="col-sm-8 text-holder">
-                        <p>Our overriding aim is to provide our clients with the greatest possible degree of <strong>Know-How, Quality and Technical Solutions</strong>, offering the widest range of Certified Glass Protection solutions in the market.</p>
-                        <p>The tests are carried out in an extensive network of internationally-recognised laboratories, which makes it possible to <strong>guarantee absolute reliability in product certification at all times</strong>, for the specific solution adopted by the project.</p>
-                        <p>Tecfire has recently collaborated with some of the most highly-regarded architects and architecture studios worldwide, such as: <strong>Ateliers Jean Nouvel</strong> (Louvre Museum Abu Dhabi and National Museum of Qatar); <strong>Foster + Partners</strong> (High-Speed Railway Stations in Mecca, Saudi Arabia); and <strong>Janus Rostock – Atkins</strong> (Dubai Opera), etc.</p>
+                        <p>Mục tiêu quan trọng nhất của chúng tôi là cung cấp cho khách hàng mọi thông tin về Giải pháp Chất lượng và Kỹ thuật, cung cấp phạm vi rộng nhất các giải pháp Bảo vệ Kính được Chứng nhận trên thị trường.</p>
+                        <p>Các cuộc thử nghiệm được thực hiện rộng khắp trong các phòng thí nghiệm được cục PCCC công nhận, giúp đảm bảo độ tin cậy tuyệt đối trong chứng nhận sản phẩm mọi lúc, cho giải pháp cụ thể mà dự án áp dụng.</p>
                     </div>
 				</div>
 	        </div>

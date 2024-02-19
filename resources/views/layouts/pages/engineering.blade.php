@@ -35,7 +35,7 @@
 							<meta itemprop="position" content="1">
 						</li>
 						<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-end">
-							<span itemprop="item"><span itemprop="name">Engineering</span></span><meta itemprop="position" content="2">
+							<span itemprop="item"><span itemprop="name">Kỹ thuật</span></span><meta itemprop="position" content="2">
 						</li>
 					</ul>
 				</div>	
@@ -46,11 +46,13 @@
 				<div class="row company-top padding-bottom">
 					<div class="col-sm-4 col-md-3">
 						<div class="info-title color-primary">
-							<h2><p>Experts in Fire-rated Glass Systems</p></h2>				
+							<h2><p>Chuyên gia trong lĩnh vực Kính chống cháy</p></h2>				
 						</div>
 					</div>
 					<div class="col-sm-8 col-md-9 text-holder">
-						<p>Tecfire <strong>is highly specialized in the development of Special and Custom-Made Solutions</strong>. This specialization has enabled Tecfire to set a benchmark in the market in <strong>delivering solutions for the most innovative and demanding architectural projects</strong>. Tecfire has recently collaborated with some of the most highly-regarded architects and architecture studios worldwide, such a&nbsp;<strong>Ateliers Jean Nouvel</strong> (Louvre Museum Abu Dhabi and National Museum of Qatar); <strong>Foster + Partners</strong> (High-Speed Railway Stations in Mecca, Saudi Arabia); and <strong>Janus Rostock – Atkins</strong> (Dubai Opera), etc.</p>
+						<p>Kính chống cháy Việt <strong>có chuyên môn cao cung cấp nhiều giải pháp cho các yêu cầu đặc biệt và tùy chỉnh</strong>. 
+						Chúng tôi đã thiết lập một chuẩn mực trên thị trường kính chống cháy trong việc cung cấp các giải pháp cho các dự án kiến trúc có yêu cầu khắt khe và sáng tạo nhất. 
+						Gần đây, Kính chống cháy Việt đã kết hợp với các kiến trúc sư để thực hiện các dự án lớn như Dự án đường sắt trên cao Hà Đông, Dự án Kho Bạc nhà nước tại Đà nẵng, trụ sở Viện Kiểm Sát tối cao...</p>
 					</div>
 				</div>
 			</div>
@@ -62,12 +64,12 @@
 						<div class="feature-list feature-list__engineering">
 							<a href="{{ url('engineering/testing') }}">
 								<div class="image-holder">
-									<img src="{{ asset('images/pages/PPAL-TEST-720x720.png') }}" class="img-responsive" alt="Testing">
+									<img src="{{ asset('images/pages/PPAL-TEST-720x720.png') }}" class="img-responsive" alt="Kiểm thử">
 								</div>
 							</a>
 							<div class="text-holder">
-								<a href="{{ url('engineering/testing') }}" title="Testing">
-									<h3>Testing</h3>								
+								<a href="{{ url('engineering/testing') }}" title="Kiểm thử">
+									<h3>Kiểm thử</h3>								
 								</a>
 							</div>
 						</div>
@@ -76,12 +78,12 @@
 						<div class="feature-list feature-list__engineering">
 							<a href="{{ url('engineering/certifications-approvals') }}">
 								<div class="image-holder">
-									<img src="{{ asset('images/pages/4-CERTIFICATIONS-APPROVALS-2-720x720.jpg') }}" class="img-responsive" alt="Certifications &amp; Approvals">								
+									<img src="{{ asset('images/pages/4-CERTIFICATIONS-APPROVALS-2-720x720.jpg') }}" class="img-responsive" alt="Chứng chỉ">								
 								</div>
 							</a>
 							<div class="text-holder">
-								<a href="{{ url('engineering/certifications-approvals') }}" title="Certifications &amp; Approvals">
-									<h3>Certifications &amp; Approvals</h3>								
+								<a href="{{ url('engineering/certifications-approvals') }}" title="Chứng chỉ">
+									<h3>Chứng chỉ</h3>								
 								</a>
 							</div>
 						</div>
@@ -90,19 +92,19 @@
 						<div class="feature-list feature-list__engineering has-links">
 							<a href="">
 								<div class="image-holder">
-									<img src="{{ asset('images/pages/3-1-720x720.jpg') }}" class="img-responsive" alt="Special Applications &amp; CMS">								
+									<img src="{{ asset('images/pages/3-1-720x720.jpg') }}" class="img-responsive" alt="Ứng dụng sản phẩm">								
 								</div>
 							</a>
 							<div class="mask-image">
 								<ul>
-									<li><a href="{{ url('engineering/applications/sliding-door-system/') }} "><i class="fa fa-angle-right" aria-hidden="true"></i> <strong>SLIDING DOOR</strong> SYSTEM</a></li>
-									<li><a href="{{ url('engineering/applications/pivot-door-system/') }} "><i class="fa fa-angle-right" aria-hidden="true"></i> <strong>PIVOT DOOR</strong> SYSTEM</a></li>
-									<li><a href="{{ url('engineering/applications/curtain-wall-system/') }} "><i class="fa fa-angle-right" aria-hidden="true"></i> <strong>CURTAIN WALL</strong>  SYSTEM</a></li>								
+									<li><a href="{{ url('engineering/applications/sliding-door-system/') }} "><i class="fa fa-angle-right" aria-hidden="true"></i> HỆ <strong>CỬA TRƯỢT</strong></a></li>
+									<li><a href="{{ url('engineering/applications/pivot-door-system/') }} "><i class="fa fa-angle-right" aria-hidden="true"></i> HỆ <strong>CỬA ĐẨY</strong></a></li>
+									<li><a href="{{ url('engineering/applications/curtain-wall-system/') }} "><i class="fa fa-angle-right" aria-hidden="true"></i> HỆ <strong>VÁCH KÍNH</strong></a></li>								
 								</ul>
 							</div>
 							<div class="text-holder">
 								<a href="" title="Special Applications &amp; CMS">
-									<h3>Special Applications &amp; CMS</h3>								
+									<h3>Ứng dụng sản phẩm</h3>								
 								</a>
 							</div>
 						</div>
@@ -111,12 +113,12 @@
 						<div class="feature-list feature-list__engineering">
 							<a href="{{ url('engineering/engineering-videos') }}">
 								<div class="image-holder">
-									<img src="{{ asset('images/pages/4-1-720x720.jpg') }}" class="img-responsive" alt="Engineering">								
+									<img src="{{ asset('images/pages/4-1-720x720.jpg') }}" class="img-responsive" alt="Kỹ thuật">								
 								</div>
 							</a>
 							<div class="text-holder">
-								<a href="{{ url('engineering/engineering-videos') }}" title="Engineering">
-									<h3>Engineering</h3>								
+								<a href="{{ url('engineering/engineering-videos') }}" title="Kỹ thuật">
+									<h3>Kỹ thuật</h3>								
 								</a>
 							</div>
 						</div>

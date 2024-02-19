@@ -5,8 +5,8 @@
             <div class="system-main__list parallex-550 col-sm-12 no-ltr-padding">
                 <img src="https://tecfires.com/wp-content/uploads/2017/05/AR_H550-1920x550.jpg" srcset="https://tecfires.com/wp-content/uploads/2017/05/AR_H550.jpg 1x" class="img-responsive" alt="">			<div class="system-main__mask valign-bottom">
                     <div class="text-holder">
-                        <h1>Featured Projects</h1>
-                        <p>TECFIRE is proud of having participated in some of the most important international projects.</p>
+                        <h1>Các dự án nổi bật</h1>
+                        <p>Kính chống cháy Việt tự hào tham gia vào nhiều dự án lớn và quan trọng của cả nước.</p>
                     </div>
                 </div>
             </div>
@@ -22,7 +22,19 @@
         <div class="section breadcrumb-holder">
             <div class="container">
                 <div role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb">
-                    <ul class="trail-items" itemscope="" itemtype="http://schema.org/BreadcrumbList"><meta name="numberOfItems" content="2"><meta name="itemListOrder" content="Ascending"><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-begin"><a href="{{url('')}}" rel="home" itemprop="item"><span itemprop="name">Home</span></a><meta itemprop="position" content="1"></li><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-end"><span itemprop="item"><span itemprop="name">Architecture</span></span><meta itemprop="position" content="2"></li></ul>
+                    <ul class="trail-items" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+                        <meta name="numberOfItems" content="2"><meta name="itemListOrder" content="Ascending">
+                        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-begin">
+                            <a href="{{url('')}}" rel="home" itemprop="item">
+                                <span itemprop="name">Home</span>
+                            </a>
+                            <meta itemprop="position" content="1">
+                        </li>
+                        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-end">
+                            <span itemprop="item"><span itemprop="name">Công trình kiến trúc</span></span>
+                            <meta itemprop="position" content="2">
+                        </li>
+                    </ul>
                 </div>	
             </div>
         </div>

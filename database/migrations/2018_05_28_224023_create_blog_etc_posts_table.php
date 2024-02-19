@@ -32,7 +32,7 @@ class CreateBlogEtcPostsTable extends Migration
             $table->string('image_large')->nullable();
             $table->string('image_medium')->nullable();
             $table->string('image_thumbnail')->nullable();
-
+            $table->boolean('is_page')->default(false);
             $table->timestamps();
         });
 

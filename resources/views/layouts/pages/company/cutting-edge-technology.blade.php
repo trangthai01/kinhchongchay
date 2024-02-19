@@ -1,8 +1,8 @@
-@extends('layouts.default',['title' => 'Cutting-edge Technology - '.config('app.name'), 'header_class' => 'header-white' ])
+@extends('layouts.default',['title' => 'Công nghệ cắt lớp - '.config('app.name'), 'header_class' => 'header-white' ])
 @section('header-content')
     <div class="banner-block parallex-700 parallex-white-700">
         <img src="{{ asset('images/pages/cutting-edge-low.jpg') }}" class="img-responsive" alt="">	<div class="banner-text">
-            <a href="{{ url('company/cutting-edge-technology') }}" title="Cutting-edge Technology">Cutting-edge Technology</a>
+            <a href="{{ url('company/cutting-edge-technology') }}" title="Công nghệ cắt lớp">Công nghệ cắt lớp</a>
         </div>
     </div>
     <script>
@@ -22,11 +22,11 @@
                             <meta itemprop="position" content="1">
                         </li>
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item">
-                            <a href="{{url('/company')}}" itemprop="item"><span itemprop="name">Company</span></a>
+                            <a href="{{url('/company')}}" itemprop="item"><span itemprop="name">Về chúng tôi</span></a>
                             <meta itemprop="position" content="2">
                         </li>
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-end">
-                            <span itemprop="item"><span itemprop="name">Out Valued Clients</span></span>
+                            <span itemprop="item"><span itemprop="name">Công nghệ cắt lớp</span></span>
                             <meta itemprop="position" content="3">
                         </li>
                     </ul>
@@ -38,14 +38,11 @@
                 <div class="row company-top padding-bottom">
                     <div class="col-sm-4">
                         <div class="info-title color-primary">
-                            <h2>Tecfire has the most<br>advanced technology<br>for the manufacturing<br>processes of all its<br>products.</h2>				
+                            <h2>Vietfire Glass có công nghệ tiên tiến nhất cho quy trình sản xuất tất cả các sản phẩm kính chống cháy.</h2>				
                         </div>
                     </div>
                     <div class="col-sm-8 text-holder">
-                        <p>Tecfire have its <strong>own manufacturing plants</strong> in Europe to guarantee our customers the highest level of quality during the fabrication processes. Tecfire’s factories are yearly audited and certified by an independent Certification Body (International Fire Consultants).</p>
-                        <p>Tecfire designs and certifies its own products with the most advance and <strong>top-end quality components and materials</strong> in order to guarantee the maximum functionality and performance.</p>
-                        <p>Tecfire have implemented the <strong>ISO 9001:2015</strong> Quality control management in all its internal processes.</p>
-                        <p>Tecfire is a <strong>pioneer company in the implementation of the new CE Marking</strong> regulation on its products for the European Market.</p>
+                        <p>Vietfire Glass đã triển khai quản lý kiểm soát chất lượng <strong>ISO 9001:2015</strong> trong tất cả các quy trình nội bộ của mình.</p>
                         <p>&nbsp;</p>
                     </div>
                 </div>
@@ -56,26 +53,26 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="developing-block" style="background: url('{{ asset('images/pages/bg-company-developing-560x300.jpg') }}') no-repeat;">
-                            <h3>FRAMES AND ACCESSORIES</h3>						
-                            <p>Tecfire uses the highest quality frames and accessories for the development of its systems, thereby guaranteeing the best aesthetic finish and the highest degree of resistance and stability in case of fire, bullets or violent break in attempts.</p>
+                            <h3>KHUNG VÀ PHỤ KIỆN</h3>						
+                            <p>Vietfire Glass uses the highest quality frames and accessories for the development of its systems, thereby guaranteeing the best aesthetic finish and the highest degree of resistance and stability in case of fire, bullets or violent break in attempts.</p>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="developing-block" style="background: url('{{ asset('images/pages/bg-company-developing2-560x300.jpg') }}') no-repeat;">
-                            <h3>HARDWARE</h3>						
-                            <p>The wide range of Hardware solutions which Tecfire offers for each system have successfully passed the strictest tests in the market, in order to guarantee their durability in daily use, thereby contributing decisively to the functionality of a door or window system.</p>
+                            <h3>PHẦN CỨNG</h3>						
+                            <p>The wide range of Hardware solutions which Vietfire Glass offers for each system have successfully passed the strictest tests in the market, in order to guarantee their durability in daily use, thereby contributing decisively to the functionality of a door or window system.</p>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="developing-block" style="background: url('{{ asset('images/pages/bg-company-developing3-560x300.jpg') }}') no-repeat;">
-                            <h3>HIGH-TECHNOLOGY GLASS</h3>						
-                            <p>Tecfire uses only safety glass with the highest quality and performances in the market. All of this means that Tecfire’s safety glass systems are the most reliable and durable in the market.</p>
+                            <h3>KÍNH CÔNG NGHỆ CAO</h3>						
+                            <p>Vietfire Glass uses only safety glass with the highest quality and performances in the market. All of this means that Vietfire Glass’s safety glass systems are the most reliable and durable in the market.</p>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="developing-block" style="background: url('{{ asset('images/pages/bg-company-developing4-560x300.jpg') }}') no-repeat;">
-                            <h3>PRODUCTION</h3>						
-                            <p>Through its ISO 9001 systems, Tecfire has in place the most rigorous, demanding quality-management standards in all its production processes.</p>
+                            <h3>SẢN XUẤT</h3>						
+                            <p>Through its ISO 9001 systems, Vietfire Glass has in place the most rigorous, demanding quality-management standards in all its production processes.</p>
                             <p><img decoding="async" class="alignright wp-image-4080" src="{{ asset('images/pages/ISO-CE-150x150.png') }}" alt="" width="170" height="75" sizes="(max-width: 170px) 100vw, 170px"></p>
                         </div>
                     </div>
@@ -88,7 +85,7 @@
                     <div class="col-sm-12">
                         <div class="text-holder">
                             <h2>Test Laboratories and Product Certification Entities</h2>					
-                            Reliability: Tecfire is associated with the most prestigious corporate entities in the sphere of product testing and certification.				
+                            Reliability: Vietfire Glass is associated with the most prestigious corporate entities in the sphere of product testing and certification.				
                         </div>
                         <div class="custom-acordian padding-both">
                             <div class="panel-group" id="accordion">

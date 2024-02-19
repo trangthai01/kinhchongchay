@@ -1,4 +1,4 @@
-@extends("layouts.default",['title'=>'News', 'header_class'=> 'header-white'])
+@extends("layouts.default",['title'=>'Tin Tức ', 'header_class'=> 'header-white'])
 @section('header-content')
     <script>
         fn_setCurrentMenu('news');
@@ -16,7 +16,7 @@
                             <a href="{{ url('/') }}" rel="home" itemprop="item"><span itemprop="name">Home</span></a><meta itemprop="position" content="1">
                         </li>
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-end">
-                            <span itemprop="item"><span itemprop="name">News</span></span>
+                            <span itemprop="item"><span itemprop="name">Tin Tức</span></span>
                             <meta itemprop="position" content="2">
                         </li>
                     </ul>
@@ -28,7 +28,7 @@
 		        <div class="row">
 			        <div class="col-sm-12">
 				        <div class="title">
-					        <h2>News</h2>				
+					        <h2 style="font-weight:bold">TIN TỨC</h2>				
                         </div>
 			        </div>
 		        </div>

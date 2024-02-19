@@ -11,33 +11,25 @@
 
 					<!-- LAYER NR. 1 -->
 					<div class="tp-caption maincaption"
-						data-x="left" data-hoffset="20"
-						data-y="top" data-voffset="300"
-						style="z-index: 15; font-family: &quot;Work Sans&quot;; color: rgb(255, 255, 255); line-height: 79px; letter-spacing: 0px; font-weight: 800; font-size: 79px; padding-bottom: 10px; backdrop-filter: none; filter: blur(0px); transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">Sáng tạo mới
+						data-x="30"
+						data-y="center"
+						data-voffset="100"
+						data-speed="500"
+						data-start="500"
+						data-easing="Power3.easeInOut"
+						style=" color: rgb(255, 255, 255); line-height: 79px; font-weight: 800; font-size: 79px;transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">Sáng tạo mới
 					</div>
 
 					<!-- LAYER NR. 2 -->
 					<div class="tp-caption"
-						data-x="left" data-hoffset="20"
-						data-y="top" data-voffset="400"
-						style="z-index: 14; font-family: &quot;Work Sans&quot;;  color: rgb(250, 237, 38); line-height: 69px; letter-spacing: 0px; font-weight: 800; font-size: 79px; padding-bottom: 10px; backdrop-filter: none; filter: blur(0px); transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">Hệ thống kính chống cháy<br>tiên tiến nhất
-					</div>
-
-					<!-- LAYER NR. 3 -->
-					<div class="tp-caption"
-						data-x="left" data-hoffset="20"
-						data-y="top" data-voffset="600"
-						
-						style="z-index: 13; font-family: Montserrat;  color: rgb(255, 255, 255); line-height: 35px; letter-spacing: 0px; font-weight: 500; font-size: 35px; backdrop-filter: none; filter: blur(0px); transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">Largest ( 12 ft./3.5 m)<br>fire-rated glazed<br>90 minute Pivot Door<br>in the industry 
-					</div>
-
-                    <!-- LAYER NR. 4 -->
-					<div class="tp-caption skewfromleft customout"
-						data-x="left" data-hoffset="0"
-						data-y="top" data-voffset="600"
-						data-customout="rotationX:0;rotationY:0;rotationZ:0;"
-						style="z-index: 12; color: rgb(255, 255, 255); width: 83.2563px; height: 69.3802px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">
-                        <img src="{{ asset('images/slider/Asset-1-2.png') }}" style="position: relative; height: 100%; width: 100%;"> 
+						data-x="30"
+						data-y="center"
+						data-voffset="250"
+						data-speed="500"
+						data-start="500"
+						data-easing="Power3.easeInOut"
+						data-splitin="chars"
+						style="color: rgb(250, 237, 38); line-height: 79px; font-weight: 800; font-size: 79px;transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">Hệ kính chống cháy<br>tiên tiến nhất
 					</div>
 				</li>
 
@@ -48,75 +40,28 @@
 
 
 					<!-- LAYER NR. 1 -->
-					<div class="tp-caption medium_bg_red skewfromleft customout"
-						data-x="20"
-						data-y="20"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="800"
-						data-start="600"
-						data-easing="Power4.easeOut"
-						data-endspeed="300"
-						data-endeasing="Power1.easeIn"
-						data-captionhidden="on"
-						style="z-index: 7">YOUTUBE
+					<div class="tp-caption maincaption"
+						data-x="30"
+						data-y="center"
+						data-voffset="100"
+						data-speed="500"
+						data-start="500"
+						data-easing="Power3.easeInOut"
+						style="z-index: 1; color: rgb(255, 255, 255); line-height: 79px; font-weight: 800; font-size: 79px;transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">KHÁM PHÁ
 					</div>
 
 					<!-- LAYER NR. 2 -->
-					<div class="tp-caption medium_bg_red skewfromleft customout"
-						data-x="20"
-						data-y="70"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="800"
-						data-start="900"
-						data-easing="Power4.easeOut"
-						data-endspeed="300"
-						data-endeasing="Power1.easeIn"
-						data-captionhidden="on"
-						style="z-index: 7">AUTOPLAY - TRUE
+					<div class="tp-caption"
+						data-x="30"
+						data-y="center"
+						data-voffset="250"
+						data-speed="500"
+						data-start="500"
+						data-easing="Power3.easeInOut"
+						data-splitin="chars"
+						style="z-index: 1; color: rgb(250, 237, 38); line-height: 40px; font-weight: 800; font-size: 37px;transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">KÍNH CHỐNG CHÁY AN TOÀN <br>THẾ HỆ MỚI
 					</div>
 
-					<!-- LAYER NR. 3 -->
-					<div class="tp-caption medium_bg_red skewfromleft customout"
-						data-x="20"
-						data-y="120"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="800"
-						data-start="1200"
-						data-easing="Power4.easeOut"
-						data-endspeed="300"
-						data-endeasing="Power1.easeIn"
-						data-captionhidden="on"
-						style="z-index: 7">AUTO NEXT SLIDE - TRUE
-					</div>
-
-					<!-- LAYER NR. 4 -->
-					<div class="tp-caption medium_bg_red skewfromleft customout"
-						data-x="20"
-						data-y="170"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="800"
-						data-start="1200"
-						data-easing="Power4.easeOut"
-						data-endspeed="300"
-						data-endeasing="Power1.easeIn"
-						data-captionhidden="on"
-						style="z-index: 7">AUTO PLAY ONLY ONCE - TRUE
-					</div>
-
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption sfb customout"
-						data-x="399"
-						data-y="385"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="1000"
-						data-start="1500"
-						data-easing="Back.easeOut"
-						data-endspeed="500"
-						data-captionhidden="on"
-						style="z-index: 7"><img src="{{ asset('images/videoshadow.png') }}" alt="">
-					</div>
-
-					<!-- LAYER NR. 7 -->
 					<div class="tp-caption customin customout fullscreenvideo"
 						data-x="center" data-hoffset="0"
 						data-y="center" data-voffset="0"
@@ -128,9 +73,8 @@
 						data-endspeed="500"
 						data-endeasing="Power4.easeOut"
 						data-autoplay="true"
-						data-autoplayonlyfirsttime="true"
 						data-nextslideatend="true"
-						style="z-index: 8">
+						style="z-index: 0">
                             <iframe src="{{ asset('images/slider/2-With-audio-Clario-Header-Image-Bright_11.mp4') }}" width='100%' height='100%' style='width:100%;height:100%;'></iframe>
 					</div>
 
@@ -142,65 +86,38 @@
 				<li data-transition="fade" data-slotamount="5" data-masterspeed="700" >
 					<!-- MAIN IMAGE -->
 					<img src="{{ asset('images/slider/Fire-rated-Skylight-Glass-Floor-Tecfire.jpg') }}"   alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-
-
 					<!-- LAYER NR. 1 -->
-					<div class="tp-caption medium_bg_red skewfromleft customout"
-						data-x="20"
-						data-y="20"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="800"
-						data-start="600"
-						data-easing="Power4.easeOut"
-						data-endspeed="300"
-						data-endeasing="Power1.easeIn"
-						data-captionhidden="on"
-						style="z-index: 7">YOUTUBE
+					<div class="tp-caption maincaption"
+						data-x="30"
+						data-y="center"
+						data-voffset="100"
+						data-speed="500"
+						data-start="500"
+						data-easing="Power3.easeInOut"
+						style="z-index: 1; color: rgb(255, 255, 255); line-height: 79px; font-weight: 800; font-size: 50px;transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">Chuyên gia
 					</div>
 
 					<!-- LAYER NR. 2 -->
-					<div class="tp-caption medium_bg_red skewfromleft customout"
-						data-x="20"
-						data-y="70"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="800"
-						data-start="900"
-						data-easing="Power4.easeOut"
-						data-endspeed="300"
-						data-endeasing="Power1.easeIn"
-						data-captionhidden="on"
-						style="z-index: 7">AUTOPLAY - FALSE
+					<div class="tp-caption"
+						data-x="30"
+						data-y="center"
+						data-voffset="180"
+						data-speed="500"
+						data-start="500"
+						data-easing="Power3.easeInOut"
+						style="z-index: 1; color: rgb(250, 237, 38); line-height: 50px; font-weight: 800; font-size: 50px;transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">Kính chống cháy
 					</div>
 
 					<!-- LAYER NR. 3 -->
-					<div class="tp-caption medium_bg_red skewfromleft customout"
-						data-x="20"
-						data-y="120"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="800"
-						data-start="1200"
-						data-easing="Power4.easeOut"
-						data-endspeed="300"
-						data-endeasing="Power1.easeIn"
-						data-captionhidden="on"
-						style="z-index: 7">AUTO NEXT SLIDE - TRUE
+					<div class="tp-caption"
+						data-x="30"
+						data-y="center"
+						data-voffset="300"
+						data-speed="500"
+						data-start="500"
+						data-easing="Power3.easeInOut"
+						style="z-index: 1; color: rgb(255, 255, 255); line-height: 50px; font-weight: 800; font-size: 35px;transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">Hệ kính chống cháy cải tiến <br>cho kiến trúc hiện đại
 					</div>
-
-					<!-- LAYER NR. 4 -->
-					<div class="tp-caption medium_bg_red skewfromleft customout"
-						data-x="20"
-						data-y="170"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="800"
-						data-start="1200"
-						data-easing="Power4.easeOut"
-						data-endspeed="300"
-						data-endeasing="Power1.easeIn"
-						data-captionhidden="on"
-
-						style="z-index: 7">THUMBNAIL IMAGE - TRUE
-					</div>
-
 				</li>
 
 
@@ -211,59 +128,38 @@
 
 
 					<!-- LAYER NR. 1 -->
-					<div class="tp-caption medium_bg_red skewfromleft customout"
-						data-x="20"
-						data-y="20"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="800"
-						data-start="600"
-						data-easing="Power4.easeOut"
-						data-endspeed="300"
-						data-endeasing="Power1.easeIn"
-						data-captionhidden="on"
-						style="z-index: 7">HTML5
+					<div class="tp-caption maincaption"
+						data-x="right"
+						data-y="center"
+						data-hoffset="-20"
+						data-speed="500"
+						data-start="500"
+						data-easing="Power3.easeInOut"
+						style="z-index: 1; color: rgb(255, 255, 255); line-height: 79px; font-weight: 800; font-size: 50px;transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">Kính chống cháy
 					</div>
 
 					<!-- LAYER NR. 2 -->
-					<div class="tp-caption medium_bg_red skewfromleft customout"
-						data-x="20"
-						data-y="70"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="800"
-						data-start="900"
-						data-easing="Power4.easeOut"
-						data-endspeed="300"
-						data-endeasing="Power1.easeIn"
-						data-captionhidden="on"
-						style="z-index: 7">AUTOPLAY - TRUE
+					<div class="tp-caption"
+						data-x="right"
+						data-y="center"
+						data-hoffset="-20"
+						data-voffset="50"
+						data-speed="500"
+						data-start="500"
+						data-easing="Power3.easeInOut"
+						style="z-index: 1; color: rgb(250, 237, 38); line-height: 50px; font-weight: 800; font-size: 50px;transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">và hơn nữa
 					</div>
 
 					<!-- LAYER NR. 3 -->
-					<div class="tp-caption medium_bg_red skewfromleft customout"
-						data-x="20"
-						data-y="120"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="800"
-						data-start="1200"
-						data-easing="Power4.easeOut"
-						data-endspeed="300"
-						data-endeasing="Power1.easeIn"
-						data-captionhidden="on"
-						style="z-index: 7">AUTO NEXT SLIDE - FALSE
-					</div>
-
-					<!-- LAYER NR. 4 -->
-					<div class="tp-caption medium_bg_red skewfromleft customout"
-						data-x="20"
-						data-y="170"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="800"
-						data-start="1200"
-						data-easing="Power4.easeOut"
-						data-endspeed="300"
-						data-endeasing="Power1.easeIn"
-						data-captionhidden="on"
-						style="z-index: 7">AUTO PLAY ONLY ONCE - FALSE
+					<div class="tp-caption"
+						data-x="right"
+						data-y="center"
+						data-hoffset="-20"
+						data-voffset="200"
+						data-speed="500"
+						data-start="500"
+						data-easing="Power3.easeInOut"
+						style="z-index: 1; color: rgb(255, 255, 255); line-height: 50px; font-weight: 800; font-size: 35px;transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">Cung cấp giải pháp tùy chỉnh<br> theo yêu cầu
 					</div>
 				</li>
 			</ul>

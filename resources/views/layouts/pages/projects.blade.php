@@ -3,11 +3,13 @@
     <div class="system-main">
         <div class="container-fluid no-ltr-padding">
             <div class="system-main__list parallex-550 col-sm-12 no-ltr-padding">
-                <img src="https://tecfires.com/wp-content/uploads/2017/05/AR_H550-1920x550.jpg" srcset="https://tecfires.com/wp-content/uploads/2017/05/AR_H550.jpg 1x" class="img-responsive" alt="">			<div class="system-main__mask valign-bottom">
+                <img src="{{asset('images/pages/AR_H550.jpg') }}" class="img-responsive" alt="">			
+                <div class="system-main__mask valign-bottom">
                     <div class="text-holder">
                         <h1>Các dự án nổi bật</h1>
                         <p>Kính chống cháy Việt tự hào tham gia vào nhiều dự án lớn và quan trọng của cả nước.</p>
                     </div>
+                    
                 </div>
             </div>
         </div>

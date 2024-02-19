@@ -35,6 +35,11 @@ class HomeController extends Controller
         return view('layouts.pages.company');
     }
 
+    public function products()
+    {
+        return view('layouts.pages.products');
+    }
+
     public function engineering()
     {
         return view('layouts.pages.engineering');

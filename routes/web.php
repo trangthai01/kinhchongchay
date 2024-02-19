@@ -16,6 +16,7 @@ Auth::routes();
 Route::get('/', 'HomeController@index');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/contact', 'HomeController@contact');
+Route::get('/products', 'HomeController@products');
 
 Route::group(['prefix' => 'projects'], static function () {
 	Route::get('/', 'ProjectController@index')->name('projects.all');

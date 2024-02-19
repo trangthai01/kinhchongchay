@@ -1,4 +1,4 @@
-@extends('layouts.default',['title' => 'Videos Kỹ Thuật - '.config('app.name'), 'header_class' => '' ])
+@extends('layouts.default',['title' => 'Videos Kỹ Thuật - '.config('app.fullname'), 'header_class' => '' ])
 @section('header-content')
     <div class="system-main">
         <div class="container-fluid no-ltr-padding">

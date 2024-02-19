@@ -1,4 +1,4 @@
-@extends('layouts.default',['title' => 'Hệ Vách Kính - '.config('app.name'), 'header_class' => 'header-white' ])
+@extends('layouts.default',['title' => 'Hệ Vách Kính - '.config('app.fullname'), 'header_class' => 'header-white' ])
 @section('css')
     
 @endsection

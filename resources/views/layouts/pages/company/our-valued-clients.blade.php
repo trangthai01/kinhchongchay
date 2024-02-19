@@ -1,4 +1,4 @@
-@extends('layouts.default',['title' => 'Khách hàng thân thiết - '.config('app.name'), 'header_class' => 'header-white' ])
+@extends('layouts.default',['title' => 'Khách hàng thân thiết - '.config('app.fullname'), 'header_class' => 'header-white' ])
 @section('header-content')
     <div class="banner-block parallex-700 parallex-white-700">
         <img src="{{ asset('images/pages/our-valued-clients-low.jpg') }}" class="img-responsive" alt="">	<div class="banner-text">

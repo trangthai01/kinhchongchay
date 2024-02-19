@@ -1,4 +1,4 @@
-@extends('layouts.default',['title' => 'Giá trị cốt lõi - '.config('app.name'), 'header_class' => 'header-white' ])
+@extends('layouts.default',['title' => 'Giá trị cốt lõi - '.config('app.fullname'), 'header_class' => 'header-white' ])
 @section('header-content')
     <script>
 		fn_setCurrentMenu('company');

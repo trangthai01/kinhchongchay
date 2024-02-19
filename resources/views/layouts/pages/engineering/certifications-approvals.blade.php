@@ -1,4 +1,4 @@
-@extends('layouts.default',['title' => 'Certifications & Approvals - '.config('app.name'), 'header_class' => 'header-white' ])
+@extends('layouts.default',['title' => 'Certifications & Approvals - '.config('app.fullname'), 'header_class' => 'header-white' ])
 @section('css')
     
 @endsection

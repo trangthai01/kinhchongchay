@@ -14,7 +14,7 @@
                     </div>
                     <div class="btn-holder">                            
                         <a href="https://www.youtube.com/watch?v=SaGGqNs3t2w&amp;autoplay=1&amp;rel=0&amp;controls=1&amp;showinfo=0" class="btn btn-primary btn-corp-cat" data-fancybox="">Videos</a>                            
-                        <a href="{{url('contact')}}" class="btn btn-primary btn-corp-cat" target="_blank">Báo giá</a>
+                        <a href="{{url('lien-he')}}" class="btn btn-primary btn-corp-cat" target="_blank">Báo giá</a>
                     </div> 
                 </div>
             </div>

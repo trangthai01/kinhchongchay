@@ -5447,3 +5447,35 @@ ul.trail-items .trail-item {
 		margin-bottom: 0;
 	}
 }
+
+/* --------------------------------------viewmore ----------------------------------- */
+.viewmore{
+  text-align: center;
+  padding: 20px 0;
+}
+.viewmore a{
+  display: inline-block;
+  max-width: 270px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px ;
+  border: 1px solid #384a9f;
+  border-radius: 3px;
+}
+.viewmore a:hover{
+  background-color: #384a9f;
+  color: #ffffff;
+}
+.viewmore a span{
+  display: inline-block;
+  padding-right: 20px;
+  position: relative;
+}
+.viewmore a span::before{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}

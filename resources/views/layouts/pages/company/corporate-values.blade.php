@@ -14,7 +14,7 @@
                         <div class="image-holder">
                             <img src="{{ asset('images/pages/corporate-values-kid-low-1230x1090.png') }}" class="img-responsive" alt="">
                             <div class="banner-text">
-                                <a href="{{ url('company/corporate-values') }}" title="Giá trị cốt lõi">Giá trị cốt lõi</a>
+                                <a href="{{ url('ve-chung-toi/gia-tri-cot-loi') }}" title="Giá trị cốt lõi">Giá trị cốt lõi</a>
                             </div>
                         </div>
                         <div class="text-holder">

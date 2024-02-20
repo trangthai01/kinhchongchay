@@ -2,7 +2,7 @@
 @section('header-content')
     <div class="banner-block parallex-700 parallex-white-700">
         <img src="{{ asset('images/pages/cutting-edge-low.jpg') }}" class="img-responsive" alt="">	<div class="banner-text">
-            <a href="{{ url('company/cutting-edge-technology') }}" title="Công nghệ cắt lớp">Công nghệ cắt lớp</a>
+            <a href="{{ url('ve-chung-toi/cong-nghe-cat-lop') }}" title="Công nghệ cắt lớp">Công nghệ cắt lớp</a>
         </div>
     </div>
     <script>
@@ -22,7 +22,7 @@
                             <meta itemprop="position" content="1">
                         </li>
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item">
-                            <a href="{{url('/company')}}" itemprop="item"><span itemprop="name">Về chúng tôi</span></a>
+                            <a href="{{url('/ve-chung-toi')}}" itemprop="item"><span itemprop="name">Về chúng tôi</span></a>
                             <meta itemprop="position" content="2">
                         </li>
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-end">

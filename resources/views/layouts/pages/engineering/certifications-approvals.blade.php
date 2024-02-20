@@ -1,4 +1,4 @@
-@extends('layouts.default',['title' => 'Certifications & Approvals - '.config('app.fullname'), 'header_class' => 'header-white' ])
+@extends('layouts.default',['title' => 'Chứng chỉ - '.config('app.fullname'), 'header_class' => 'header-white' ])
 @section('css')
     
 @endsection
@@ -12,9 +12,8 @@
                 <img src="{{ asset('images/pages/certif-and-approvals-low-1920x700.jpg') }}" class="img-responsive" alt="">			
                 <div class="system-main__mask valign-bottom" style="display: none;">
                     <div class="text-holder">
-                        <h1>Certifications &amp; Approvals</h1>
-                        <p>Our strength lies in our <strong>profound technical knowledge of the product and its applications</strong>, which, together with the high degree of specialisation of the R&amp;D&amp;i Department, makes it possible to design and certify the most advanced systems in the market with the greatest product certification and approval guarantees. Tecfire offers the most extensive, complete range of certified glass protection and safety systems in the market.</p>
-                        <p>Tecfire product test reports &amp; product certificates are available on demand only (kindly send an inquiry to <a href="certification@box5844.temp.domains">certification@box5844.temp.domains</a>).</p>
+                        <h1>Chứng chỉ</h1>
+                        
                     </div>
                 </div>
             </div>
@@ -29,32 +28,49 @@
     <main id="main" class="bottom-gap top-gap">
 		<div class="section breadcrumb-holder">
             <div class="container">
-                <div role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><ul class="trail-items" itemscope="" itemtype="http://schema.org/BreadcrumbList"><meta name="numberOfItems" content="3"><meta name="itemListOrder" content="Ascending"><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-begin"><a href="{{url('')}}" rel="home" itemprop="item"><span itemprop="name">Home</span></a><meta itemprop="position" content="1"></li><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item"><a href="{{ url('engineering') }}" itemprop="item"><span itemprop="name">Engineering</span></a><meta itemprop="position" content="2"></li><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-end"><span itemprop="item"><span itemprop="name">Certifications &amp; Approvals</span></span><meta itemprop="position" content="3"></li></ul></div>	</div>
+                <div role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb">
+                    <ul class="trail-items" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+                        <meta name="numberOfItems" content="3"><meta name="itemListOrder" content="Ascending">
+                        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-begin">
+                            <a href="{{url('')}}" rel="home" itemprop="item"><span itemprop="name">Home</span></a>
+                            <meta itemprop="position" content="1">
+                        </li>
+                        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item">
+                            <a href="{{ url('ky-thuat') }}" itemprop="item"><span itemprop="name">Kỹ Thuật</span></a>
+                            <meta itemprop="position" content="2">
+                        </li>
+                        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-end">
+                            <span itemprop="item"><span itemprop="name">Chứng chỉ</span></span>
+                            <meta itemprop="position" content="3">
+                        </li>
+                    </ul>
+                </div>	
+            </div>
             </div>
             <section class="section section-cta">
                 <div class="container">
                     <div class="row company-top padding-bottom">
                         <div class="col-sm-4">
                             <div class="info-title color-primary">
-                            <h2>Certifications &amp; Approvals</h2>
+                            <h2>Chứng chỉ</h2>
                             </div>
                         </div>
                         <div class="col-sm-8 text-holder">
-                            <p>Our strength lies in our <strong>profound technical knowledge of the product and its applications</strong>, which, together with the high degree of specialisation of the R&amp;D&amp;i Department, makes it possible to design and certify the most advanced systems in the market with the greatest product certification and approval guarantees. Tecfire offers the most extensive, complete range of certified glass protection and safety systems in the market.</p>
-                            <p>Tecfire product test reports &amp; product certificates are available on demand only (kindly send an inquiry to <a href="certification@box5844.temp.domains">certification@box5844.temp.domains</a>).</p>
+                        <p>Vietfire Glass tự hào có kiến thức kỹ thuật sâu rộng về sản phẩm và ứng dụng trong các công trình. Chúng tôi cam kết chất lượng đầu ra sản phẩm cao nhất dựa theo quy chuẩn PCCC và các yêu cầu các của pháp luật. Kết hợp với đội ngũ Kỹ thuật nghiên cứu và phát triển, Vietfire Glass giúp thiết kế các sản phẩm tiên tiến nhất trên thị trường đáp ứng thị hiếu và nhu cầu của khách hàng.</p>
+                        <p>Vui lòng liên hệ với Vietfire Glass (san81018@gmail.com) để được cung cấp thêm các thông tin về những báo cáo thử nghiệm sản phẩm và giấy chứng nhận sản phẩm theo yêu cầu.</p>
                         </div>
                     </div>
                 </div>
             </section>
-<div class="section section-certification-approvals" style="display:none">
-    <div class="container">
-        <div class="row">
-                            <div class="col-sm-6 col-md-5">
-                    <div class="title-holder">
-                        <h2>Europe</h2>                    </div>
-
-                                            <div class="panel-group" id="parent-65ced544ea10a">
-                                                            <div class="panel panel-custom">
+            <div class="section section-certification-approvals" style="display:none">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-5">
+                            <div class="title-holder">
+                                <h2>Europe</h2>                    
+                            </div>
+                            <div class="panel-group" id="parent-65ced544ea10a">
+                                <div class="panel panel-custom">
                                     <div class="panel-heading">
                                         <h3 class="panel-title">
                                             <a data-toggle="collapse" data-parent="#parent-65ced544ea10a" href="#con-65ced544ea10e" aria-expanded="true">Europe<i class="plus-minus"></i></a>                                        </h3>

@@ -16,7 +16,7 @@ return [
 
     // If 'include_default_routes' is true, then the following two options will set the url prefix for the blog & admin:
     // Location of your blog: http://yoursite.com/blog
-    'blog_prefix' => 'news',
+    'blog_prefix' => 'tin-tuc',
 
     // similar to above, but used for the admin panel for the blog. Default: blog_admin (e.g. http://yoursite.com/blog_admin)
     'admin_prefix' => 'blog_admin',

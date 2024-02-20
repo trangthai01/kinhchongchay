@@ -1,5 +1,5 @@
 @foreach($projects as $item)
-    <div class="{{ $loop->first? 'col-sm-12 col-md-6 col-lg-8 col' : 'col-sm-6 col-md-6 col-lg-4' }}">
+    <div class="{{ $loop->first? 'col-sm-12 col-md-6 col-lg-8 col' : 'col-sm-6 col-md-6 col-lg-4' }} col">
         <div class="custom-grid  {{ $loop->first? 'custom-grid-big' : '' }}">
             <figure class="effect-architecture">
                 <img src="{{ asset('images/projects/' .  $item -> image) }}" class="img-responsive" alt="">				

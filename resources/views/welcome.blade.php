@@ -1,5 +1,5 @@
 
-@extends('layouts.default',['title' => config('app.fullname'). '- Mang bình an đến mọi nhà', 'header_class' => '' ])
+@extends('layouts.default',['title' => config('app.fullname'). ' - Mang bình an đến mọi nhà', 'header_class' => '' ])
 
 @section('css')
     <link href="{{ asset('css/slick/slick.css') }}" rel="stylesheet">

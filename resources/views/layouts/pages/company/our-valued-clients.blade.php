@@ -2,7 +2,7 @@
 @section('header-content')
     <div class="banner-block parallex-700 parallex-white-700">
         <img src="{{ asset('images/pages/our-valued-clients-low.jpg') }}" class="img-responsive" alt="">	<div class="banner-text">
-            <a href="{{ url('company/our-valued-clients') }}" title="Our Valued Clients">Our Valued Clients</a>
+            <a href="{{ url('ve-chung-toi/khach-hang-than-thiet') }}" title="Our Valued Clients">Our Valued Clients</a>
         </div>
     </div>
     <script>
@@ -22,7 +22,7 @@
                             <meta itemprop="position" content="1">
                         </li>
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item">
-                            <a href="{{url('/company')}}" itemprop="item"><span itemprop="name">Về chúng tôi</span></a>
+                            <a href="{{url('/ve-chung-toi')}}" itemprop="item"><span itemprop="name">Về chúng tôi</span></a>
                             <meta itemprop="position" content="2">
                         </li>
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-end">
@@ -38,7 +38,7 @@
 		        <div class="row company-top padding-bottom">
 					<div class="col-sm-4">
 				        <div class="info-title color-primary">
-					        <h2>Chiến lược của Vietfires<br>dựa trên sự tập trung rõ ràng vào khách hàng, cung cấp Giải pháp tùy chỉnh cho từng dự án xây dựng.</h2>				
+					        <h2>Chiến lược của Vietfire Glass<br>dựa trên sự tập trung rõ ràng vào khách hàng, cung cấp Giải pháp tùy chỉnh cho từng dự án xây dựng.</h2>				
                         </div>
 			        </div>
 					<div class="col-sm-8 text-holder">

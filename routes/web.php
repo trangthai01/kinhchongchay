@@ -15,32 +15,34 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 Route::get('/', 'HomeController@index');
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/contact', 'HomeController@contact');
-Route::get('/products', 'HomeController@products');
+Route::get('/lien-he', 'HomeController@contact')->name('contact');
+Route::get('/san-pham', 'HomeController@products')->name('products');
 
-Route::group(['prefix' => 'projects'], static function () {
-	Route::get('/', 'ProjectController@index')->name('projects.all');
+Route::group(['prefix' => 'du-an'], static function () {
+	Route::get('/', 'ProjectController@index')->name('projects');
 });
 
-Route::group(['prefix' => 'company'], static function () {
+Route::group(['prefix' => 've-chung-toi'], static function () {
 	Route::get('/', 'HomeController@company');
-	Route::get('/company-profile', 'HomeController@companyProfile');
-	Route::get('/corporate-values', 'HomeController@corporateValues');
-	Route::get('/our-valued-clients', 'HomeController@ourValuedClients');
-	Route::get('/cutting-edge-technology', 'HomeController@cuttingEdgeTechnology');
+	Route::get('/ho-so-cong-ty', 'HomeController@companyProfile');
+	Route::get('/gia-tri-cot-loi', 'HomeController@corporateValues');
+	Route::get('/khach-hang-than-thiet', 'HomeController@ourValuedClients');
+	Route::get('/cong-nghe-cat-lop', 'HomeController@cuttingEdgeTechnology');
 });
 
-Route::group(['prefix' => 'engineering'], static function () {
+Route::group(['prefix' => 'ky-thuat'], static function () {
 	Route::get('/', 'HomeController@engineering');
-	Route::get('/testing', 'HomeController@testing');
-	Route::get('/certifications-approvals', 'HomeController@certificationsApprovals');
-	Route::get('/engineering-videos', 'HomeController@engineeringVideos');
+	Route::get('/kiem-thu', 'HomeController@testing');
+	Route::get('/chung-chi', 'HomeController@certificationsApprovals');
+	Route::get('/videos', 'HomeController@engineeringVideos');
 
-	Route::get('/applications/sliding-door-system', 'HomeController@slidingDoorSystem');
-	Route::get('/applications/pivot-door-system', 'HomeController@pivotDoorSystem');
-	Route::get('/applications/curtain-wall-system', 'HomeController@curtainWallSystem');
+	Route::get('/ung-dung/he-cua-truot', 'HomeController@slidingDoorSystem');
+	Route::get('/ung-dung/he-cua-day', 'HomeController@pivotDoorSystem');
+	Route::get('/ung-dung/he-vach-kinh', 'HomeController@curtainWallSystem');
 	
 });
+
+Route::post('lien-he', ['as'=>'contactus.store','uses'=>'ContactUSController@contactUSPost']);
 
 /*
 |--------------------------------------------------------------------------

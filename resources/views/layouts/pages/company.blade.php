@@ -32,7 +32,7 @@
                             <meta itemprop="position" content="1">
                         </li>
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-end">
-                            <span itemprop="item"><span itemprop="name">Company</span></span>
+                            <span itemprop="item"><span itemprop="name">Về chúng tôi</span></span>
                             <meta itemprop="position" content="2">
                         </li>
                     </ul>
@@ -91,7 +91,7 @@
             <div class="row">
                 <div class="col-sm-6">
                             <div class="company-category-block">
-                                <a href="{{ url('company/company-profile') }}" title="Hồ sơ công ty">
+                                <a href="{{ url('ve-chung-toi/ho-so-cong-ty') }}" title="Hồ sơ công ty">
                                     <h3>HỒ SƠ CÔNG TY</h3><p>Với các dự án trải dài trên khắp cả nước.</p>
                                     <span class="icon-right"> <i class="fa fa-angle-right" aria-hidden="true"></i> </span>
                                 </a>
@@ -99,7 +99,7 @@
                         </div>
                                     <div class="col-sm-6">
                             <div class="company-category-block">
-                                <a href="{{ url('company/corporate-values') }}" title="Giá trị doanh nghiệp">
+                                <a href="{{ url('ve-chung-toi/gia-tri-cot-loi') }}" title="Giá trị doanh nghiệp">
                                     <h3>GIÁ TRỊ DOANH NGHIỆP</h3><p>Đổi mới, Tin cậy, Kinh Nghiệm và Sáng tạo.</p>
                                     <span class="icon-right"> <i class="fa fa-angle-right" aria-hidden="true"></i> </span>
                                 </a>
@@ -107,7 +107,7 @@
                         </div>
                                     <div class="col-sm-6">
                             <div class="company-category-block">
-                                <a href="{{ url('company/our-valued-clients') }}" title="Khách hàng">
+                                <a href="{{ url('ve-chung-toi/khach-hang-than-thiet') }}" title="Khách hàng">
                                     <h3>KHÁCH HÀNG</h3><p>Độ tin cậy và niềm tin của khách hàng là tư duy chiến lược của chúng tôi.</p>
                                     <span class="icon-right"> <i class="fa fa-angle-right" aria-hidden="true"></i> </span>
                                 </a>
@@ -115,8 +115,8 @@
                         </div>
                                     <div class="col-sm-6">
                             <div class="company-category-block">
-                                <a href="{{ url('company/cutting-edge-technology') }}" title="Công nghệ cắt cạnh Cutting-edge">
-                                    <h3>CÔNG NGHỆ CẮT CẠNH CUTTING-EDGE</h3><p>Sản phẩm có chất lượng và ứng dụng công nghệ cao nhất</p>
+                                <a href="{{ url('ve-chung-toi/cong-nghe-cat-lop') }}" title="Công nghệ cắt lớp Cutting-edge">
+                                    <h3>CÔNG NGHỆ CẮT LỚP CUTTING-EDGE</h3><p>Sản phẩm có chất lượng và ứng dụng công nghệ cao nhất</p>
                                     <span class="icon-right"> <i class="fa fa-angle-right" aria-hidden="true"></i> </span>
                                 </a>
                             </div>

@@ -67,7 +67,7 @@
                 setTimeout(function(){
                     var mydata = 'page='+page;
                     $.ajax({
-                        url: ROOT_MOD + '/projects',
+                        url: ROOT_MOD + '/du-an',
                         type: 'GET',
                         data: mydata,
                         beforeSend: function() {},

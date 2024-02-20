@@ -62,13 +62,13 @@
 				<div class="row">
 					<div class="col-sm-3 feature-list-holder">
 						<div class="feature-list feature-list__engineering">
-							<a href="{{ url('engineering/testing') }}">
+							<a href="{{ url('ky-thuat/kiem-thu') }}">
 								<div class="image-holder">
 									<img src="{{ asset('images/pages/PPAL-TEST-720x720.png') }}" class="img-responsive" alt="Kiểm thử">
 								</div>
 							</a>
 							<div class="text-holder">
-								<a href="{{ url('engineering/testing') }}" title="Kiểm thử">
+								<a href="{{ url('ky-thuat/kiem-thu') }}" title="Kiểm thử">
 									<h3>Kiểm thử</h3>								
 								</a>
 							</div>
@@ -76,13 +76,13 @@
 					</div>
 					<div class="col-sm-3 feature-list-holder">
 						<div class="feature-list feature-list__engineering">
-							<a href="{{ url('engineering/certifications-approvals') }}">
+							<a href="{{ url('ky-thuat/chung-chi') }}">
 								<div class="image-holder">
 									<img src="{{ asset('images/pages/4-CERTIFICATIONS-APPROVALS-2-720x720.jpg') }}" class="img-responsive" alt="Chứng chỉ">								
 								</div>
 							</a>
 							<div class="text-holder">
-								<a href="{{ url('engineering/certifications-approvals') }}" title="Chứng chỉ">
+								<a href="{{ url('ky-thuat/chung-chi') }}" title="Chứng chỉ">
 									<h3>Chứng chỉ</h3>								
 								</a>
 							</div>
@@ -97,13 +97,13 @@
 							</a>
 							<div class="mask-image">
 								<ul>
-									<li><a href="{{ url('engineering/applications/sliding-door-system/') }} "><i class="fa fa-angle-right" aria-hidden="true"></i> HỆ <strong>CỬA TRƯỢT</strong></a></li>
-									<li><a href="{{ url('engineering/applications/pivot-door-system/') }} "><i class="fa fa-angle-right" aria-hidden="true"></i> HỆ <strong>CỬA ĐẨY</strong></a></li>
-									<li><a href="{{ url('engineering/applications/curtain-wall-system/') }} "><i class="fa fa-angle-right" aria-hidden="true"></i> HỆ <strong>VÁCH KÍNH</strong></a></li>								
+									<li><a href="{{ url('ky-thuat/ung-dung/he-cua-truot/') }} "><i class="fa fa-angle-right" aria-hidden="true"></i> HỆ <strong>CỬA TRƯỢT</strong></a></li>
+									<li><a href="{{ url('ky-thuat/ung-dung/he-cua-day/') }} "><i class="fa fa-angle-right" aria-hidden="true"></i> HỆ <strong>CỬA ĐẨY</strong></a></li>
+									<li><a href="{{ url('ky-thuat/ung-dung/he-vach-kinh/') }} "><i class="fa fa-angle-right" aria-hidden="true"></i> HỆ <strong>VÁCH KÍNH</strong></a></li>								
 								</ul>
 							</div>
 							<div class="text-holder">
-								<a href="" title="Special Applications &amp; CMS">
+								<a href="" title="Ứng dụng sản phẩm">
 									<h3>Ứng dụng sản phẩm</h3>								
 								</a>
 							</div>
@@ -111,13 +111,13 @@
 					</div>
 					<div class="col-sm-3 feature-list-holder">
 						<div class="feature-list feature-list__engineering">
-							<a href="{{ url('engineering/engineering-videos') }}">
+							<a href="{{ url('ky-thuat/videos') }}">
 								<div class="image-holder">
 									<img src="{{ asset('images/pages/4-1-720x720.jpg') }}" class="img-responsive" alt="Kỹ thuật">								
 								</div>
 							</a>
 							<div class="text-holder">
-								<a href="{{ url('engineering/engineering-videos') }}" title="Kỹ thuật">
+								<a href="{{ url('ky-thuat/videos') }}" title="Kỹ thuật">
 									<h3>Kỹ thuật</h3>								
 								</a>
 							</div>

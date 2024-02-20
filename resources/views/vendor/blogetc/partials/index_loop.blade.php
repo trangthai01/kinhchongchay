@@ -15,7 +15,7 @@
         <strong title="{!! $post->generateIntroduction(200) !!}">{!! $post->generateIntroduction(200) !!}</strong>
         <p></p>
         <div class="btn-holder">
-            <a href="{{$post->url()}}" class="btn btn-primary">Read more</a>
+            <a href="{{$post->url()}}" class="btn btn-primary">Chi tiết</a>
         </div>
     </div>
 </div>

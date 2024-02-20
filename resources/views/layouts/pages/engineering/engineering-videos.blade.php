@@ -6,7 +6,7 @@
                 <img src="{{ asset('images/pages/eng_videos_low.jpg ') }}" class="img-responsive" alt="">			
                 <div class="system-main__mask valign-bottom">
                     <div class="text-holder">
-                        <h1>Kỹ thuật</h1>
+                        <h1>Videos Kỹ thuật</h1>
                         <p>Kênh video theo yêu cầu này là nguồn tài nguyên mới nhất về kính và khung kính chống cháy. Nhấp vào bên dưới để xem các video về các sản phẩm kính chống cháy theo chủ đề và xu hướng.</p>
                     </div>
                 </div>

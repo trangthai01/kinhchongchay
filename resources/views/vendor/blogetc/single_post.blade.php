@@ -25,7 +25,7 @@
                             <meta itemprop="position" content="1">
                         </li>
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item">
-                            <a href="{{url('news')}}" itemprop="item"><span itemprop="name">News</span></a>
+                            <a href="{{url('tin-tuc')}}" itemprop="item"><span itemprop="name">Tin Tức</span></a>
                             <meta itemprop="position" content="2">
                         </li>
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-end">
@@ -51,26 +51,26 @@
                             @include("blogetc::partials.show_errors")
                             @include("blogetc::partials.full_post_details")
                             <div class="btn-holder">
-                                <a href="{{url('news')}}" class="btn btn-primary">Back to News</a>
+                                <a href="{{url('tin-tuc')}}" class="btn btn-primary">Quay lại</a>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-3">
                             <div class="news-right">
-                                <h3>Latest projects</h3>
+                                <h3>Dự án mới</h3>
                                 <ul class="news-list news-list-image">
                                 @if(!empty($latestProjects))
                                     @foreach ($latestProjects as $latestProject)
                                     <li>
-                                        <a href="{{url('projects')}}" title="{{$latestProject -> project_name}}">
+                                        <a href="{{url('du-an')}}" title="{{$latestProject -> project_name}}">
                                             <img src="{{ asset('images/projects/' .  $latestProject -> image_thumbnail) }}" class="img-responsive" alt="{{$latestProject -> project_name}}">					
                                         </a>
                                     </li>
                                     @endforeach
                                 @endif
                                 </ul>
-                                <h3>Latest updates</h3>
+                                <h3>Tin mới</h3>
                                 <ul class="news-list">
                                 @if(!empty($latestPosts))
                                     @foreach ($latestPosts as $latestPost)

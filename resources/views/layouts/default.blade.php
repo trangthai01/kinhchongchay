@@ -66,7 +66,7 @@
         <script src="{{ asset('js/theme/jquery.matchHeight.js') }}" ></script>
         <script src="{{ asset('js/theme/jquery.sumoselect.min.js') }}" ></script>
         <script src="{{ asset('js/theme/owl.carousel.min.js') }}" ></script>
-        
+        <script src="{{ asset('js/theme/fontawesome.js') }}" ></script>
         
         <script src="{{ asset('js/theme/flickity.pkgd.min.js') }}" ></script>
 

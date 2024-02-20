@@ -41,7 +41,7 @@
                             <meta itemprop="position" content="1">
                         </li>
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item">
-                            <a href="{{ url('engineering') }}" itemprop="item"><span itemprop="name">Kỹ thuật</span></a>
+                            <a href="{{ url('ky-thuat') }}" itemprop="item"><span itemprop="name">Kỹ thuật</span></a>
                             <meta itemprop="position" content="2">
                         </li>
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-end">

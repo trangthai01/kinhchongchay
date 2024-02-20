@@ -9,7 +9,7 @@
     <div class="banner-block parallex-700 parallex-white-700">
         <img src="{{ asset('images/web-company-profile-banner.jpg') }}" srcset="{{ asset('images/web-company-profile-banner.jpg') }} 1x" class="img-responsive" alt="">	
         <div class="banner-text">
-            <a href="{{ url('company/company-profile') }}" title="Company Profile">Hồ sơ công ty</a>
+            <a href="{{ url('ve-chung-toi/ho-so-cong-ty') }}" title="Company Profile">Hồ sơ công ty</a>
         </div>
     </div>
     <script>
@@ -29,7 +29,7 @@
                             <meta itemprop="position" content="1">
                         </li>
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item">
-                            <a href="{{url('/company')}}" itemprop="item"><span itemprop="name">Về chúng tôi</span></a>
+                            <a href="{{url('/ve-chung-toi')}}" itemprop="item"><span itemprop="name">Về chúng tôi</span></a>
                             <meta itemprop="position" content="2">
                         </li>
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-end">
@@ -66,7 +66,7 @@
                     </div>
                     <div class="row padding-both safe-text-block">
                         <div class="col-sm-6">
-                            <div class="text-holder">
+                            <div class="text-holder" style="padding-left: 5px">
                                 <h2>Ứng dụng công nghệ tiên tiến và Không ngừng học hỏi</h2>
                                 <p>Cùng với các chuyên gia tại trường Đại học PCCC nghiên cứu, đốt kiểm định thành công mẫu kính chống cháy, cách nhiệt (EI) đầu tiên tại Việt Nam.</p>
                                 <p>Hợp tác quốc tế về lĩnh vực kính chống cháy với các đối tác sản xuất kính chống cháy tại: Trung Quốc, Đức, Nhật Bản...</p>

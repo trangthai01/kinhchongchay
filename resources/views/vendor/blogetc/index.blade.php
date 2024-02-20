@@ -60,19 +60,19 @@
 			        <div class="row">
 	                    <div class="col-sm-3">
 		                    <div class="news-right">
-			                    <h3>Latest projects</h3>
+			                    <h3>Dự án mới</h3>
                                 <ul class="news-list news-list-image">
                                 @if(!empty($latestProjects))
                                     @foreach ($latestProjects as $latestProject)
                                     <li>
-                                        <a href="{{url('projects')}}" title="{{$latestProject -> project_name}}">
+                                        <a href="{{url('du-an')}}" title="{{$latestProject -> project_name}}">
                                             <img src="{{ asset('images/projects/' .  $latestProject -> image_thumbnail) }}" class="img-responsive" alt="{{$latestProject -> project_name}}">					
                                         </a>
                                     </li>
                                     @endforeach
                                 @endif
                                 </ul>
-                                <h3>Latest updates</h3>
+                                <h3>Tin mới</h3>
                                 <ul class="news-list">
                                 @if(!empty($latestPosts))
                                     @foreach ($latestPosts as $latestPost)

@@ -46,7 +46,6 @@
         <link href="{{ asset('css/theme/jquery.fancybox.min.css') }}" rel="stylesheet"/>
         <link href="{{ asset('css/theme/owl.carousel.css') }}" rel="stylesheet"/>
         <link href="{{ asset('css/theme/style.css') }}" rel="stylesheet"/>
-        <link href="{{ asset('css/theme/sumoselect.min.css') }}" rel="stylesheet"/>
         <link href="{{ asset('css/theme/flickity.css') }}" rel="stylesheet"/>
         <link href="{{ asset('rs-slider/css/settings.css') }}" rel="stylesheet"/>
         <link href="{{ asset('css/block-library/style.min.css') }}" rel="stylesheet"/>
@@ -64,7 +63,6 @@
         <script src="{{ asset('js/theme/jquery.fancybox.min.js') }}" ></script>
         <script src="{{ asset('js/theme/jquery.imagemapster.min.js') }}" ></script>
         <script src="{{ asset('js/theme/jquery.matchHeight.js') }}" ></script>
-        <script src="{{ asset('js/theme/jquery.sumoselect.min.js') }}" ></script>
         <script src="{{ asset('js/theme/owl.carousel.min.js') }}" ></script>
         <script src="{{ asset('js/theme/fontawesome.js') }}" ></script>
         

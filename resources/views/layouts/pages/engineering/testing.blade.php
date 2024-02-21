@@ -13,7 +13,7 @@
                 <img src="{{ asset('images/pages/testing-low.jpg') }}" srcset="{{ asset('images/pages/testing-low.jpg') }} 1x, {{ asset('images/pages/TESTING_MOBILE_3.jpg') }} 769w" class="img-responsive" alt="">			
                 <div class="system-main__mask valign-bottom">
                     <div class="text-holder">
-                        <h1></h1>
+                        <h1>Kiểm thử - Đốt mẫu</h1>
                     </div>
                 </div>
             </div>
@@ -52,11 +52,11 @@
 			<div class="row company-top padding-bottom">
 				<div class="col-sm-4 col-md-3">
 					<div class="info-title color-primary">
-						<h2>Testing</h2>				
+						<h2>Kiểm thử - Đốt mẫu</h2>				
 					</div>
 				</div>
 				<div class="col-sm-8 col-md-9 text-holder">
-					<p>Tecfire is a<strong> leading company in the design, testing and certification of fire-resistant, bullet-resistant and burglar-resistant glass protection solutions</strong>, developing and adapting our products to the technical and aesthetic requirements of each project. <strong>All our systems undergo rigorous tests</strong>: durability, fire, safety, ballistics, etc., which enable us to guarantee the most stringent technical performances on each project. Tecfire has its own R&amp;D&amp;i department dedicated exclusively to the design and certification of new products.</p>
+					<p>Vietfire Glass là<strong> công ty hàng đầu về thiết kế, thử nghiệm và chứng thực các giải pháp bảo vệ kính chống cháy</strong>, phát triển và điều chỉnh các sản phẩm phù hợp với yêu cầu kỹ thuật và thẩm mỹ của từng dự án.<br><strong>Tất cả các sản phẩm của chúng tôi đều trải qua các cuộc kiểm tra nghiêm ngặt</strong>: độ bền, khả năng chống cháy, an toàn, v.v., đảm bảo hiệu suất kỹ thuật nghiêm ngặt nhất cho từng dự án. Vietfire Glass có bộ phận R&amp;D riêng dành riêng cho việc thiết kế và thử nghiệm các sản phẩm mới.</p>
 				</div>
 			</div>
 		</div>
@@ -65,7 +65,7 @@
     	<div class="container-testing">
 			<div class="row">
 				<div class="col-sm-12">
-					<h2>Fire Rated Testing</h2>
+					<h2>Kiểm thử chống cháy</h2>
 				</div>
 				<div class="col-sm-12">
 					<div id="flipster1" class="flipster">
@@ -186,7 +186,7 @@
     	<div class="container-testing">
 			<div class="row">
 				<div class="col-sm-12">
-					<h2>Bullet Proof Testing</h2>
+					<h2>Kiểm thử chống đạn</h2>
 				</div>
 				<div class="col-sm-12">
 					<div id="flipster2" class="flipster">
@@ -241,7 +241,7 @@
     	<div class="container-testing">
         	<div class="row">
 				<div class="col-sm-12">
-					<h2>Burglar Proof Testing</h2>
+					<h2>Kiểm thử chống trộm</h2>
 				</div>
 				<div class="col-sm-12">
                     <div id="flipster3" class="flipster">

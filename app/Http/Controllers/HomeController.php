@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use WebDevEtc\BlogEtc\Services\PostsService;
+use App\Models\Certification;
 class HomeController extends Controller
 {
     /** @var PostsService */
@@ -76,7 +77,8 @@ class HomeController extends Controller
     }
 
     public function certificationsApprovals(){
-        return view('layouts.pages.engineering.certifications-approvals');
+        $certifications = Certification::all();
+        return view('layouts.pages.engineering.certifications-approvals',compact('certifications'));
     }
 
     public function engineeringVideos(){

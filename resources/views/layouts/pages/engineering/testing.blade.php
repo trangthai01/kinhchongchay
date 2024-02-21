@@ -74,20 +74,7 @@
 								<div class="slide-item">
 									<div class="custom-grid" >
 										<figure class="effect-architecture">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/TE-FIRE-1-CAROUSEL-MAIN-PIC_904_600-735x335.jpg" class="img-responsive" alt="">                                                
-											<figcaption>
-												<h2>Steelfire STB80</h2>
-												<p>Pivot Door System<br>EI90</p>
-											</figcaption>
-										</figure>
-									</div>
-								</div>
-							</li>
-							<li class="slide">
-								<div class="slide-item">
-									<div class="custom-grid" >
-										<figure class="effect-architecture">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/TE-FIRE-1-CAROUSEL-MAIN-PIC_904_600-735x335.jpg" class="img-responsive" alt="">                                                
+											<img src="{{asset('images/pages/testing/VFG-1-CAROUSEL-MAIN-PIC.jpg')}}" class="img-responsive" alt="">                                                
 											<figcaption>
 												<h2>Steelfire STB80</h2>
 												<p>Pivot Door System<br>EI90</p>
@@ -100,7 +87,7 @@
 								<div class="slide-item">
 									<div class="custom-grid">
 										<figure class="effect-architecture">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/TE-FIRE-3-CAROUSEL-MAIN-PIC_945_600-735x335.jpg" class="img-responsive" alt="">                                                
+											<img src="{{asset('images/pages/testing/VFG-2-CAROUSEL-MAIN-PIC.jpg')}}" class="img-responsive" alt="">                                                
 											<figcaption>
 												<h2>Alufire AS85</h2>
 												<p>Single Leaf Hinge Door System<br>EI60</p>
@@ -113,7 +100,7 @@
 								<div class="slide-item">
 									<div class="custom-grid">
 										<figure class="effect-architecture">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/TE-FIRE-4-CAROUSEL-MAIN-PIC_945_600-735x335.jpg" class="img-responsive" alt="">                                                
+											<img src="{{asset('images/pages/testing/VFG-3-CAROUSEL-MAIN-PIC.jpg')}}" class="img-responsive" alt="">                                                
 											<figcaption>
 												<h2>Alufire AS85</h2>
 												<p>Double Leaf Door System<br>EI60</p>
@@ -126,7 +113,7 @@
 								<div class="slide-item">
 									<div class="custom-grid">
 										<figure class="effect-architecture">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/TE-FIRE-5-CAROUSEL-MAIN-PIC_945_600-735x335.jpg" class="img-responsive" alt="">                                                
+											<img src="{{asset('images/pages/testing/VFG-4-CAROUSEL-MAIN-PIC.jpg')}}" class="img-responsive" alt="">                                                
 											<figcaption>
 												<h2>Alufire AS85</h2>
 												<p>Fixed Partition System<br>EI60</p>
@@ -139,7 +126,7 @@
 								<div class="slide-item">
 									<div class="custom-grid">
 										<figure class="effect-architecture">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/TE-FIRE-9-CAROUSEL-MAIN-PIC_900_600-735x335.jpg" class="img-responsive" alt="">                                                
+											<img src="{{asset('images/pages/testing/VFG-5-CAROUSEL-MAIN-PIC.jpg')}}" class="img-responsive" alt="">                                                
 											<figcaption>
 												<h2>Steelfire STB80</h2>
 												<p>Fixed Partition System<br>EI120 - NFPA</p>
@@ -152,7 +139,7 @@
 								<div class="slide-item">
 									<div class="custom-grid">
 										<figure class="effect-architecture">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/TE-FIRE-10-CAROUSEL-MAIN-PIC_945_600-735x335.jpg" class="img-responsive" alt="">                                                
+											<img src="{{asset('images/pages/testing/VFG-6-CAROUSEL-MAIN-PIC.jpg')}}" class="img-responsive" alt="">                                                
 											<figcaption>
 												<h2>Steelfire S50/70</h2>
 												<p>Fixed Partition System<br>EW120</p>
@@ -166,7 +153,7 @@
 								<div class="slide-item">
 									<div class="custom-grid">
                                         <figure class="effect-architecture">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/TE-FIRE-11-CAROUSEL-MAIN-PIC_945_600-735x335.jpg" class="img-responsive" alt="">                                                
+											<img src="{{asset('images/pages/testing/VFG-7-CAROUSEL-MAIN-PIC.jpg')}}" class="img-responsive" alt="">                                                
 											<figcaption>
 												<h2>Steelfire STB80</h2>
 												<p>Double Leaf Hinge Door System<br>EI90</p>

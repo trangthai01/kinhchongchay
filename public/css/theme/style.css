@@ -4011,7 +4011,7 @@ figure.effect-architecture:hover h2 {
 
 .section-certification-approvals {
   position: relative;
-  background: white url("../images/bg-certification.png") no-repeat 50% 6px;
+  background: white url("../../images/pages/bg-certification.png") no-repeat 50% 6px;
   padding: 10px 0 50px; }
   @media only screen and (max-width: 767px) {
     .section-certification-approvals {

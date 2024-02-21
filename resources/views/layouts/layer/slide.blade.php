@@ -11,7 +11,7 @@
 					<div class="tp-caption maincaption"
 						data-x="30"
 						data-y="center"
-						data-voffset="100"
+						data-voffset="-50"
 						data-speed="500"
 						data-start="500"
 						data-easing="Power3.easeInOut"
@@ -22,7 +22,7 @@
 					<div class="tp-caption"
 						data-x="30"
 						data-y="center"
-						data-voffset="250"
+						data-voffset="100"
 						data-speed="500"
 						data-start="500"
 						data-easing="Power3.easeInOut"
@@ -34,14 +34,14 @@
 					<div class="tp-caption sft customout"
 						data-x="30"
 						data-y="bottom"
-						data-voffset="-50"
+						data-voffset="-30"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
 						data-speed="1000"
 						data-start="1500"
 						data-easing="Back.easeOut"
 						data-endspeed="500"
 						data-captionhidden="on"
-						style="z-index: 7; width: 600px; height: 88px">
+						style="z-index: 7; width: 600px; height: auto">
 						<img src="{{asset('images/pages/home-banner-icons.png')}}" style="width: 100%">
 					</div>
 				</li>
@@ -202,14 +202,14 @@
 					<div class="tp-caption sft customout"
 						data-x="30"
 						data-y="bottom"
-						data-voffset="-50"
+						data-voffset="-30"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
 						data-speed="1000"
 						data-start="1500"
 						data-easing="Back.easeOut"
 						data-endspeed="500"
 						data-captionhidden="on"
-						style="z-index: 7; width: 600px; height: 88px">
+						style="z-index: 7; width: 600px; height: auto">
 						<img src="{{asset('images/pages/home-banner-icons.png')}}" style="width: 100%">
 					</div>
 				</li>
@@ -258,16 +258,17 @@
 
 					<!-- LAYER NR. 4 -->
 					<div class="tp-caption sft customout"
-						data-x="30"
+						data-x="right"
 						data-y="bottom"
-						data-voffset="-50"
+						data-hoffset="-30"
+						data-voffset="-30"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
 						data-speed="1000"
 						data-start="1500"
 						data-easing="Back.easeOut"
 						data-endspeed="500"
 						data-captionhidden="on"
-						style="z-index: 7; width: 600px; height: 88px">
+						style="z-index: 7; width: 600px; height: auto">
 						<img src="{{asset('images/pages/home-banner-icons.png')}}" style="width: 100%">
 					</div>
 				</li>
@@ -290,7 +291,7 @@
 					startwidth:1903,
 					startheight:952,
 					hideThumbs:10,
-					videoJsPath: "{{asset('js/videojs')}}"
+					videoJsPath: "{{asset('rs-slider/videojs/')}}"
 				});
 
 		});	//ready

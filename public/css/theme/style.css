@@ -148,7 +148,7 @@ a {
   position: relative;
   max-width: 185px;
   margin: 0 0 0 24px;
-  min-height: 190px
+  min-height: 100px
 }
 
 .new_arrival_sec .up-sells .image-wishlist {
@@ -572,10 +572,10 @@ a img.aligncenter {
     z-index: 2; }
   @media only screen and (max-width: 767px) {
     #header .navbar-toggle {
-      margin-top: -44px; } }
+      margin-top: -70px; } }
   @media only screen and (max-width: 479px) {
     #header .navbar-toggle {
-      margin-top: -44px; } }
+      margin-top: -70px; } }
   @media only screen and (max-width: 991px) {
     #header.sticky-header {
       padding: 20px 35px 20px; } }
@@ -634,7 +634,7 @@ header.header-white {
 }
 
 .logo-holder img {
-  width: 191px;
+  width: 150px;
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
   -ms-transition: all .3s ease;

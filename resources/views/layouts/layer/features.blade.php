@@ -38,7 +38,7 @@
                 </a>
             </div>
             <div class="col-sm-3 feature-list-holder">
-                <a href="{{ url('ky-thuat/certifications-approvals') }}" title="Chứng chỉ">
+                <a href="{{ url('ky-thuat/chung-chi') }}" title="Chứng chỉ">
                     <div class="feature-list">
                         <div class="image-holder">
                             <img src="{{ asset('images/pages/4-CERTIFICATIONS-APPROVALS-2-300x300.jpg') }}" class="img-responsive" alt="Chứng chỉ">                                
@@ -52,3 +52,4 @@
         </div>
     </div>
 </div>
+<script src="{{ asset('js/scripts.js') }}" ></script>

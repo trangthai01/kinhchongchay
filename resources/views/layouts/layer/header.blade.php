@@ -2,9 +2,8 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-3 logo-holder">
-	<a href="{{ url('/') }}" title="TECFIRE">
-        <img src="{{asset('images/Header-Logo.png')}}" class="img-responsive" id="logo_1" alt="TECFIRE">
-        <img src="{{asset('images/Header-Logo-2.png')}}" class="logo-secondary img-responsive" id="logo_2" alt="TECFIRE">	
+	<a href="{{ url('/') }}" title="Vietfire Glass">
+        <img src="{{asset('images/main_logo.png')}}" class="img-responsive" id="logo_1" alt="Vietfire Glass">
     </a>
 </div>
 <div class="col-sm-9 top-right">

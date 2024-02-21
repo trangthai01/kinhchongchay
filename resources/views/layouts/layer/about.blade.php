@@ -5,7 +5,7 @@
                 <div class="text-holder">
                     <h1>
                         <span>Kính chống cháy Việt</span>
-                        <img src="{{asset('images/Header-Logo-2.png')}}" class="img-responsive" alt="Home">                        
+                        <img src="{{asset('images/main_logo.png')}}" class="img-responsive" alt="Home">                        
                     </h1>
                     <div class="para-holder">
                         <p><strong>Kính chống cháy Việt tự hào là công ty tiên phong trong lĩnh vực sản xuất kính chống cháy tại Việt Nam. </strong>

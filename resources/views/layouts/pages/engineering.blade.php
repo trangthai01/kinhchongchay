@@ -5,14 +5,13 @@
 @section('javascript')
     <script src="{{ asset('js/theme/plyr.js') }}" ></script>
 	<script src="{{ asset('js/theme/retina.min.js') }}" ></script>
-	<script src="{{ asset('js/scripts.js') }}" ></script>
 @endsection
 
 @section('header-content')
     <section class="banner-block video-block">
-        <div tabindex="0" aria-label="TECFIRE - Corporate Video">
+        <div tabindex="0" aria-label="Vietfire Glass - Video Công ty">
             <div id="enginerring_player" class="company-video plyr__video-wrapper plyr__video-embed plyr--setup">
-                <iframe id="youtube-5042" frameborder="0" allowfullscreen="" allow="autoplay" title="Player for TECFIRE - Corporate Video" width="640" height="360" src="https://www.youtube.com/embed/MdELDO9wsPg?autoplay=1&controls=0&rel=0&showinfo=0&iv_load_policy=3&cc_load_policy=0&cc_lang_pref=en&wmode=transparent&modestbranding=1&disablekb=1&origin=https%3A%2F%2Ftecfires.com&enablejsapi=1&widgetid=1" data-gtm-yt-inspected-14="true" tabindex="-1"></iframe>
+                <iframe id="youtube-5042" frameborder="0" allowfullscreen="" allow="autoplay" title="Vietfire Glass - Video Công ty" width="640" height="360" src="https://www.youtube.com/embed/MdELDO9wsPg?autoplay=1&controls=0&rel=0&showinfo=0&iv_load_policy=3&cc_load_policy=0&cc_lang_pref=en&wmode=transparent&modestbranding=1&disablekb=1&origin=https%3A%2F%2Ftecfires.com&enablejsapi=1&widgetid=1" data-gtm-yt-inspected-14="true" tabindex="-1"></iframe>
             </div>
         </div>
     </section>
@@ -127,6 +126,5 @@
 			</div>
 		</div>
 	</main>
-    
+    <script src="{{ asset('js/scripts.js') }}" ></script>
 @endsection
-

@@ -7,7 +7,6 @@
 @section('javascript')
     <script src="{{ asset('js/slick/slick.js') }}" ></script>
     <script src="{{ asset('js/theme/retina.min.js') }}" ></script>
-    <script src="{{ asset('js/scripts.js') }}" ></script>
 @endsection
 @section('header-content')
     @include('layouts.layer.slide')

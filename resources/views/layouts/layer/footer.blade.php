@@ -26,8 +26,8 @@
                 <div class="col-sm-3 footer-list">
 	                <h3>Hệ thống</h3>
                     <ul id="menu-footer-menu-1" class="menu-footer-1">
-                        <li><a href="https://tecfires.com/systems/glass-bullet-protection/"><i class="fa fa-chevron-right" aria-hidden="true"></i> Hệ thống kính chống đạn</a></li>
-                        <li><a href="https://tecfires.com/systems/glass-burglar-protection/"><i class="fa fa-chevron-right" aria-hidden="true"></i> Hệ thống kính chống trộm</a></li>
+                        <li><a href="{{url('')}}"><i class="fa fa-chevron-right" aria-hidden="true"></i> Hệ thống kính chống đạn</a></li>
+                        <li><a href="{{url('')}}"><i class="fa fa-chevron-right" aria-hidden="true"></i> Hệ thống kính chống trộm</a></li>
                     </ul>
                     <div class="iso">
                         <img class="img-responsive" src="{{asset('images/pages/LR1-300x300.png')}}" alt="">

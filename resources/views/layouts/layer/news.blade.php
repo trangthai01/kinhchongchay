@@ -1,6 +1,6 @@
 
-<div class="boxhome">
-    <div class="wrapper">
+<div class="section section-features">
+    <div class="container">
         <div class="new_arrival_sec ">
             <h1>TIN TỨC</h1>
             <ul class="new_arrival_slider">
@@ -32,7 +32,7 @@ $latestNews = '{{ $latest_news }}';
     $(document).ready(function(){
         $(".new_arrival_slider").slick({
             infinite: true,
-            slidesToShow:3,
+            slidesToShow:5,
             slidesToScroll:1,
             arrows: true,
             dots: true,

@@ -171,7 +171,7 @@
                                 <li>
                     <a href="#" target="_blank" title="">
 
-                        <div class="link-holder">TECFIRE CATALOGUE</div>
+                        <div class="link-holder">CATALOGUE</div>
                     </a>
                 </li>
                             </ul>

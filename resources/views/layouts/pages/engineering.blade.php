@@ -112,12 +112,12 @@
 						<div class="feature-list feature-list__engineering">
 							<a href="{{ url('ky-thuat/videos') }}">
 								<div class="image-holder">
-									<img src="{{ asset('images/pages/4-1-720x720.jpg') }}" class="img-responsive" alt="Kỹ thuật">								
+									<img src="{{ asset('images/pages/4-1-720x720.jpg') }}" class="img-responsive" alt="Videos Kỹ thuật">								
 								</div>
 							</a>
 							<div class="text-holder">
-								<a href="{{ url('ky-thuat/videos') }}" title="Kỹ thuật">
-									<h3>Kỹ thuật</h3>								
+								<a href="{{ url('ky-thuat/videos') }}" title="Videos">
+									<h3>Videos</h3>								
 								</a>
 							</div>
 						</div>

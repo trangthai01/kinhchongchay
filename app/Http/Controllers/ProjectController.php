@@ -39,4 +39,5 @@ class ProjectController extends Controller
         }
         return view('layouts.pages.projects',compact('projects'));
     }
+
 }

@@ -1,4 +1,4 @@
-@extends('layouts.default',['title' => 'Hệ Cửa Trượt - '.config('app.fullname'), 'header_class' => 'header-white' ])
+@extends('layouts.default',['title' => 'Hệ Cửa Trượt - '.config('app.fullname'), 'header_class' => '' ])
 @section('css')
     
 @endsection
@@ -69,7 +69,7 @@
 				<div class="row"><div class="col-sm-5 door-gallery door-gallery-height">
 					<div class="sliding-door-holder border-all" style="padding: 20px;">
 						<div class="feat-image">
-							<img class="img-responsive img-center" src="{{ asset('images/pages/RENDER-sliding.jpg ') }}" alt="Hệ Cửa Trượt">					
+							<img class="img-responsive img-center" src="{{ asset('images/applications/RENDER-sliding.jpg ') }}" alt="Hệ Cửa Trượt">					
 							<div class="text-holder">Hệ Cửa Trượt <br>Thép chống cháy &amp; Thép không gỉ</div>				
 						</div>
 					</div>
@@ -147,95 +147,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="section section-gallery section-gallery-secondary">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="bg-title">
-						<h3>Thư viện ảnh</h3>
-					</div>
-					<div class="system-gallery">
-						<div class="col-sm-7">
-							<figure class="image-holder border-all">
-								<a class="system-gallery-s system-gallery-show-0 hide-system active" data-toggle="modal" data-type="p" data-index="0" data-show="0" href="#modal-engineering-projects">
-									<img src="https://tecfires.com/wp-content/uploads/2017/05/G-SD-STB80-pop-up-01-1-1210x1170.jpg" class="img-responsive" alt=""><figcaption>Haramain High-Speed Railway Station<br>King Abdullah Economic City  (Saudi Arabia)</figcaption>								
-								</a>
-								<a class="system-gallery-s system-gallery-show-1 hide-system" data-toggle="modal" data-type="p" data-index="1" data-show="1" href="#modal-engineering-projects">
-									<img src="https://tecfires.com/wp-content/uploads/2017/05/G-SD-STB80-pop-up-02-1-1210x1170.jpg" class="img-responsive" alt=""><figcaption>Haramain High-Speed Railway Station<br>King Abdullah Economic City  (Saudi Arabia)</figcaption>								
-								</a>
-								<a class="system-gallery-s system-gallery-show-2 hide-system" data-toggle="modal" data-type="p" data-index="2" data-show="2" href="#modal-engineering-projects">
-									<img src="https://tecfires.com/wp-content/uploads/2017/05/G-SD-STB80-pop-up-03-1210x1170.jpg" class="img-responsive" alt=""><figcaption>Office Complex<br>Switzerland</figcaption>								
-								</a>
-								<a class="system-gallery-s system-gallery-show-3 hide-system" data-toggle="modal" data-type="p" data-index="3" data-show="3" href="#modal-engineering-projects">
-									<img src="https://tecfires.com/wp-content/uploads/2017/05/G-SD-STB80-pop-up-05-1210x1170.jpg" class="img-responsive" alt=""><figcaption>Office Complex<br>Madrid (Spain)</figcaption>								
-								</a>
-							</figure>
-						</div>
-						<div class="col-sm-5">
-							<div class="border-title">
-								<h3>Dự án</h3>
-							</div>
-							<ul class="system-project-list list-projects">
-								<li>
-									<a href="#" onclick="return false;" data-number="0">
-										<img src="https://tecfires.com/wp-content/uploads/2017/05/G-SD-STB80-pop-up-01-1-320x320.jpg" class="img-responsive">										</a>
-									<span style="display: none;">Haramain High-Speed Railway Station <br>King Abdullah Economic City  (Saudi Arabia)</span>									</li>
-																<li>
-									<a href="#" onclick="return false;" data-number="1">
-										<img src="https://tecfires.com/wp-content/uploads/2017/05/G-SD-STB80-pop-up-02-1-320x320.jpg" class="img-responsive">										</a>
-									<span style="display: none;">Haramain High-Speed Railway Station <br>King Abdullah Economic City  (Saudi Arabia)</span>									</li>
-																<li>
-									<a href="#" onclick="return false;" data-number="2">
-										<img src="https://tecfires.com/wp-content/uploads/2017/05/G-SD-STB80-pop-up-03-320x320.jpg" class="img-responsive">										</a>
-									<span style="display: none;">Office Complex <br>Switzerland</span>									</li>
-																<li>
-									<a href="#" onclick="return false;" data-number="3">
-										<img src="https://tecfires.com/wp-content/uploads/2017/05/G-SD-STB80-pop-up-05-320x320.jpg" class="img-responsive">										</a>
-									<span style="display: none;">Office Complex <br>Madrid (Spain)</span>									</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-<div class="modal fade modal-custom-white" id="modal-engineering-projects">
-	<div class="modal-dialog container">
-		<div class="modal-content">
-			<div class="modal-body row">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-				<div class="modal-image-gallery all-gallery col-sm-12">
-					<div class="systemModal-carousel p-carousel" style="min-height: 635px;">
-													<div class="item-list carousel-cell">
-								<div class="text-holder col-sm-12">
-									<strong>Haramain High-Speed Railway Station</strong>King Abdullah Economic City  (Saudi Arabia)								</div>
-																	<div class="image-holder">
-										<img src="https://tecfires.com/wp-content/uploads/2017/05/G-SD-STB80-pop-up-01-1-1140x635.jpg" class="img-responsive" alt="">									</div>
-															</div>
-													<div class="item-list carousel-cell">
-								<div class="text-holder col-sm-12">
-									<strong>Haramain High-Speed Railway Station</strong>King Abdullah Economic City  (Saudi Arabia)								</div>
-																	<div class="image-holder">
-										<img src="https://tecfires.com/wp-content/uploads/2017/05/G-SD-STB80-pop-up-02-1-1140x635.jpg" class="img-responsive" alt="">									</div>
-															</div>
-													<div class="item-list carousel-cell">
-								<div class="text-holder col-sm-12">
-									<strong>Office Complex</strong>Switzerland								</div>
-																	<div class="image-holder">
-										<img src="https://tecfires.com/wp-content/uploads/2017/05/G-SD-STB80-pop-up-03-1140x635.jpg" class="img-responsive" alt="">									</div>
-															</div>
-													<div class="item-list carousel-cell">
-								<div class="text-holder col-sm-12">
-									<strong>Office Complex</strong>Madrid (Spain)								</div>
-																	<div class="image-holder">
-										<img src="https://tecfires.com/wp-content/uploads/2017/05/G-SD-STB80-pop-up-05-1140x635.jpg" class="img-responsive" alt="">									</div>
-															</div>
-											</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-			</main>
+	@include('layouts.pages.engineering.applications.applications-gallery')
+	</main>
 
 @endsection

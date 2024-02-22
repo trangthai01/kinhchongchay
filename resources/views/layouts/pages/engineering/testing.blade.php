@@ -77,7 +77,7 @@
 											<img src="{{asset('images/pages/testing/VFG-1-CAROUSEL-MAIN-PIC.jpg')}}" class="img-responsive" alt="">                                                
 											<figcaption>
 												<h2>Steelfire STB80</h2>
-												<p>Pivot Door System<br>EI90</p>
+												<p>Hệ cửa đẩy<br>EI90</p>
 											</figcaption>
 										</figure>
 									</div>
@@ -90,7 +90,7 @@
 											<img src="{{asset('images/pages/testing/VFG-2-CAROUSEL-MAIN-PIC.jpg')}}" class="img-responsive" alt="">                                                
 											<figcaption>
 												<h2>Alufire AS85</h2>
-												<p>Single Leaf Hinge Door System<br>EI60</p>
+												<p>Hệ Cửa Bản Lề Đơn<br>EI60</p>
 											</figcaption>
 										</figure>
 									</div>
@@ -103,7 +103,7 @@
 											<img src="{{asset('images/pages/testing/VFG-3-CAROUSEL-MAIN-PIC.jpg')}}" class="img-responsive" alt="">                                                
 											<figcaption>
 												<h2>Alufire AS85</h2>
-												<p>Double Leaf Door System<br>EI60</p>
+												<p>Hệ Cửa Bàn Lề Đôi<br>EI60</p>
 											</figcaption>
 										</figure>
 									</div>
@@ -116,7 +116,7 @@
 											<img src="{{asset('images/pages/testing/VFG-4-CAROUSEL-MAIN-PIC.jpg')}}" class="img-responsive" alt="">                                                
 											<figcaption>
 												<h2>Alufire AS85</h2>
-												<p>Fixed Partition System<br>EI60</p>
+												<p>Hệ Thống Phân Vùng Cố Định<br>EI60</p>
 											</figcaption>
 										</figure>
 									</div>
@@ -129,7 +129,7 @@
 											<img src="{{asset('images/pages/testing/VFG-5-CAROUSEL-MAIN-PIC.jpg')}}" class="img-responsive" alt="">                                                
 											<figcaption>
 												<h2>Steelfire STB80</h2>
-												<p>Fixed Partition System<br>EI120 - NFPA</p>
+												<p>Hệ Thống Phân Vùng Cố Định<br>EI120 - NFPA</p>
 											</figcaption>
 										</figure>
 									</div>
@@ -142,7 +142,7 @@
 											<img src="{{asset('images/pages/testing/VFG-6-CAROUSEL-MAIN-PIC.jpg')}}" class="img-responsive" alt="">                                                
 											<figcaption>
 												<h2>Steelfire S50/70</h2>
-												<p>Fixed Partition System<br>EW120</p>
+												<p>Hệ Thống Phân Vùng Cố Định<br>EW120</p>
 											</figcaption>
 											
 										</figure>
@@ -156,123 +156,13 @@
 											<img src="{{asset('images/pages/testing/VFG-7-CAROUSEL-MAIN-PIC.jpg')}}" class="img-responsive" alt="">                                                
 											<figcaption>
 												<h2>Steelfire STB80</h2>
-												<p>Double Leaf Hinge Door System<br>EI90</p>
+												<p>Hệ Cửa Bàn Lề Đôi<br>EI90</p>
 											</figcaption>
                                         </figure>
                                     </div>
 								</div>
 							</li>
 						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="section section-testing">
-    	<div class="container-testing">
-			<div class="row">
-				<div class="col-sm-12">
-					<h2>Kiểm thử chống đạn</h2>
-				</div>
-				<div class="col-sm-12">
-					<div id="flipster2" class="flipster">
-						<ul class="flipster__container">
-							<li class="slide">
-								<div class="slide-item">
-									<div class="custom-grid" >
-										<figure class="effect-architecture">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/TE-BULLET-1-MAIN-PIC_976_600-735x335.jpg" class="img-responsive" alt="">                                                
-											<figcaption>
-												<h2>Tecguard FB3</h2>
-												<p>Steelfire S50/70<br>Fixed Partition System</p>
-											</figcaption>
-										</figure>
-									</div>
-								</div>
-							</li>
-							<li class="slide">
-								<div class="slide-item">
-									<div class="custom-grid" >
-										<figure class="effect-architecture">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/TE-BULLET-2-01_1140_507-735x335.jpg" class="img-responsive" alt="">                                                
-											<figcaption>
-												<h2>Tecguard FB4</h2>
-												<p>Steelfire STB80<br>Fixed Partition System</p>
-											</figcaption>
-										</figure>
-									</div>
-								</div>
-							</li>
-							<li class="slide">
-								<div class="slide-item">
-									<div class="custom-grid">
-										<figure class="effect-architecture">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/TE-BULLET-3-01_1140_507-735x335.jpg" class="img-responsive" alt="">                                                
-											<figcaption>
-												<h2>Tecguard FB4</h2>
-												<p>Steelfire STB80<br>Hinge Door System</p>
-											</figcaption>
-										</figure>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="section section-testing">
-    	<div class="container-testing">
-        	<div class="row">
-				<div class="col-sm-12">
-					<h2>Kiểm thử chống trộm</h2>
-				</div>
-				<div class="col-sm-12">
-                    <div id="flipster3" class="flipster">
-                        <ul class="flipster__container">
-							<li class="slide">
-								<div class="slide-item">
-									<div class="custom-grid" >
-										<figure class="effect-architecture">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/TE-BURGLAR-1-MAIN-PIC_900_600-735x335.jpg" class="img-responsive" alt="">                                                
-											<figcaption>
-												<h2>Tecguard RC2</h2>
-												<p>Manual Attack<br>Pivot Door System (STB80)</p>
-											</figcaption>
-										</figure>
-									</div>
-								</div>
-							</li>
-							<li class="slide">
-								<div class="slide-item">
-									<div class="custom-grid" >
-										<figure class="effect-architecture">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/TE-BURGLAR-2-MAIN_900_600-735x335.jpg" class="img-responsive" alt="">                                                
-											<figcaption>
-												<h2>Tecguard RC2</h2>
-												<p>Static Force<br>Pivot Door System (STB80)</p>
-											</figcaption>
-										</figure>
-									</div>
-								</div>
-							</li>
-							<li class="slide">
-								<div class="slide-item">
-									<div class="custom-grid" >
-										<figure class="effect-architecture">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/TE-BURGLAR-3-CAROUSEL-MAIN-PIC_938_600-735x335.jpg" class="img-responsive" alt="">                                                
-											<figcaption>
-												<h2>Tecguard RC2</h2>
-												<p>Dynamic Force<br>Pivot Door System (STB80) </p>
-											</figcaption>
-										</figure>
-									</div>
-								</div>
-							</li>
-                        </ul>
 					</div>
 				</div>
 			</div>

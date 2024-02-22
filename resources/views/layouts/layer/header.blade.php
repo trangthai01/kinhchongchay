@@ -27,7 +27,7 @@
                         <li id="menu-item-home" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-49 current_page_item"><a href="{{ url('/') }}" aria-current="page">Home</a></li>
                         <li id="menu-item-company" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ url('ve-chung-toi') }}">Về chúng tôi</a></li>
                         <li id="menu-item-products" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ url('san-pham') }}">Sản Phẩm</a></li>
-                        <li id="menu-item-downloads" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ url('downloads') }}">Downloads</a></li>
+                        <li id="menu-item-downloads" class="menu-item menu-item-type-post_type menu-item-object-page" style="display:none"><a href="{{ url('downloads') }}">Downloads</a></li>
                         <li id="menu-item-projects" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ url('du-an') }}">Dự án</a></li>
                         <li id="menu-item-engineering" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ url('ky-thuat') }}">Kỹ thuật</a></li>
                         <li id="menu-item-news" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{url('tin-tuc')}}">Tin tức</a></li>

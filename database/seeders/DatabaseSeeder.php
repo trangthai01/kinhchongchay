@@ -13,6 +13,15 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+		DB::table('users')->insert([
+            [
+                'name' => 'Admin',
+                'email' => 'trangthai01@gmail.com',
+                'password' => bcrypt('muaxuan@2'),
+                'is_admin' => true
+            ]
+        ]);
+
         //table Projects
         DB::table('projects')->insert([
             [
@@ -136,5 +145,53 @@ class DatabaseSeeder extends Seeder
                 'slug' => 'project-20230005'
             ]
         ]);
+
+		//table Applications
+        DB::table('applications')->insert([
+            [
+				'name'=>'Hệ Cửa Đẩy', 
+				'meta_desc' => '',       
+                'use_yn'=>true, 
+			],
+			[
+				'name'=>'Hệ Cửa Trượt', 
+				'meta_desc' => '',       
+                'use_yn'=>true, 
+			],
+			[
+				'name'=>'Hệ Vách Kính', 
+				'meta_desc' => '',       
+                'use_yn'=>true, 
+			]
+			
+		]);
+
+		//table Certification
+        DB::table('certifications')->insert([
+			[
+				'name'=>'Thomas Bell Wright', 
+				'meta_desc' => 'Fire-Resistance tests development and execution Laboratory.',
+				'image' => 'Lab-1-TB.jpg',
+				'image_thumbnail' => 'Lab-1-TB-thumbnail.jpg',
+			],
+			[
+				'name'=>'Applus', 
+				'meta_desc' => 'Fire-Resistance tests development and execution Laboratory.',
+				'image' => 'Lab-2-applus.jpg',
+				'image_thumbnail' => 'Lab-2-applus-thumbnail.jpg',
+			],
+			[
+				'name'=>'Aitex', 
+				'meta_desc' => 'Bullet-Resistance tests development and execution Laboratory.',
+				'image' => 'Lab-3-Aitex.jpg',
+				'image_thumbnail' => 'Lab-3-Aitex-thumbnail.jpg',
+			],
+			[
+				'name'=>'Giordano', 
+				'meta_desc' => 'Burglar-Resistance tests development and execution Laboratory.',
+				'image' => 'Lab-4-giordano.jpg',
+				'image_thumbnail' => 'Lab-4-giordano-thumbnail.jpg',
+			],
+		]);
     }
 }

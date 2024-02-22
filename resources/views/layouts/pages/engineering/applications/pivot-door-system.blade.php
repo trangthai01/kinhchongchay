@@ -1,4 +1,4 @@
-@extends('layouts.default',['title' => 'Hệ Cửa Đẩy - '.config('app.fullname'), 'header_class' => 'header-white' ])
+@extends('layouts.default',['title' => 'Hệ Cửa Đẩy - '.config('app.fullname'), 'header_class' => '' ])
 @section('css')
     
 @endsection
@@ -72,24 +72,24 @@
 						<div class="sliding-door-holder border-all">
 							<div class="slidingDoor-carousel all-gallery">
 								<div class="carousel-cell">
-									<img src="{{ asset('images/pages/SP-PD-1-Copy.jpg')}}" class="img-responsive" alt="">					
+									<img src="{{ asset('images/applications/SP-PD-1-Copy.jpg')}}" class="img-responsive" alt="">					
 									<div class="text-holder" style="display: none;">Thép chống cháy &amp; Thép không gỉ<br>Hệ thống cửa xoay</div>				
 								</div>
 								<div class="carousel-cell">
-									<img src="{{ asset('images/pages/pivot2.png')}}" class="img-responsive" alt="">					
+									<img src="{{ asset('images/applications/pivot2.png')}}" class="img-responsive" alt="">					
 									<div class="text-holder" style="display: none;">Thép chống trộm &amp; Thép không gỉ<br>Hệ thống cửa xoay</div>				
 								</div>
 								<div class="carousel-cell">
-									<img src="{{ asset('images/pages/PIVOT-RENDER-3-LOW.jpg')}}" class="img-responsive" alt="">					
+									<img src="{{ asset('images/applications/PIVOT-RENDER-3-LOW.jpg')}}" class="img-responsive" alt="">					
 									<div class="text-holder" style="display: none;">Hệ thống cửa xoay<br> đa dạng kích thước</div>				
 								</div>
 								<div class="carousel-cell">
-									<img src="{{ asset('images/pages/pivot4.jpg')}}" class="img-responsive" alt="">					
+									<img src="{{ asset('images/applications/pivot4.jpg')}}" class="img-responsive" alt="">					
 									<div class="text-holder" style="display: none;">Chi tiết <br>hệ cửa đẩy<br>
 									</div>				
 								</div>
 								<div class="carousel-cell">
-									<img src="{{ asset('images/pages/pivot5.jpg')}}" class="img-responsive" alt="">					
+									<img src="{{ asset('images/applications/pivot5.jpg')}}" class="img-responsive" alt="">					
 									<div class="text-holder" style="display: none;">Chi tiết <br>hệ cửa đẩy<br></div>				
 								</div>
 							</div>
@@ -143,186 +143,53 @@
 										</div>
 									</div>
 								</div>
+								<div role="tabpanel" class="tab-pane" id="technical">
+									<div class="tabs-text">
+										<div class="col-sm-12 no-ltr-padding">
+											<ul class="pdf-icon-list">
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div role="tabpanel" class="tab-pane" id="brochures">
+									<div class="tabs-text">
+										<div class="col-sm-12 no-ltr-padding">
+											<ul class="pdf-icon-list">
+												<li>
+													<a href="#" target="_blank" title="">
+														<div class="link-holder">CATALOGUE</div>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="section section-gallery section-gallery-secondary">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="bg-title">
-							<h3>Thư viện ảnh</h3>
-						</div>
-							<div class="system-gallery">
-								<div class="col-sm-7">
-									<figure class="image-holder border-all">
-										<a class="system-gallery-s system-gallery-show-0 hide-system active" data-toggle="modal" data-type="p" data-index="0" data-show="0" href="#modal-engineering-projects">
-									<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-GPD-pop-up-01-1210x1170.jpg" class="img-responsive" alt=""><figcaption>Louvre Museum<br>Abu Dhabi  (United arab Emirates)</figcaption>								</a>
-															<a class="system-gallery-s system-gallery-show-1 hide-system" data-toggle="modal" data-type="p" data-index="1" data-show="1" href="#modal-engineering-projects">
-									<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-GPD-pop-up-02-1210x1170.jpg" class="img-responsive" alt=""><figcaption>Doha Oasis<br>Doha (Qatar)</figcaption>								</a>
-															<a class="system-gallery-s system-gallery-show-2 hide-system" data-toggle="modal" data-type="p" data-index="2" data-show="2" href="#modal-engineering-projects">
-									<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-GPD-pop-up-03-1210x1170.jpg" class="img-responsive" alt=""><figcaption>Louvre Museum<br>Abu Dhabi  (United arab Emirates)</figcaption>								</a>
-															<a class="system-gallery-s system-gallery-show-3 hide-system" data-toggle="modal" data-type="p" data-index="3" data-show="3" href="#modal-engineering-projects">
-									<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-GPD-pop-up-04-1210x1170.jpg" class="img-responsive" alt=""><figcaption>Burglar Proof System: Laboratory Installation<br>Bellaria (Italy)</figcaption>								</a>
-															<a class="system-gallery-s system-gallery-show-4 hide-system" data-toggle="modal" data-type="t" data-index="0" data-show="4" href="#modal-engineering-testing">
-									<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-01-1210x1170.jpg" class="img-responsive" alt=""><figcaption>Steelfire STB80 EI - Pivot Door System<br>Fire Rated Testing</figcaption>								</a>
-															<a class="system-gallery-s system-gallery-show-5 hide-system" data-toggle="modal" data-type="t" data-index="1" data-show="5" href="#modal-engineering-testing">
-									<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-02-1210x1170.jpg" class="img-responsive" alt=""><figcaption>Steelfire STB80 EI - Pivot Door System<br>Fire Rated Testing</figcaption>								</a>
-															<a class="system-gallery-s system-gallery-show-6 hide-system" data-toggle="modal" data-type="t" data-index="2" data-show="6" href="#modal-engineering-testing">
-									<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-03-1210x1170.jpg" class="img-responsive" alt=""><figcaption>Tecguard RC2 - Dinamic Force - Pivot Door System (STB80)<br>Burglar Proof Testing</figcaption>								</a>
-															<a class="system-gallery-s system-gallery-show-7 hide-system" data-toggle="modal" data-type="t" data-index="3" data-show="7" href="#modal-engineering-testing">
-									<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-04-1210x1170.jpg" class="img-responsive" alt=""><figcaption>Tecguard RC2 - Manual Attack - Pivot Door System (STB80)<br>Burglar Proof Testing</figcaption>								</a>
-															<a class="system-gallery-s system-gallery-show-8 hide-system" data-toggle="modal" data-type="t" data-index="4" data-show="8" href="#modal-engineering-testing">
-									<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-05-1210x1170.jpg" class="img-responsive" alt=""><figcaption>Tecguard RC2 - Manual Attack - Pivot Door System (STB80)<br>Burglar Proof Testing</figcaption>								</a>
-															<a class="system-gallery-s system-gallery-show-9 hide-system" data-toggle="modal" data-type="t" data-index="5" data-show="9" href="#modal-engineering-testing">
-									<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-06-1210x1170.jpg" class="img-responsive" alt=""><figcaption>Tecguard RC2 - Static Force - Pivot Door System (STB80)<br>Burglar Proof Testing</figcaption>								</a>
-													</figure>
-					</div>
-					<div class="col-sm-5">
-													<div class="border-title">
-								<h3>Dự án</h3>
-							</div>
-							<ul class="system-project-list list-projects">
-																	<li>
-										<a href="#" onclick="return false;" data-number="0">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-GPD-pop-up-01-320x320.jpg" class="img-responsive">										</a>
-										<span style="display: none;">Louvre Museum <br>Abu Dhabi  (United arab Emirates)</span>									</li>
-																	<li>
-										<a href="#" onclick="return false;" data-number="1">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-GPD-pop-up-02-320x320.jpg" class="img-responsive">										</a>
-										<span style="display: none;">Doha Oasis <br>Doha (Qatar)</span>									</li>
-																	<li>
-										<a href="#" onclick="return false;" data-number="2">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-GPD-pop-up-03-320x320.jpg" class="img-responsive">										</a>
-										<span style="display: none;">Louvre Museum <br>Abu Dhabi  (United arab Emirates)</span>									</li>
-																	<li>
-										<a href="#" onclick="return false;" data-number="3">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-GPD-pop-up-04-320x320.jpg" class="img-responsive">										</a>
-										<span style="display: none;">Burglar Proof System: Laboratory Installation <br>Bellaria (Italy)</span>									</li>
-															</ul>
-													<div class="border-title">
-								<h3>Kiểm thử</h3>
-							</div>
-							<ul class="system-project-list list-testing">
-																	<li>
-										<a href="#" onclick="return false;" data-number="4">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-01-320x320.jpg" class="img-responsive">										</a>
-										<span style="display: none;">Steelfire STB80 EI - Hệ thống cửa xoay <br>Thử nghiệm khả năng chống cháy</span>									</li>
-																	<li>
-										<a href="#" onclick="return false;" data-number="5">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-02-320x320.jpg" class="img-responsive">										</a>
-										<span style="display: none;">Steelfire STB80 EI - Hệ thống cửa xoay <br>Thử nghiệm khả năng chống cháy</span>									</li>
-																	<li>
-										<a href="#" onclick="return false;" data-number="6">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-03-320x320.jpg" class="img-responsive">										</a>
-										<span style="display: none;">Tecguard RC2 - Dinamic Force - Hệ thống cửa xoay (STB80) <br>Kiểm tra chống trộm</span>									</li>
-																	<li>
-										<a href="#" onclick="return false;" data-number="7">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-04-320x320.jpg" class="img-responsive">										</a>
-										<span style="display: none;">Tecguard RC2 - Dinamic Force - Hệ thống cửa xoay (STB80) <br>Kiểm tra chống trộm</span>									</li>
-																	<li>
-										<a href="#" onclick="return false;" data-number="8">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-05-320x320.jpg" class="img-responsive">										</a>
-										<span style="display: none;">Tecguard RC2 - Dinamic Force - Hệ thống cửa xoay (STB80) <br>Kiểm tra chống trộm</span>									</li>
-																	<li>
-										<a href="#" onclick="return false;" data-number="9">
-											<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-06-320x320.jpg" class="img-responsive">										</a>
-										<span style="display: none;">Tecguard RC2 - Dinamic Force - Hệ thống cửa xoay (STB80) <br>Kiểm tra chống trộm</span>									</li>
-															</ul>
-											</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="modal fade modal-custom-white" id="modal-engineering-projects">
-	<div class="modal-dialog container">
-		<div class="modal-content">
-			<div class="modal-body row">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-				<div class="modal-image-gallery all-gallery col-sm-12">
-					<div class="systemModal-carousel p-carousel" style="min-height: 635px;">
-													<div class="item-list carousel-cell">
-								<div class="text-holder col-sm-12">
-									<strong>Louvre Museum</strong>Abu Dhabi  (United arab Emirates)								</div>
-																	<div class="image-holder">
-										<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-GPD-pop-up-01-1140x635.jpg" class="img-responsive" alt="">									</div>
-															</div>
-													<div class="item-list carousel-cell">
-								<div class="text-holder col-sm-12">
-									<strong>Doha Oasis</strong>Doha (Qatar)								</div>
-																	<div class="image-holder">
-										<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-GPD-pop-up-02-1140x635.jpg" class="img-responsive" alt="">									</div>
-															</div>
-													<div class="item-list carousel-cell">
-								<div class="text-holder col-sm-12">
-									<strong>Louvre Museum</strong>Abu Dhabi  (United arab Emirates)								</div>
-																	<div class="image-holder">
-										<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-GPD-pop-up-03-1140x635.jpg" class="img-responsive" alt="">									</div>
-															</div>
-													<div class="item-list carousel-cell">
-								<div class="text-holder col-sm-12">
-									<strong>Burglar Proof System: Laboratory Installation</strong>Bellaria (Italy)								</div>
-																	<div class="image-holder">
-										<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-GPD-pop-up-04-1140x635.jpg" class="img-responsive" alt="">									</div>
-															</div>
-											</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="modal fade modal-custom-white" id="modal-engineering-testing">
-	<div class="modal-dialog container">
-		<div class="modal-content">
-			<div class="modal-body row">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-				<div class="modal-image-gallery all-gallery col-sm-12">
-					<div class="systemModal-carousel t-carousel" style="min-height: 635px;">
-													<div class="item-list carousel-cell">
-								<div class="text-holder col-sm-12">
-									<strong>Steelfire STB80 EI - Pivot Door System</strong>Fire Rated Testing								</div>
-																	<div class="image-holder">
-										<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-01-1140x635.jpg" class="img-responsive" alt="">									</div>
-															</div>
-													<div class="item-list carousel-cell">
-								<div class="text-holder col-sm-12">
-									<strong>Steelfire STB80 EI - Pivot Door System</strong>Fire Rated Testing								</div>
-																	<div class="image-holder">
-										<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-02-1140x635.jpg" class="img-responsive" alt="">									</div>
-															</div>
-													<div class="item-list carousel-cell">
-								<div class="text-holder col-sm-12">
-									<strong>Tecguard RC2 - Dinamic Force - Pivot Door System (STB80)</strong>Burglar Proof Testing								</div>
-																	<div class="image-holder">
-										<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-03-1140x635.jpg" class="img-responsive" alt="">									</div>
-															</div>
-													<div class="item-list carousel-cell">
-								<div class="text-holder col-sm-12">
-									<strong>Tecguard RC2 - Manual Attack - Pivot Door System (STB80)</strong>Burglar Proof Testing								</div>
-																	<div class="image-holder">
-										<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-04-1140x635.jpg" class="img-responsive" alt="">									</div>
-															</div>
-													<div class="item-list carousel-cell">
-								<div class="text-holder col-sm-12">
-									<strong>Tecguard RC2 - Manual Attack - Pivot Door System (STB80)</strong>Burglar Proof Testing								</div>
-																	<div class="image-holder">
-										<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-05-1140x635.jpg" class="img-responsive" alt="">									</div>
-															</div>
-													<div class="item-list carousel-cell">
-								<div class="text-holder col-sm-12">
-									<strong>Tecguard RC2 - Static Force - Pivot Door System (STB80)</strong>Burglar Proof Testing								</div>
-																	<div class="image-holder">
-										<img src="https://tecfires.com/wp-content/uploads/2017/05/AP-TG-PD-popup-06-1140x635.jpg" class="img-responsive" alt="">									</div>
-															</div>
-											</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-			</main>
+		<script>
+			var sf = $('.slidingDoor-carousel').flickity({
+				contain: true,
+				autoPlay: false,
+				pageDots: false,
+				imagesLoaded: true,
+				prevNextButtons: true,
+			}).flickity('select', 0);
+
+			var cellcap = $('#cell-cap');
+			var flkty = sf.data('flickity');
+
+			sf.on( 'select.flickity', function() {
+				var elm = $(flkty.selectedElement);
+				var caption = elm.children('.text-holder').html();
+				cellcap.hide().html(caption).fadeIn(300);
+			});
+
+			sf.flickity('resize');
+		</script>
+		@include('layouts.pages.engineering.applications.applications-gallery')
+	</main>
 @endsection

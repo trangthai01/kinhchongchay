@@ -217,30 +217,6 @@
 
     tf_system_gallery_customization();
 
-    // ---
-    function tf_engineering_application_slider() {
-        var sf = $('.slidingDoor-carousel').flickity({
-            contain: true,
-            autoPlay: false,
-            pageDots: false,
-            imagesLoaded: true,
-            prevNextButtons: true,
-        }).flickity('select', 0);
-
-        var cellcap = $('#cell-cap');
-        var flkty = sf.data('flickity');
-
-        sf.on( 'select.flickity', function() {
-            var elm = $(flkty.selectedElement);
-            var caption = elm.children('.text-holder').html();
-            cellcap.hide().html(caption).fadeIn(300);
-        });
-
-        sf.flickity('resize');
-    }
-
-    tf_engineering_application_slider();
-
     // script for retina image
     retinajs();
 

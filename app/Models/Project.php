@@ -12,6 +12,7 @@ class Project extends Model
     protected $fillable = [
         'project_id', 
         'project_name', 
+        'location',
         'image',
         'image_oth_1', 
         'image_oth_2',
@@ -64,22 +65,22 @@ class Project extends Model
         return 'slug';
     }
 
-    public function image_tag($size = 'medium',
+    public function image_tag($col, $size,
         $addAHref = true,
         $imgTagClass = null,
         $anchorTagClass = null)
     {
-        return $this->imageTag($size, $addAHref, $imgTagClass, $anchorTagClass);
+        return $this->imageTag($col, $size, $addAHref, $imgTagClass, $anchorTagClass);
     }
 
     public function imageTag(
-        $size = 'medium',
+        $col, $size,
         $addAHref = true,
         $imgTagClass = null,
         $anchorTagClass = null
     ) {
 
-        $imageUrl = e($this->imageUrl($size));
+        $imageUrl = e($this->imageUrl($col, $size));
         $imageAltText = e($this->product_name);
         $imgTag = '<img src="'.$imageUrl.'" alt="'.$imageAltText.'" class="'.e($imgTagClass).'">';
 
@@ -88,10 +89,22 @@ class Project extends Model
             : $imgTag;
     }
 
-    public function imageUrl($size = 'medium'): string
+    public function imageUrl($col, $size): string
     {
-        $filename = $this->{'image_'.$size};
+        $filename = $this->{$col};
+        if($size != null){
+            $filename = $this->{$col.'_'.$size};
+        }
         return asset('images/projects/'.$filename);
+    }
+
+    public function imageAppUrl($col, $size): string
+    {
+        $filename = $this->pivot->{$col};
+        if($size != null){
+            $filename = $this->pivot->{$col.'_'.$size};
+        }
+        return asset('images/projects/applications/'.$filename);
     }
 
     public function edit_url(): string

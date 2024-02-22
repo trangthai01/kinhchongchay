@@ -2245,10 +2245,7 @@ h3 {
     .section-cta .text-holder p {
       margin-bottom: 15px; } }
 
-.section-cta .company-top p {
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 24px; }
+.section-cta .company-top p { }
 
 @media only screen and (max-width: 767px) {
   .section-cta .safe-text-block {
@@ -2258,10 +2255,6 @@ h3 {
 @media only screen and (max-width: 767px) {
   .section-cta .safe-text-block .video-holder {
     margin-bottom: 30px; } }
-
-.section-cta__engineering .company-top p {
-  font-size: 14px;
-  font-size: 0.875rem; }
 
 .section-company-category .text-holder h2 {
   margin: 0 0 14px; }
@@ -3349,7 +3342,7 @@ h3 {
 
 .sliding-door-holder {
   position: relative;
-  padding: 50px !important;
+  padding: 10px !important;
   overflow: hidden; }
   @media only screen and (min-width: 768px) and (max-width: 1199px) {
     .sliding-door-holder {
@@ -3396,7 +3389,6 @@ h3 {
         line-height: 18px; } }
 
 .slidingDoor-carousel {
-  margin: -50px;
   position: static; }
   .slidingDoor-carousel .carousel-cell {
     width: 100%;
@@ -3413,10 +3405,7 @@ h3 {
   .slidingDoor-carousel .flickity-prev-next-button {
     -webkit-transform: translate(0);
     -ms-transform: translate(0);
-    transform: translate(0);
-    bottom: 0;
-    top: auto;
-    left: 0; }
+    transform: translate(0); }
     .slidingDoor-carousel .flickity-prev-next-button.next {
       left: auto;
       right: 0; }
@@ -5095,10 +5084,6 @@ ul.trail-items .trail-item {
 	text-align: center;
 	max-width: 395px;
 	width: 100%;
-}
-
-.sliding-door-holder {
-	padding: 30px !important;
 }
 
 .tabs-holder,

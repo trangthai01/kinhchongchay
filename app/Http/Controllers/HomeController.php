@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use WebDevEtc\BlogEtc\Services\PostsService;
 use App\Models\Certification;
+use App\Models\Application;
 class HomeController extends Controller
 {
     /** @var PostsService */
@@ -86,14 +87,17 @@ class HomeController extends Controller
     }
 
     public function slidingDoorSystem(){
-        return view('layouts.pages.engineering.applications.sliding-door-system');
+        $application = Application::where('id', '2')->first();
+        return view('layouts.pages.engineering.applications.sliding-door-system', compact('application'));
     }
 
     public function pivotDoorSystem(){
-        return view('layouts.pages.engineering.applications.pivot-door-system');
+        $application = Application::where('id', '1')->first();
+        return view('layouts.pages.engineering.applications.pivot-door-system', compact('application'));
     }
 
     public function curtainWallSystem(){
-        return view('layouts.pages.engineering.applications.curtain-wall-system');
+        $application = Application::where('id', '3')->first();
+        return view('layouts.pages.engineering.applications.curtain-wall-system', compact('application'));
     }
 }

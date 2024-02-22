@@ -1,4 +1,4 @@
-@extends('layouts.default',['title' => 'Kiểm thử - '.config('app.fullname'), 'header_class' => 'header-white' ])
+@extends('layouts.default',['title' => 'Kiểm thử - '.config('app.fullname'), 'header_class' => '' ])
 @section('css')
     <link href="{{ asset('css/theme/jquery.flipster.min.css') }}" rel="stylesheet">   
 @endsection

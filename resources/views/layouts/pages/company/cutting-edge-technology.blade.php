@@ -1,4 +1,4 @@
-@extends('layouts.default',['title' => 'Công nghệ cắt lớp - '.config('app.fullname'), 'header_class' => 'header-white' ])
+@extends('layouts.default',['title' => 'Công nghệ cắt lớp - '.config('app.fullname'), 'header_class' => '' ])
 @section('header-content')
     <div class="banner-block parallex-700 parallex-white-700">
         <img src="{{ asset('images/pages/cutting-edge-low.jpg') }}" class="img-responsive" alt="">	<div class="banner-text">
@@ -38,11 +38,11 @@
                 <div class="row company-top padding-bottom">
                     <div class="col-sm-4">
                         <div class="info-title color-primary">
-                            <h2>Vietfire Glass có công nghệ tiên tiến nhất cho quy trình sản xuất tất cả các sản phẩm kính chống cháy.</h2>				
+                            <h2>Vietfire Glass áp dụng công nghệ tiên tiến nhất cho quy trình sản xuất tất cả các sản phẩm kính chống cháy.</h2>				
                         </div>
                     </div>
                     <div class="col-sm-8 text-holder">
-                        <p>Vietfire Glass đã triển khai quản lý kiểm soát chất lượng <strong>ISO 9001:2015</strong> trong tất cả các quy trình nội bộ của mình.</p>
+                        <p>Vietfire Glass đã triển khai quản lý kiểm soát chất lượng <strong>ISO 9001:2015</strong> trong tất cả các quy trình nội bộ.</p>
                         <p>&nbsp;</p>
                     </div>
                 </div>
@@ -54,25 +54,25 @@
                     <div class="col-sm-6">
                         <div class="developing-block" style="background: url('{{ asset('images/pages/bg-company-developing-560x300.jpg') }}') no-repeat;">
                             <h3>KHUNG VÀ PHỤ KIỆN</h3>						
-                            <p>Vietfire Glass uses the highest quality frames and accessories for the development of its systems, thereby guaranteeing the best aesthetic finish and the highest degree of resistance and stability in case of fire, bullets or violent break in attempts.</p>
+                            <p>Vietfire Glass sử dụng khung và phụ kiện chất lượng cao nhất để xây dựng sản phẩm, từ đó đảm bảo độ hoàn thiện thẩm mỹ tốt nhất cũng như khả năng chống chịu và ổn định cao nhất trong trường hợp cháy, đạn hoặc va đập mạnh.</p>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="developing-block" style="background: url('{{ asset('images/pages/bg-company-developing2-560x300.jpg') }}') no-repeat;">
                             <h3>PHẦN CỨNG</h3>						
-                            <p>The wide range of Hardware solutions which Vietfire Glass offers for each system have successfully passed the strictest tests in the market, in order to guarantee their durability in daily use, thereby contributing decisively to the functionality of a door or window system.</p>
+                            <p>Các giải pháp phần cứng đa dạng mà Vietfire Glass cung cấp cho từng hệ thống đều đã vượt qua các thử nghiệm khắt khe nhất trên thị trường để đảm bảo độ bền trong sử dụng hàng ngày.</p>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="developing-block" style="background: url('{{ asset('images/pages/bg-company-developing3-560x300.jpg') }}') no-repeat;">
                             <h3>KÍNH CÔNG NGHỆ CAO</h3>						
-                            <p>Vietfire Glass uses only safety glass with the highest quality and performances in the market. All of this means that Vietfire Glass’s safety glass systems are the most reliable and durable in the market.</p>
+                            <p>Vietfire Glass chỉ sử dụng kính an toàn có chất lượng và tính năng cao nhất trên thị trường. Tất cả những điều này chứng tỏ hệ thống kính an toàn của Vietfire Glass là đáng tin cậy và bền bỉ nhất trên thị trường.</p>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="developing-block" style="background: url('{{ asset('images/pages/bg-company-developing4-560x300.jpg') }}') no-repeat;">
                             <h3>SẢN XUẤT</h3>						
-                            <p>Through its ISO 9001 systems, Vietfire Glass has in place the most rigorous, demanding quality-management standards in all its production processes.</p>
+                            <p>Thông qua hệ thống ISO 9001, Vietfire Glass đã áp dụng các tiêu chuẩn quản lý chất lượng khắt khe nhất trong tất cả các quy trình sản xuất.</p>
                             <p><img decoding="async" class="alignright wp-image-4080" src="{{ asset('images/pages/ISO-CE-150x150.png') }}" alt="" width="170" height="75" sizes="(max-width: 170px) 100vw, 170px"></p>
                         </div>
                     </div>
@@ -84,8 +84,8 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="text-holder">
-                            <h2>Test Laboratories and Product Certification Entities</h2>					
-                            Reliability: Vietfire Glass is associated with the most prestigious corporate entities in the sphere of product testing and certification.				
+                            <h2>Phòng thử nghiệm và tổ chức chứng nhận sản phẩm</h2>					
+                            Độ tin cậy: Vietfire Glass liên kết với các đơn vị doanh nghiệp uy tín nhất trong lĩnh vực thử nghiệm và chứng nhận sản phẩm.			
                         </div>
                         <div class="custom-acordian padding-both">
                             <div class="panel-group" id="accordion">

@@ -13,7 +13,7 @@
                     <div class="col-sm-12 col-md-4 full-column">
                         <div class="image-holder">
                             <img src="{{ asset('images/pages/corporate-values-kid-low-1230x1090.png') }}" class="img-responsive" alt="">
-                            <div class="banner-text">
+                            <div class="banner-text" style="top: 0; margin: 15px 0 0 0">
                                 <a href="{{ url('ve-chung-toi/gia-tri-cot-loi') }}" title="Giá trị cốt lõi">Giá trị cốt lõi</a>
                             </div>
                         </div>

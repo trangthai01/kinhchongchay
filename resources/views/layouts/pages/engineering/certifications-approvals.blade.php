@@ -1,4 +1,4 @@
-@extends('layouts.default',['title' => 'Chứng chỉ - '.config('app.fullname'), 'header_class' => 'header-white' ])
+@extends('layouts.default',['title' => 'Chứng chỉ - '.config('app.fullname'), 'header_class' => '' ])
 @section('css')
     
 @endsection

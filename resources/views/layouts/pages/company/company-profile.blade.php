@@ -1,4 +1,4 @@
-@extends('layouts.default',['title' => 'Hồ sơ công ty '.config('app.fullname'), 'header_class' => 'header-white' ])
+@extends('layouts.default',['title' => 'Hồ sơ công ty '.config('app.fullname'), 'header_class' => '' ])
 @section('css')
     <link href="{{ asset('css/theme/plyr.css') }}" rel="stylesheet">   
 @endsection

@@ -114,7 +114,7 @@
 										<p>Giải pháp HỆ VÁCH KÍNH đảm bảo hiệu suất cao trong mọi điều kiện khí hậu.</p>
 										<div class="col-md-12 desc-list-holder">
 											<ul class="desc-list">
-												<li>Phạm vi giải pháp: Thép mạ kẽm (S235JRG2 EN10025), thép không gỉ (304 &amp; 316) &amp; hồ sơ nhôm.</li>
+												<li>Phạm vi giải pháp: Thép mạ kẽm (S235JRG2 EN10025), thép không gỉ (304 &amp; 316) &amp; nhôm.</li>
 												<li>Cách nhiệt và cách âm cao.</li>
 												<li>Ứng dụng trong nhà và ngoài trời</li>
 												<li>Đã được kiểm nghiệm theo tiêu chuẩn Châu Âu (EN) và Mỹ (NFPA).</li>
@@ -124,20 +124,20 @@
 										</div>
 										<div class="col-sm-12 no-ltr-padding">
 											<ul class="desc-icon-list">
-												<li><div class="image-holder"><img src="{{ asset('images/pages/1-Fire-Rated-3-150x150.jpg') }}" alt=""></div><div class="text-holder">Chống cháy</div>            </li>
-												<li><div class="image-holder"><img src="{{ asset('images/pages/4-EI30-120-EI-Integrity-Insulation-1-150x150.jpg') }}" alt=""></div><div class="text-holder">EI (Tính toàn vẹn và cách nhiệt)</div>            </li>
-												<li><div class="image-holder"><img src="{{ asset('images/pages/4-EW30-120-EW-Integrity-Radiation-Control-1-150x150.jpg') }}" alt=""></div><div class="text-holder">EW (Kiểm soát tính toàn vẹn và bức xạ)</div>            </li>
-												<li><div class="image-holder"><img src="{{ asset('images/pages/2-Steel-Stainless-Steel-Framing-3-150x150.jpg') }}" alt=""></div><div class="text-holder">Thép &amp; Khung thép không gỉ</div>            </li>
-												<li><div class="image-holder"><img src="{{ asset('images/pages/2-Aluminium-Framing-150x150.jpg') }}" alt=""></div><div class="text-holder">Khung nhôm</div>            </li>
-												<li><div class="image-holder"><img src="{{ asset('images/pages/1-Bullet-Proof-Rated-1-150x150.jpg') }}" alt=""></div><div class="text-holder">Chống đạn</div>            </li>
-												<li><div class="image-holder"><img src="{{ asset('images/pages/4-FB4-Tecguard-FB-Classification-1-150x150.jpg') }}" alt=""></div><div class="text-holder">Phân loại Tecguard FB</div>            </li>
-												<li><div class="image-holder"><img src="{{ asset('images/pages/6-European-Standard-3-150x150.jpg') }}" alt=""></div><div class="text-holder">Tiêu chuẩn Châu Âu</div>            </li>
-												<li><div class="image-holder"><img src="{{ asset('images/pages/7-American-Standard-1-150x150.jpg') }}" alt=""></div><div class="text-holder">Tiêu chuẩn Hoa Kỳ</div>            </li>
-												<li><div class="image-holder"><img src="{{ asset('images/pages/8-Hose-Stream-Testing-2-150x150.jpg') }}" alt=""></div><div class="text-holder">Hose Stream Testing</div>            </li>
-												<li><div class="image-holder"><img src="{{ asset('images/pages/1-Burglar-Proof-Rated-150x150.jpg') }}" alt=""></div><div class="text-holder">Chống trộm</div>            </li>
-												<li><div class="image-holder"><img src="{{ asset('images/pages/4-RC2-RC3-Tecguard-RC-Classification-1-150x150.jpg') }}" alt=""></div><div class="text-holder">Phân loại Tecguard RC</div>            </li>
-												<li><div class="image-holder"><img src="{{ asset('images/pages/9-Acoustic-Reduction-3-150x150.jpg') }}" alt=""></div><div class="text-holder">Cách âm</div>            </li>
-												<li><div class="image-holder"><img src="{{ asset('images/pages/3-Internal-External-Application-3-150x150.jpg') }}" alt=""></div><div class="text-holder">Ứng dụng trong nhà và ngoài trời</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/standard/1-Fire-Rated-3-150x150.jpg') }}" alt=""></div><div class="text-holder">Chống cháy</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/standard/4-EI30-120-EI-Integrity-Insulation-1-150x150.jpg') }}" alt=""></div><div class="text-holder">EI (Tính toàn vẹn và cách nhiệt)</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/standard/4-EW30-120-EW-Integrity-Radiation-Control-1-150x150.jpg') }}" alt=""></div><div class="text-holder">EW (Kiểm soát tính toàn vẹn và bức xạ)</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/standard/2-Steel-Stainless-Steel-Framing-3-150x150.jpg') }}" alt=""></div><div class="text-holder">Thép &amp; Khung thép không gỉ</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/standard/2-Aluminium-Framing-150x150.jpg') }}" alt=""></div><div class="text-holder">Khung nhôm</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/standard/1-Bullet-Proof-Rated-1-150x150.jpg') }}" alt=""></div><div class="text-holder">Chống đạn</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/standard/4-FB4-Tecguard-FB-Classification-1-150x150.jpg') }}" alt=""></div><div class="text-holder">Phân loại Tecguard FB</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/standard/6-European-Standard-3-150x150.jpg') }}" alt=""></div><div class="text-holder">Tiêu chuẩn Châu Âu</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/standard/7-American-Standard-1-150x150.jpg') }}" alt=""></div><div class="text-holder">Tiêu chuẩn Hoa Kỳ</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/standard/8-Hose-Stream-Testing-2-150x150.jpg') }}" alt=""></div><div class="text-holder">Hose Stream Testing</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/standard/1-Burglar-Proof-Rated-150x150.jpg') }}" alt=""></div><div class="text-holder">Chống trộm</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/standard/4-RC2-RC3-Tecguard-RC-Classification-1-150x150.jpg') }}" alt=""></div><div class="text-holder">Phân loại Tecguard RC</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/standard/9-Acoustic-Reduction-3-150x150.jpg') }}" alt=""></div><div class="text-holder">Cách âm</div>            </li>
+												<li><div class="image-holder"><img src="{{ asset('images/pages/standard/3-Internal-External-Application-3-150x150.jpg') }}" alt=""></div><div class="text-holder">Ứng dụng trong nhà và ngoài trời</div>            </li>
 											</ul>
 										</div>
 									</div>

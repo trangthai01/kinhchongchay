@@ -65,22 +65,22 @@ class Project extends Model
         return 'slug';
     }
 
-    public function image_tag($col, $size,
+    public function image_tag($col,
         $addAHref = true,
         $imgTagClass = null,
         $anchorTagClass = null)
     {
-        return $this->imageTag($col, $size, $addAHref, $imgTagClass, $anchorTagClass);
+        return $this->imageTag($col, $addAHref, $imgTagClass, $anchorTagClass);
     }
 
     public function imageTag(
-        $col, $size,
+        $col,
         $addAHref = true,
         $imgTagClass = null,
         $anchorTagClass = null
     ) {
 
-        $imageUrl = e($this->imageUrl($col, $size));
+        $imageUrl = e($this->imageUrl($col));
         $imageAltText = e($this->product_name);
         $imgTag = '<img src="'.$imageUrl.'" alt="'.$imageAltText.'" class="'.e($imgTagClass).'">';
 
@@ -89,21 +89,15 @@ class Project extends Model
             : $imgTag;
     }
 
-    public function imageUrl($col, $size): string
+    public function imageUrl($col): string
     {
         $filename = $this->{$col};
-        if($size != null){
-            $filename = $this->{$col.'_'.$size};
-        }
         return asset('images/projects/'.$filename);
     }
 
-    public function imageAppUrl($col, $size): string
+    public function imageAppUrl($col): string
     {
         $filename = $this->pivot->{$col};
-        if($size != null){
-            $filename = $this->pivot->{$col.'_'.$size};
-        }
         return asset('images/projects/applications/'.$filename);
     }
 

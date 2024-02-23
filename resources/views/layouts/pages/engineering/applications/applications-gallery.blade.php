@@ -10,7 +10,7 @@
 						<div id="gallery" class="system-gallery slidingDoor-carousel all-gallery" style="border: 1px solid #000;">
 							@foreach($application->projects as $item)
 							<div class="carousel-cell">
-								<img src="{{$item -> imageAppUrl('image_app', null)}}" class="img-responsive" alt="">
+								<img src="{{$item -> imageAppUrl('image_app')}}" class="img-responsive" alt="">
 								<figcaption>{{$item ->project_name}}<br>{{$item ->location}}</figcaption>	
 							</div>
 							@endforeach
@@ -24,7 +24,7 @@
 							@foreach($application->projects as $item)
 							<li>
 								<a href="#" onclick="return false;" data-number="0">
-									<img src="{{$item -> imageAppUrl('image_app', 'thumbnail')}}" class="img-responsive">										
+									<img src="{{$item -> imageAppUrl('image_app_thumbnail')}}" class="img-responsive">										
 								</a>							
 							</li>
 							@endforeach

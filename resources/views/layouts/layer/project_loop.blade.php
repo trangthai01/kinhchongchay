@@ -2,15 +2,15 @@
     <div class="{{ $loop->first? 'col-sm-12 col-md-6 col-lg-8 col' : 'col-sm-6 col-md-6 col-lg-4' }} col">
         <div class="custom-grid  {{ $loop->first? 'custom-grid-big' : '' }}">
             <figure class="effect-architecture">
-                <img src="{{ asset('images/projects/' .  $item -> image) }}" class="img-responsive" alt="">				
+                <img src="{{ asset('images/projects/' .  $item -> image) }}" class="img-responsive" alt="{{ $item -> project_name}}">				
                 <figcaption>
                     <h2>{{ $item -> project_name}}</h2><p>{{ $item -> location}}</p>					
-                    <a data-toggle="modal" href="#arc-65bc9df8c249e">View more</a>
+                    <a data-toggle="modal" href="#arc-{{$item-> project_id}}">View more</a>
                 </figcaption>
             </figure>
         </div>
     </div>
-    <div class="modal fade modal-custom-white" id="arc-65bc9df8c249e">
+    <div class="modal fade modal-custom-white" id="arc-{{$item-> project_id}}">
         <div class="modal-dialog container">
             <div class="modal-content">
                 <div class="modal-body row">
@@ -22,7 +22,7 @@
                             <li>Location<strong>{{ $item -> location}}</strong></li>
                             <li>Architect / Owner<strong>{{ $item -> owner}}</strong></li>
                             <li>Client<strong>{{ $item -> client}}</strong></li>
-                            <li>Product<strong{{ $item -> project_info}}</strong></li>					
+                            <li>Product<strong>{{ $item -> project_info}}</strong></li>					
                         </ul>
                     </div>
 
@@ -32,7 +32,7 @@
                                 @if(!empty($item->{'image_oth_thumbnail_' . $i}))
                                     <div class="item-list carousel-cell">
                                         <div class="image-holder">
-                                            <img src="{{asset('images/projects/' .  $item->{'image_oth_thumbnail_' . $i})}}" class="img-responsive" alt={{ $item -> project_name}}">							
+                                            <img src="{{$item -> imageUrl('image_oth_thumbnail_'. $i)}}" class="img-responsive" alt="{{ $item -> project_name}}">							
                                         </div>
                                     </div>
                                 @endif
@@ -44,7 +44,7 @@
                                 @if(!empty($item->{'image_oth_' . $i}))
                                 <div class="item-list carousel-cell">
                                     <div class="image-holder">
-                                        <img src="{{asset('images/projects/' .  $item->{'image_oth_' . $i})}}" class="img-responsive" alt="{{$item -> project_name}}">							
+                                        <img src="{{$item -> imageUrl('image_oth_'. $i)}}" class="img-responsive" alt="{{$item -> project_name}}">							
                                     </div>
                                 </div>
                                 @endif

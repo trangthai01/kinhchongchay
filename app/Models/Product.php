@@ -16,7 +16,8 @@ class Product extends Model
         'use_yn', 
         'meta_desc', 
         'slug', 
-        'created_at'
+        'created_at',
+        'updated_at'
     ];
 
     protected $primaryKey = 'product_id';

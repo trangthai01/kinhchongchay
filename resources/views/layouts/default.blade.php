@@ -10,7 +10,7 @@
             @yield('kwMeta')
         @else
             <meta name="title" content="{{ $title }} ">
-            <meta name="description" content="Công ty TNHH Kính chống cháy Việt (Fire Glass) | Chuyên tư vấn - Thiết kế - Thi công kính chống cháy cao cấp | Hotline: Mr San 0355 737477">
+            <meta name="description" content="Công ty TNHH Kính chống cháy Việt (Fire Glass) | Chuyên tư vấn - Thiết kế - Thi công kính chống cháy cao cấp | Hotline: Mr San 0981 520 850">
         @endif
         <meta name="robots" content="index, follow">
         <meta name="copyright" content="{{config('app.name')}}">
@@ -29,7 +29,7 @@
         @else
             <meta property="og:type" content="website">
             <meta property="og:title" content="{{config('app.fullname')}} - Mang bình an đến mọi nhà">
-            <meta property="og:description" content="Công ty TNHH Kính chống cháy Việt (Fire Glass) | Chuyên tư vấn - Thiết kế - Thi công kính chống cháy cao cấp | Hotline: Mr San 0355 737477">
+            <meta property="og:description" content="Công ty TNHH Kính chống cháy Việt (Fire Glass) | Chuyên tư vấn - Thiết kế - Thi công kính chống cháy cao cấp | Hotline: Mr San 0981 520 850">
             <meta property="og:image" content="{{ asset('images/logo_share.png') }}">
             <meta property="og:image:alt" content="{{config('app.fullname')}}">
         @endif

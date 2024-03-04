@@ -36,10 +36,10 @@
                 <div class="col-sm-3 footer-list foo-location"><h3>TRỤ SỞ CÔNG TY</h3>	
                     <ul>
                         <li><address><p><span style="color: #334fa1;"><strong>Văn Phòng Hà Nội</strong></span></p>
-                            <p>Số 21, ngõ 114 Trung Kính<br>
-                            Yên Hòa, Cầu Giấy<br>
-                            Phone: 0355 73 74 77<br>
-                            Email: san81018@gmail.com</p>
+                            <p>Tầng 5, nhà B4, Số 66 Cốm Vòng<br>
+                            Dịch Vọng, Cầu Giấy<br>
+                            Phone: 0981 520 850<br>
+                            Email: kinhchongchayviet@gmail.com</p>
                         </address></li>	
                     </ul>
 	            </div>

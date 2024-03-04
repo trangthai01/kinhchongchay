@@ -1285,7 +1285,7 @@ header.sticky-header .navbar-toggle .icon-bar {
         -ms-flex-direction: column;
         flex-direction: column; } }
     #footer .footer-top div[class*="col-"] {
-      width: 20%; }
+      width: 25%; }
       @media only screen and (max-width: 1024px) {
         #footer .footer-top div[class*="col-"] {
           width: 33.33%; } }

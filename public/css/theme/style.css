@@ -2145,8 +2145,8 @@ area.pop-click.hide-me {
 
 .tecfire-box {
   padding: 30px 20px 30px 30px;
-  font-size: 14px;
-  font-size: 0.875rem;
+  font-size: 16px;
+  font-size: 1rem;
   color: #333333; }
   @media only screen and (max-width: 767px) {
     .tecfire-box {

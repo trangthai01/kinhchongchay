@@ -26,6 +26,7 @@
 					delay:9000,
 					startheight:500,
 					startwidth:960,
+					minHeight: 0,
 					fullScreenAlignForce:"off",
 					autoHeight:"off",
 					hideTimerBar:"off",
@@ -349,9 +350,9 @@
 									if (opt.width!=opt.startwidth) {
 
 										opt.height = Math.round(opt.startheight * (opt.width/opt.startwidth));
-
+										if(opt.height < opt.minHeight) opt.height = opt.minHeight;
 										container.height(opt.height);
-
+										console.log(container.height() + ' - ' + opt.container.height());
 									}
 
 									// LETS SEE IF THERE IS ANY SHADOW
@@ -1311,7 +1312,7 @@
 
 
 				if (opt.height>opt.startheight && opt.autoHeight!="on") opt.height=opt.startheight;
-
+				if (opt.height<opt.minHeight) opt.height=opt.minHeight;
 
 
 				if (opt.fullScreen=="on") {
@@ -3993,8 +3994,7 @@
 									  offsety = opt.height/2 - (opt.startheight*opt.bh)/2;
 
 								if (opt.autoHeight=="on")
-									  offsety = opt.container.height()/2 - (opt.startheight*opt.bh)/2;;
-
+									  offsety = opt.container.height()/2 - (opt.startheight*opt.bh)/2;
 								if (offsety<0) offsety=0;
 
 								var nextcaption=jQuery(this);//nextli.find('.tp-caption:eq('+i+')');

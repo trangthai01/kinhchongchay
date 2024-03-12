@@ -289,8 +289,12 @@
 				{
 					delay:9000,
 					startwidth:1903,
-					startheight:952,
+					startheight:920,
 					hideThumbs:10,
+					minHeight: 345,
+					autoHeight: "on",
+					forceFullWidth: "on",
+					fullScreenAlignForce: "on",
 					videoJsPath: "{{asset('rs-slider/videojs/')}}"
 				});
 

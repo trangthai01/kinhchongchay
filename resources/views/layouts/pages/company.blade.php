@@ -32,7 +32,7 @@
                             <meta itemprop="position" content="1">
                         </li>
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-end">
-                            <span itemprop="item"><span itemprop="name">Về chúng tôi</span></span>
+                            <span itemprop="item"><span itemprop="name">Kính chống cháy Việt</span></span>
                             <meta itemprop="position" content="2">
                         </li>
                     </ul>
@@ -68,60 +68,62 @@
                                 <li>250,000 mét vuông kính chống cháy đã được lắp đặt</li>
                                 <li>Đi đầu trong lĩnh vực nghiên cứu kỹ thuật hệ thống kính chống cháy trên thị trường.</li>
                                 <li>Đội ngũ kỹ thuật có trình độ chuyên môn cao trong thiết kế và sản xuất kính chịu lửa theo tiêu chuẩn yêu cầu.</li>
+                                <br>
                             </ul>
                             <p>&nbsp;</p>
                         </div>
                     </div>
                     <div class="col-sm-8">
+                        <div class="company-category-block" style="padding-bottom: 3px">
+                            <a href="{{ url('ve-chung-toi/ho-so-cong-ty') }}" title="Hồ sơ công ty">
+                                <h3>HỒ SƠ CÔNG TY</h3><p>Với các dự án trải dài trên khắp cả nước.</p>
+                                <span class="icon-right"> <i class="fa fa-angle-right" aria-hidden="true"></i> </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="company-category-block" style="padding-bottom: 3px">
+                            <a href="{{ url('ve-chung-toi/gia-tri-cot-loi') }}" title="Giá trị doanh nghiệp">
+                                <h3>GIÁ TRỊ DOANH NGHIỆP</h3><p>Đổi mới, Tin cậy, Kinh Nghiệm và Sáng tạo.</p>
+                                <span class="icon-right"> <i class="fa fa-angle-right" aria-hidden="true"></i> </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="company-category-block" style="padding-bottom: 3px">
+                            <a href="{{ url('ve-chung-toi/khach-hang-than-thiet') }}" title="Khách hàng">
+                                <h3>KHÁCH HÀNG</h3><p>Độ tin cậy và niềm tin của khách hàng là tư duy chiến lược của chúng tôi.</p>
+                                <span class="icon-right"> <i class="fa fa-angle-right" aria-hidden="true"></i> </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="company-category-block" style="padding-bottom: 3px">
+                            <a href="{{ url('ve-chung-toi/cong-nghe-cat-lop') }}" title="Công nghệ cắt lớp Cutting-edge">
+                                <h3>CÔNG NGHỆ CẮT LỚP CUTTING-EDGE</h3><p>Sản phẩm có chất lượng và ứng dụng công nghệ cao nhất</p>
+                                <span class="icon-right"> <i class="fa fa-angle-right" aria-hidden="true"></i> </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="section section-company-category">
+            <div class="container">
+                <div class="row padding-both">
+                    <div class="col-sm-12">
                         <div class="tecfire-box border-all">
                             <h3>Kính chống cháy Việt: Hiểu thêm về chúng tôi</h3>
                             <p><strong class="sub-title">Hệ thống kính chống cháy</strong> 
                             Chiến lực của Kính chống cháy Việt là cung cấp các hệ thống kính chống cháy an toàn nhất với mức giá cạnh tranh nhất. <strong>Trình độ chuyên môn cao, kinh nghiệm sâu rộng và cách tiếp cận tập trung vào khách hàng</strong> giúp chúng tôi trở thành công ty hàng đầu về hệ thống kính chống cháy tại Việt Nam.</p>
                             <p>&nbsp;</p>
-                        <div>
-                        <p>&nbsp;</p>
+                            <div>
+                                <p>&nbsp;</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section class="section section-company-category">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                            <div class="company-category-block">
-                                <a href="{{ url('ve-chung-toi/ho-so-cong-ty') }}" title="Hồ sơ công ty">
-                                    <h3>HỒ SƠ CÔNG TY</h3><p>Với các dự án trải dài trên khắp cả nước.</p>
-                                    <span class="icon-right"> <i class="fa fa-angle-right" aria-hidden="true"></i> </span>
-                                </a>
-                            </div>
-                        </div>
-                                    <div class="col-sm-6">
-                            <div class="company-category-block">
-                                <a href="{{ url('ve-chung-toi/gia-tri-cot-loi') }}" title="Giá trị doanh nghiệp">
-                                    <h3>GIÁ TRỊ DOANH NGHIỆP</h3><p>Đổi mới, Tin cậy, Kinh Nghiệm và Sáng tạo.</p>
-                                    <span class="icon-right"> <i class="fa fa-angle-right" aria-hidden="true"></i> </span>
-                                </a>
-                            </div>
-                        </div>
-                                    <div class="col-sm-6">
-                            <div class="company-category-block">
-                                <a href="{{ url('ve-chung-toi/khach-hang-than-thiet') }}" title="Khách hàng">
-                                    <h3>KHÁCH HÀNG</h3><p>Độ tin cậy và niềm tin của khách hàng là tư duy chiến lược của chúng tôi.</p>
-                                    <span class="icon-right"> <i class="fa fa-angle-right" aria-hidden="true"></i> </span>
-                                </a>
-                            </div>
-                        </div>
-                                    <div class="col-sm-6">
-                            <div class="company-category-block">
-                                <a href="{{ url('ve-chung-toi/cong-nghe-cat-lop') }}" title="Công nghệ cắt lớp Cutting-edge">
-                                    <h3>CÔNG NGHỆ CẮT LỚP CUTTING-EDGE</h3><p>Sản phẩm có chất lượng và ứng dụng công nghệ cao nhất</p>
-                                    <span class="icon-right"> <i class="fa fa-angle-right" aria-hidden="true"></i> </span>
-                                </a>
-                            </div>
-                        </div>
-                            </div>
             </div>
         </section>
     </main>

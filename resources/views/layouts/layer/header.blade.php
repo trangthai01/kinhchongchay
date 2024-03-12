@@ -25,7 +25,7 @@
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                     <ul id="menu-primary-menu" class="nav navbar-nav">
                         <li id="menu-item-home" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-49 current_page_item"><a href="{{ url('/') }}" aria-current="page">Home</a></li>
-                        <li id="menu-item-company" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ url('ve-chung-toi') }}">Về chúng tôi</a></li>
+                        <li id="menu-item-company" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ url('ve-chung-toi') }}">Kính chống cháy Việt</a></li>
                         <li id="menu-item-products" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ url('san-pham') }}">Sản Phẩm</a></li>
                         <li id="menu-item-downloads" class="menu-item menu-item-type-post_type menu-item-object-page" style="display:none"><a href="{{ url('downloads') }}">Downloads</a></li>
                         <li id="menu-item-projects" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ url('du-an') }}">Dự án</a></li>

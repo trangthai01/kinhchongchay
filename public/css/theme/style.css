@@ -1243,7 +1243,7 @@ header.sticky-header .navbar-toggle .icon-bar {
       left: 0;
       right: 0; } }
   #footer .footer-top {
-    background: #767273 url("../images/bg-footer-new.jpg") no-repeat 100% 100%/cover;
+    background-color: #EDEDED;
     color: white;
     padding: 35px 0; }
     @media only screen and (max-width: 767px) {
@@ -1285,7 +1285,7 @@ header.sticky-header .navbar-toggle .icon-bar {
         -ms-flex-direction: column;
         flex-direction: column; } }
     #footer .footer-top div[class*="col-"] {
-      width: 25%; }
+      width: 33%; }
       @media only screen and (max-width: 1024px) {
         #footer .footer-top div[class*="col-"] {
           width: 33.33%; } }

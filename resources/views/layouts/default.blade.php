@@ -34,11 +34,8 @@
             <meta property="og:image:alt" content="{{config('app.fullname')}}">
         @endif
         
-        
         <link rel="icon" href="{!! asset('images/logo_sm.png') !!}"/>
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:400,700|Roboto+Condensed:300,400,700|Source+Sans+Pro:300,400,700" rel="stylesheet">
-
+        
         <!-- Styles -->
         <link href="{{ asset('css/style.css') }}" rel="stylesheet"/>
         <link href="{{ asset('css/theme/bootstrap.min.css') }}" rel="stylesheet"/>
@@ -50,6 +47,11 @@
         <link href="{{ asset('rs-slider/css/settings.css') }}" rel="stylesheet"/>
         <link href="{{ asset('css/block-library/style.min.css') }}" rel="stylesheet"/>
         
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:400,700|Roboto+Condensed:300,400,700|Source+Sans+Pro:300,400,700" rel="stylesheet">
+
         
         @yield('css')
         

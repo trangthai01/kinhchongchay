@@ -193,5 +193,186 @@ class DatabaseSeeder extends Seeder
 				'image_thumbnail' => 'Lab-4-giordano-thumbnail.jpg',
 			],
 		]);
+
+		//table Product Categories
+        DB::table('product_categories')->insert([
+            [
+				'category_id'=>'1', 
+				'category_name' => 'Hệ kính chống cháy E & EW',       
+				'parent_category_id' => '',
+                'use_yn'=>true, 
+			],
+			[
+				'category_id'=>'2', 
+				'category_name' => 'Hệ kính chống cháy EI',       
+				'parent_category_id' => '',
+                'use_yn'=>true, 
+			],
+			[
+				'category_id'=>'11', 
+				'category_name' => 'Khung thép sơn tĩnh điện',       
+				'parent_category_id' => '1',
+                'use_yn'=>true, 
+			],
+			[
+				'category_id'=>'21', 
+				'category_name' => 'Khung thép sơn tĩnh điện',       
+				'parent_category_id' => '2',
+                'use_yn'=>true, 
+			],
+			[
+				'category_id'=>'22', 
+				'category_name' => 'Hệ khung nhôm',       
+				'parent_category_id' => '2',
+                'use_yn'=>true, 
+			],
+			[
+				'category_id'=>'23', 
+				'category_name' => 'Hệ kính không khung',       
+				'parent_category_id' => '2',
+                'use_yn'=>true, 
+			],
+			[
+				'category_id'=>'24', 
+				'category_name' => 'Hệ gỗ - Kính chống cháy',       
+				'parent_category_id' => '2',
+                'use_yn'=>true, 
+			]
+			
+		]);
+
+		//table Product
+        DB::table('products')->insert([
+            [
+				'product_id'=>'1', 
+				'category_id' => '11',       
+				'product_name' => 'Cửa kính chống cháy hệ E & EW',
+                'use_yn'=>true
+			],
+			[
+				'product_id'=>'2', 
+				'category_id' => '11',       
+				'product_name' => 'Vách kính chống cháy hệ E & EW',
+                'use_yn'=>true
+			],
+			[
+				'product_id'=>'3', 
+				'category_id' => '11',       
+				'product_name' => 'Mái kính chống cháy hệ E & EW',
+                'use_yn'=>true
+			],
+			[
+				'product_id'=>'4', 
+				'category_id' => '21',       
+				'product_name' => 'Cửa kính chống cháy hệ EI',
+                'use_yn'=>true
+			],
+			[
+				'product_id'=>'5', 
+				'category_id' => '21',       
+				'product_name' => 'Vách kính chống cháy hệ EI',
+                'use_yn'=>true
+			],
+			[
+				'product_id'=>'6', 
+				'category_id' => '21',       
+				'product_name' => 'Mái kính chống cháy hệ EI',
+                'use_yn'=>true
+			],
+			[
+				'product_id'=>'7', 
+				'category_id' => '22',       
+				'product_name' => 'Cửa khung nhôm kính chống cháy',
+                'use_yn'=>true
+			],
+			[
+				'product_id'=>'8', 
+				'category_id' => '22',       
+				'product_name' => 'Vách kính khung nhôm hệ chống cháy',
+                'use_yn'=>true
+			],
+			[
+				'product_id'=>'9', 
+				'category_id' => '22',       
+				'product_name' => 'Mái kính khung nhôm hệ chống cháy',
+                'use_yn'=>true
+			]
+		]);
+
+		//table Product
+        DB::table('product_subs')->insert([
+            [
+				'product_sub_id'=>'1', 
+				'product_id' => '1',       
+				'product_sub_name' => 'Cửa mở quay, bản lề sàn',
+                'use_yn'=>true
+			],
+			[
+				'product_sub_id'=>'2', 
+				'product_id' => '1',       
+				'product_sub_name' => 'Cửa mở 1 chiều bàn lề lá',
+                'use_yn'=>true
+			],
+			[
+				'product_sub_id'=>'3', 
+				'product_id' => '1',       
+				'product_sub_name' => 'Cửa lùa',
+                'use_yn'=>true
+			],
+			[
+				'product_sub_id'=>'4', 
+				'product_id' => '1',       
+				'product_sub_name' => 'Cửa sổ',
+                'use_yn'=>true
+			],
+			[
+				'product_sub_id'=>'1', 
+				'product_id' => '4',       
+				'product_sub_name' => 'Cửa mở quay, bản lề sàn',
+                'use_yn'=>true
+			],
+			[
+				'product_sub_id'=>'2', 
+				'product_id' => '4',       
+				'product_sub_name' => 'Cửa mở 1 chiều bàn lề lá',
+                'use_yn'=>true
+			],
+			[
+				'product_sub_id'=>'3', 
+				'product_id' => '4',       
+				'product_sub_name' => 'Cửa lùa',
+                'use_yn'=>true
+			],
+			[
+				'product_sub_id'=>'4', 
+				'product_id' => '4',       
+				'product_sub_name' => 'Cửa sổ',
+                'use_yn'=>true
+			],
+			[
+				'product_sub_id'=>'1', 
+				'product_id' => '7',       
+				'product_sub_name' => 'Cửa khung nhôm kính chống cháy, bản lề sàn',
+                'use_yn'=>true
+			],
+			[
+				'product_sub_id'=>'2', 
+				'product_id' => '7',       
+				'product_sub_name' => 'Cửa khung nhôm kính chống cháy, bản lề lá',
+                'use_yn'=>true
+			],
+			[
+				'product_sub_id'=>'3', 
+				'product_id' => '7',       
+				'product_sub_name' => 'Cửa lùa khung nhôm kính chống cháy',
+                'use_yn'=>true
+			],
+			[
+				'product_sub_id'=>'4', 
+				'product_id' => '7',       
+				'product_sub_name' => 'Cửa sổ khung nhôm kính chống cháy',
+                'use_yn'=>true
+			],
+		]);
     }
 }

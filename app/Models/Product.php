@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Models\ProductSub;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Cviebrock\EloquentSluggable\Sluggable;
@@ -11,6 +12,7 @@ class Product extends Model
     protected $table = 'products';
     protected $fillable = [
         'product_id', 
+        'category_id', 
         'product_name', 
         'image',
         'use_yn', 
@@ -39,11 +41,6 @@ class Product extends Model
             ]
         ];
     }
-
-    public function getFullnameAttribute() {
-        return $this->name.'-P'.time();
-    }
-
     /**
      * Get the route key for the model.
      *
@@ -54,33 +51,9 @@ class Product extends Model
         return 'slug';
     }
 
-    public function image_tag($size = 'medium',
-        $addAHref = true,
-        $imgTagClass = null,
-        $anchorTagClass = null)
+
+    public function subs() 
     {
-        return $this->imageTag($size, $addAHref, $imgTagClass, $anchorTagClass);
-    }
-
-    public function imageTag(
-        $size = 'medium',
-        $addAHref = true,
-        $imgTagClass = null,
-        $anchorTagClass = null
-    ) {
-
-        $imageUrl = e($this->imageUrl($size));
-        $imageAltText = e($this->product_name);
-        $imgTag = '<img src="'.$imageUrl.'" alt="'.$imageAltText.'" class="'.e($imgTagClass).'">';
-
-        return $addAHref
-            ? '<a class="'.e($anchorTagClass).'" href="'.e($this->url()).'">'.$imgTag.'</a>'
-            : $imgTag;
-    }
-
-    public function imageUrl($size = 'medium'): string
-    {
-        $filename = $this->{'image_'.$size};
-        return asset('images/products/'.$filename);
+        return $this->hasMany(ProductSub::class, 'product_id', 'product_id');
     }
 }

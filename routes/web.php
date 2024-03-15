@@ -17,7 +17,10 @@ Route::get('/sitemap.xml', 'SitemapXmlController@index');
 Route::get('/', 'HomeController@index');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/lien-he', 'HomeController@contact')->name('contact');
-Route::get('/san-pham', 'HomeController@products')->name('products');
+Route::group(['prefix' => 'san-pham'], static function () {
+	Route::get('/', 'ProductController@index')->name('products');
+	Route::get('/catalogue', 'ProductController@catalogue');
+});
 
 Route::group(['prefix' => 'du-an'], static function () {
 	Route::get('/', 'ProjectController@index')->name('projects');

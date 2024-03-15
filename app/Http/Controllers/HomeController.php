@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use WebDevEtc\BlogEtc\Services\PostsService;
 use App\Models\Certification;
 use App\Models\Application;
+use App\Models\Product;
 class HomeController extends Controller
 {
     /** @var PostsService */
@@ -35,11 +36,6 @@ class HomeController extends Controller
     public function company()
     {
         return view('layouts.pages.company');
-    }
-
-    public function products()
-    {
-        return view('layouts.pages.products');
     }
 
     public function engineering()

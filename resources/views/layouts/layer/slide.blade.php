@@ -28,7 +28,7 @@
 						data-easing="Power3.easeInOut"
 						data-splitin="chars"
 						data-elementdelay="0.08"
-						style="color: rgb(250, 237, 38); line-height: 79px; font-weight: 800; font-size: 79px;transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">Hệ kính chống cháy<br>tiên tiến nhất
+						style="color: rgb(250, 237, 38); line-height: 81px; font-weight: 800; font-size: 79px;transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">Hệ kính chống cháy<br>tiên tiến nhất
 					</div>
 					<!-- LAYER NR. 3 -->
 					<div class="tp-caption sft customout"
@@ -58,7 +58,7 @@
 						data-speed="500"
 						data-start="500"
 						data-easing="Power3.easeInOut"
-						style="z-index: 1; color: rgb(255, 255, 255); line-height: 79px; font-weight: 800; font-size: 79px;transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">KHÁM PHÁ
+						style="z-index: 1; color: rgb(255, 255, 255); line-height: 79px; font-weight: 800; font-size: 85px;transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">KHÁM PHÁ
 					</div>
 
 					<!-- LAYER NR. 2 -->
@@ -71,7 +71,7 @@
 						data-easing="Power3.easeInOut"
 						data-splitin="chars"
 						data-elementdelay="0.08"
-						style="z-index: 1; color: rgb(250, 237, 38); line-height: 40px; font-weight: 800; font-size: 37px;transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">KÍNH CHỐNG CHÁY AN TOÀN <br>THẾ HỆ MỚI
+						style="z-index: 1; color: rgb(250, 237, 38); line-height: 29px; font-weight: 800; font-size: 37px;transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">KÍNH CHỐNG CHÁY AN TOÀN <br>THẾ HỆ MỚI
 					</div>
 					<div class="tp-caption tp-fade fadeout fullscreenvideo"
 							data-x="0"
@@ -137,7 +137,7 @@
 						data-elementdelay="0.08"
 						data-endelementdelay="0.08"
 						data-endspeed="500"
-						style="z-index: 1; color: rgb(255, 255, 255); line-height: 50px; font-weight: 800; font-size: 35px;transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">Hệ kính chống cháy cải tiến
+						style="z-index: 1; color: rgb(255, 255, 255); line-height: 40px; font-weight: 800; font-size: 35px;transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">Hệ kính chống cháy cải tiến
 					</div>
 
 					<!-- LAYER NR. 4 -->
@@ -154,7 +154,7 @@
 						data-elementdelay="0.08"
 						data-endelementdelay="0.08"
 						data-endspeed="500"
-						style="z-index: 1; color: rgb(255, 255, 255); line-height: 50px; font-weight: 800; font-size: 35px;transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">cho kiến trúc hiện đại
+						style="z-index: 1; color: rgb(255, 255, 255); line-height: 40px; font-weight: 800; font-size: 35px;transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;">cho kiến trúc hiện đại
 					</div>
 				</li>
 

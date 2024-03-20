@@ -3015,7 +3015,12 @@ h3 {
           @media only screen and (max-width: 479px) {
             width: 90px
           }
+        }
+        .desc-icon-list-product li .image-holder.fire-rated {
+          @media only screen and (max-width: 479px) {
+            width: 113px
           }
+        }
         .desc-icon-list-product li img {
           width: 65px; }
         .desc-icon-list-product li .text-holder {

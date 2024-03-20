@@ -41,7 +41,7 @@
                         <span class="product_cate_span">{{$category->category_name}}</span>
                         <span style="border-bottom: 3px solid white;display: inline-block;width: 100%;"></span>
                         @foreach($category->children() as $childCategory)
-                            <div class="{{count($category->children())==1?'col-sm-12': 'col-sm-3'}}">
+                            <div class="{{count($category->children())==1?'col-sm-12': 'col-sm-3'}}" style="padding-top: 10px">
                                 <span class="product_child_cate_span">{{$childCategory->category_name}}</span>
                                 <ul class="product-list" style="padding-top: 20px">
                                     @foreach($childCategory->products as $product)
@@ -71,7 +71,7 @@
                     <div class="col-sm-8" style="padding-left: 0">
                         <ul class="desc-icon-list-product">
                             <li style="margin-top: 0">
-                                <div class="image-holder">
+                                <div class="image-holder fire-rated">
                                     <img src="{{ asset('images/pages/products/Fire-rated-for-web.png') }}" style="width: 113px">
                                 </div>
                             </li>
